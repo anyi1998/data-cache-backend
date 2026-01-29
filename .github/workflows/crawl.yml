@@ -41,4 +41,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -f data/latest.json
           git diff --quiet --cached || git commit -m "📊 Auto update: $(date +'%Y-%m-%d %H:%M') UTC"
+          
+          # 推送前先拉取最新代码
+          git pull --rebase origin main
           git push

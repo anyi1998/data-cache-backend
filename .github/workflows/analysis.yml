@@ -44,4 +44,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -f data/analysis_cache.json
           git diff --quiet --cached || git commit -m "📈 Analysis update: $(date +'%H:%M') UTC"
+          
+          # 推送前先拉取最新代码
+          git pull --rebase origin main
           git push

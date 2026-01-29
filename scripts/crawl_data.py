@@ -20,17 +20,46 @@ import akshare as ak
 import pandas as pd
 from tenacity import retry, stop_after_attempt, wait_exponential
 
+import time
+import random
+
 # 配置请求头，减少反爬虫概率
-CUSTOM_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-}
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15"
+]
+
+def get_random_header():
+    return {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Referer": "https://fund.eastmoney.com/"
+    }
+
+# 增加随机延迟，避免触发 520 限流
+def delay_request(func):
+    def wrapper(*args, **kwargs):
+        # 初始延迟 1-3 秒
+        time.sleep(random.uniform(1.0, 3.0))
+        try:
+            # 每次请求前更新 akshare headers
+            if hasattr(ak, 'headers'):
+                ak.headers = get_random_header()
+            return func(*args, **kwargs)
+        except Exception as e:
+            # 如果出错，额外等待 5 秒再抛出异常（配合 tenacity 重试）
+            print(f"[WARN] 请求出错，冷却 5s: {e}")
+            time.sleep(5)
+            raise e
+    return wrapper
 
 # 尝试配置 akshare 的请求头
 try:
     if hasattr(ak, 'headers'):
-        ak.headers = CUSTOM_HEADERS
+        ak.headers = get_random_header()
 except:
     pass
 
@@ -39,7 +68,8 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+@retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=1, min=5, max=20))
+@delay_request
 def fetch_etf_spot_data():
     """获取 ETF 实时行情数据"""
     print("[INFO] 获取 ETF 实时行情...")

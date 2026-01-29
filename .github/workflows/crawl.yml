@@ -31,8 +31,9 @@ jobs:
           pip install akshare pandas tenacity requests
       
       - name: Run crawler
-        env:
-          CF_PROXY_URL: ${{ secrets.CF_PROXY_URL }}
+        # 临时禁用 Cloudflare 代理测试直接请求
+        # env:
+        #   CF_PROXY_URL: ${{ secrets.CF_PROXY_URL }}
         run: |
           python scripts/crawl_data.py
       

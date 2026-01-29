@@ -167,7 +167,7 @@ def generate_market_data():
             
         prices = history_data.get(symbol, [])
         
-        if not prices and processed_count < 20: 
+        if not prices and processed_count < 150: 
              missing_history.append(symbol)
 
         if is_new_day:
@@ -232,8 +232,8 @@ def generate_market_data():
 
     # 4. 尝试补充缺失的历史数据
     if missing_history:
-        print(f"[INFO] 发现 {len(missing_history)} 个 ETF 缺失历史数据，尝试补全前 5 个...")
-        for sym in missing_history[:5]:
+        print(f"[INFO] 发现 {len(missing_history)} 个 ETF 缺失历史数据，加速补全前 30 个...")
+        for sym in missing_history[:30]:
             hist = fetch_single_history_safe(sym)
             if hist:
                 history_data[sym] = hist

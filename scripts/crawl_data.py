@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 import time
 import random
@@ -90,7 +90,7 @@ def save_history(history_data):
 def get_sector_from_name(name):
     """根据名称猜测行业"""
     if "酒" in name or "食品" in name or "消费" in name: return "消费"
-    if "药" in name or "医" in name or "生" in name: return "医药"
+    if "药" in name or "医疗" in name or "生物" in name or "创新药" in name: return "医药"
     if "芯" in name or "半导体" in name or "电子" in name: return "科技"
     if "车" in name or "电池" in name: return "新能源"
     if "军" in name: return "军工"
@@ -153,9 +153,7 @@ def generate_market_data():
     processed_count = 0
     missing_history = []
     
-    # 用于计算 RPS 20/60 的临时列表
-    pct_20_list = []
-    pct_60_list = []
+    # RPS 20/60 通过 DataFrame rank 计算
 
     for _, row in df.iterrows():
         symbol = str(row["symbol"])

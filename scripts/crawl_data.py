@@ -64,7 +64,7 @@ def fetch_single_history_safe(symbol: str):
     try:
         df = ak.fund_etf_hist_em(symbol=symbol, period="daily", adjust="qfq")
         if df is not None and not df.empty:
-            return df.tail(60)["收盘"].tolist()
+            return df.tail(120)["收盘"].tolist()
     except:
         pass
     return []
@@ -115,20 +115,32 @@ def generate_market_data():
         print("[ERROR] 无法获取行情")
         return None
 
-    # 列映射
-    col_mapping = {"代码": "symbol", "名称": "name", "最新价": "price", "涨跌幅": "pct_chg", "成交量": "volume"}
+    # 列映射 - 找回更多字段
+    col_mapping = {
+        "代码": "symbol", 
+        "名称": "name", 
+        "最新价": "price", 
+        "涨跌幅": "pct_chg", 
+        "成交量": "volume",
+        "成交额": "amount",
+        "换手率": "turnover",
+        "量比": "vol_ratio",
+    }
     for old, new in col_mapping.items():
         if old in df.columns: df[new] = df[old]
     
     # 清洗数据
-    df["price"] = pd.to_numeric(df["price"], errors="coerce")
-    df["pct_chg"] = pd.to_numeric(df["pct_chg"], errors="coerce")
+    numeric_cols = ["price", "pct_chg", "volume", "amount", "turnover", "vol_ratio"]
+    for col in numeric_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+            
     df = df[df["price"] > 0].copy()
     
-    # 计算 RPS
+    # 计算 RPS (当日)
     df["rps_today"] = df["pct_chg"].rank(pct=True) * 100
     
-    # 3. 处理增量更新 (计算 MA)
+    # 3. 处理增量更新 (计算 MA 和 阶段涨幅)
     rankings = []
     # 只处理 Top 200 或者已有历史数据的，避免无限膨胀
     target_symbols = set(df.head(200)["symbol"].tolist()) | set(history_data.keys())
@@ -136,14 +148,14 @@ def generate_market_data():
     # 如果是新的一天，需要追加数据
     is_new_day = last_update_date != today_str
     
-    print(f"[INFO] 开始计算 MA (历史记录: {len(history_data)}, 是否新交易日: {is_new_day})")
-    
-    # 只需要在 daily action 运行时更新一次历史，避免盘中多次运行重复追加
-    # 这里做一个简单判断：如果今天已经更新过，就不再 append，只用最新价替换最后一个
-    # 实际上为了简单，我们假设 Action 每天只在收盘后跑一次
+    print(f"[INFO] 开始计算 MA & RPS (历史记录: {len(history_data)}, 是否新交易日: {is_new_day})")
     
     processed_count = 0
     missing_history = []
+    
+    # 用于计算 RPS 20/60 的临时列表
+    pct_20_list = []
+    pct_60_list = []
 
     for _, row in df.iterrows():
         symbol = str(row["symbol"])
@@ -155,24 +167,18 @@ def generate_market_data():
             
         prices = history_data.get(symbol, [])
         
-        # 如果完全没有历史数据，标记为需要补充
-        if not prices and processed_count < 20: # 首次运行，限制补全数量，防止超时
+        if not prices and processed_count < 20: 
              missing_history.append(symbol)
 
-        # 增量逻辑：
-        # 如果是新的一天，append
         if is_new_day:
             prices.append(price)
         else:
-            # 同一天多次运行，更新最后一个价格
-            if prices:
-                prices[-1] = price
-            else:
-                prices = [price]
+            if prices: prices[-1] = price
+            else: prices = [price]
         
-        # 保持长度 (60天)
-        if len(prices) > 65:
-            prices = prices[-60:]
+        # 保持长度 (扩大到 120 天)
+        if len(prices) > 130:
+            prices = prices[-120:]
             
         history_data[symbol] = prices
         
@@ -180,7 +186,11 @@ def generate_market_data():
         ma20 = sum(prices[-20:]) / 20 if len(prices) >= 20 else None
         ma60 = sum(prices[-60:]) / 60 if len(prices) >= 60 else None
         
-        # 构造输出对象
+        # 计算阶段涨幅 (用于 RPS)
+        pct_20 = (price - prices[-20]) / prices[-20] * 100 if len(prices) >= 20 else None
+        pct_60 = (price - prices[-60]) / prices[-60] * 100 if len(prices) >= 60 else None
+        
+        # 构造输出对象 (暂存阶段涨幅)
         item = {
             "symbol": symbol,
             "name": row["name"],
@@ -191,20 +201,44 @@ def generate_market_data():
             "industry": get_sector_from_name(row["name"]),
             "MA20": round(ma20, 3) if ma20 else None,
             "MA60": round(ma60, 3) if ma60 else None,
-            "volume": row["volume"]
+            "volume": row.get("volume"),
+            "amount": row.get("amount"),
+            "turnover": row.get("turnover"),
+            "vol_ratio": row.get("vol_ratio"),
+            "_pct_20": pct_20, # 临时字段
+            "_pct_60": pct_60  # 临时字段
         }
         rankings.append(item)
         processed_count += 1
+    
+    # 计算 RPS 20 / 60
+    # 将 rank 算出来放回 item
+    df_rank = pd.DataFrame(rankings)
+    if not df_rank.empty:
+        if "_pct_20" in df_rank.columns:
+            df_rank["rps_20"] = df_rank["_pct_20"].rank(pct=True) * 100
+        if "_pct_60" in df_rank.columns:
+            df_rank["rps_60"] = df_rank["_pct_60"].rank(pct=True) * 100
+            
+        # 更新 rankings list
+        rankings = df_rank.to_dict("records")
+        # 清理临时字段
+        for r in rankings:
+            r.pop("_pct_20", None)
+            r.pop("_pct_60", None)
+            # 处理 NaN
+            if pd.isna(r.get("rps_20")): r["rps_20"] = None
+            if pd.isna(r.get("rps_60")): r["rps_60"] = None
 
-    # 4. 尝试补充缺失的历史数据 (仅首次运行或新增ETF时触发)
+    # 4. 尝试补充缺失的历史数据
     if missing_history:
         print(f"[INFO] 发现 {len(missing_history)} 个 ETF 缺失历史数据，尝试补全前 5 个...")
-        for sym in missing_history[:5]: # 每次补一点，细水长流
+        for sym in missing_history[:5]:
             hist = fetch_single_history_safe(sym)
             if hist:
                 history_data[sym] = hist
                 print(f"  > 已补全 {sym} ({len(hist)}天)")
-            time.sleep(2) # 甚至更慢一点
+            time.sleep(2)
     
     # 更新历史文件
     save_history({"data": history_data, "last_update": today_str})
@@ -212,7 +246,7 @@ def generate_market_data():
     # 5. 组装最终结果
     result = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "rankings": sorted(rankings, key=lambda x: x["rps_today"], reverse=True)[:100], # 只保留前100
+        "rankings": sorted(rankings, key=lambda x: x["rps_today"], reverse=True)[:100],
         "recommend": [],
         "crash": []
     }
@@ -220,10 +254,10 @@ def generate_market_data():
     # 推荐逻辑
     for r in result["rankings"]:
         # 推荐：高RPS + 站上20日线
-        if r["rps_today"] > 85 and r["pct_chg"] < 7 and r["MA20"] and r["price"] > r["MA20"]:
+        if r["rps_today"] > 85 and r.get("pct_chg", 0) < 7 and r.get("MA20") and r["price"] > r["MA20"]:
             result["recommend"].append(r)
         # 预警：高RPS + 大跌
-        if r["rps_today"] > 90 and r["pct_chg"] < -2:
+        if r["rps_today"] > 90 and r.get("pct_chg", 0) < -2:
             result["crash"].append(r)
             
     result["recommend"] = result["recommend"][:15]

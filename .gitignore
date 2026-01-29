@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files (do not commit large files)
+data/*.csv
+data/*.db
+data/*.json
+!data/latest.json
+!data/analysis_cache.json
+
+# Debug files
+debug_*.py
+probe_*.py
+verify_*.py
+check_*.py
+inspect_*.py
+explore_*.py
+test_*.py
+read_*.py
+research_*.py
+sanitize_*.py
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db

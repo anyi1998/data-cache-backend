@@ -229,16 +229,32 @@ def analyze_single_etf(symbol: str, spot_df: pd.DataFrame = None):
     name = symbol
     
     if spot_df is not None and not spot_df.empty:
-        row = spot_df[spot_df["代码"] == symbol]
+        # 兼容多数据源列名：东财用"代码"，新浪可能用"symbol"
+        code_col = "代码" if "代码" in spot_df.columns else "symbol"
+        name_col = "名称" if "名称" in spot_df.columns else "name"
+        price_col = "最新价" if "最新价" in spot_df.columns else "price"
+        pct_col = "涨跌幅" if "涨跌幅" in spot_df.columns else "pct_chg"
+        
+        # 去掉 sz/sh 前缀进行匹配
+        def clean_symbol(s):
+            s = str(s)
+            if s.startswith(("sz", "sh")):
+                return s[2:]
+            return s
+        
+        spot_df_clean = spot_df.copy()
+        spot_df_clean["_clean_symbol"] = spot_df_clean[code_col].apply(clean_symbol)
+        row = spot_df_clean[spot_df_clean["_clean_symbol"] == symbol]
+        
         if not row.empty:
-            name = row["名称"].iloc[0]
+            name = row[name_col].iloc[0] if name_col in row.columns else symbol
             try:
                 realtime = {
-                    "price": float(row["最新价"].iloc[0]),
+                    "price": float(row[price_col].iloc[0]) if price_col in row.columns else 0,
                     "open": float(row["今开"].iloc[0]) if "今开" in row.columns else 0,
                     "high": float(row["最高"].iloc[0]) if "最高" in row.columns else 0,
                     "low": float(row["最低"].iloc[0]) if "最低" in row.columns else 0,
-                    "pct_chg": float(row["涨跌幅"].iloc[0]),
+                    "pct_chg": float(row[pct_col].iloc[0]) if pct_col in row.columns else 0,
                     "volume": float(row["成交量"].iloc[0]) if "成交量" in row.columns else 0,
                     "turnover_rate": float(row["换手率"].iloc[0]) if "换手率" in row.columns else 0,
                 }
@@ -248,10 +264,19 @@ def analyze_single_etf(symbol: str, spot_df: pd.DataFrame = None):
         # 回退到单独API调用
         realtime = fetch_realtime_quote(symbol)
     
+    # 从 realtime 或 历史数据获取当前价格
+    current_price = realtime.get("price") if realtime else None
+    current_pct = realtime.get("pct_chg") if realtime else None
+    if not current_price:
+        current_price = float(df["close"].iloc[-1])
+    
     # 计算指标
     analysis = {
         "symbol": symbol,
         "name": name,
+        "date": datetime.now().strftime("%Y-%m-%d"),  # 前端需要的字段
+        "price": current_price,  # 前端需要的字段
+        "today_pct": current_pct,  # 前端需要的字段
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "realtime": realtime,
         "macd": calc_macd(df),

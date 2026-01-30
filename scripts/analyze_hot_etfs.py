@@ -37,13 +37,37 @@ except:
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-# 热门 ETF 列表（预计算这些）
-HOT_ETFS = [
+# 热门 ETF 列表（静态备用列表）
+DEFAULT_HOT_ETFS = [
     "510300", "510500", "510050", "159915", "159919",  # 宽基
     "512480", "512400", "512010", "512660", "512760",  # 科技
     "510170", "159985", "518880", "513050", "513100",  # 消费/黄金/纳指
     "512690", "159766", "159992", "512800", "512880",  # 白酒/芯片/银行
 ]
+
+def get_etf_symbols_from_rankings(limit=50):
+    """从 latest.json 动态读取 symbol 列表"""
+    try:
+        latest_file = DATA_DIR / "latest.json"
+        if latest_file.exists():
+            with open(latest_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                rankings = data.get("rankings", [])
+                # 提取 symbol，去掉 sz/sh 前缀
+                symbols = []
+                for item in rankings[:limit]:
+                    sym = item.get("symbol", "")
+                    # 去掉 sz/sh 前缀（如 sz159967 -> 159967）
+                    if sym.startswith(("sz", "sh")):
+                        sym = sym[2:]
+                    if sym:
+                        symbols.append(sym)
+                if symbols:
+                    print(f"[INFO] 从 latest.json 读取 {len(symbols)} 个 ETF symbol")
+                    return symbols
+    except Exception as e:
+        print(f"[WARN] 无法读取 latest.json: {e}")
+    return DEFAULT_HOT_ETFS
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
@@ -257,8 +281,10 @@ def main():
     except Exception as e:
         print(f"[WARN] 获取实时行情失败: {e}, 将逐个获取")
         spot_df = None
+    # 动态从 latest.json 获取 symbol 列表（top 50）
+    etf_symbols = get_etf_symbols_from_rankings(limit=50)
     
-    for symbol in HOT_ETFS:
+    for symbol in etf_symbols:
         try:
             analysis = analyze_single_etf(symbol, spot_df)
             if analysis:

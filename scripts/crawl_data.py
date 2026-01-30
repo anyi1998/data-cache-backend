@@ -59,11 +59,11 @@ def fetch_etf_spot_eastmoney():
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=3, max=10))
 @delay_request
-def fetch_etf_spot_tonghuashun():
-    """获取 ETF 实时行情 - 同花顺"""
-    print("[INFO] 尝试同花顺数据源...")
-    df = ak.fund_etf_spot_ths()
-    # 同花顺返回字段可能不同，需要统一格式
+def fetch_etf_spot_sina():
+    """获取 ETF 实时行情 - 新浪财经"""
+    print("[INFO] 尝试新浪数据源...")
+    df = ak.fund_etf_category_sina(symbol="ETF基金")
+    # 新浪字段可能不同，需要统一格式
     return df
 
 def fetch_etf_spot_data():
@@ -73,7 +73,7 @@ def fetch_etf_spot_data():
     # 数据源列表：按优先级排序
     sources = [
         ("东方财富", fetch_etf_spot_eastmoney),
-        ("同花顺", fetch_etf_spot_tonghuashun),
+        ("新浪财经", fetch_etf_spot_sina),
     ]
     
     last_error = None

@@ -92,6 +92,46 @@ def fetch_etf_spot_data():
         raise last_error
     raise Exception("所有数据源都失败了")
 
+def _pick_col(df, candidates):
+    """从候选列名中找到第一个存在的列"""
+    for c in candidates:
+        if c in df.columns:
+            return c
+    return None
+
+def normalize_spot_columns(df: pd.DataFrame, data_source: str) -> pd.DataFrame:
+    """
+    将不同数据源的列名统一为标准格式
+    必需字段: symbol, name, price, pct_chg
+    可选字段: volume, amount, turnover, vol_ratio
+    """
+    candidates = {
+        "symbol": ["代码", "基金代码", "证券代码", "symbol"],
+        "name": ["名称", "基金名称", "证券名称", "name"],
+        "price": ["最新价", "最新", "现价", "price"],
+        "pct_chg": ["涨跌幅", "涨幅", "日涨跌幅", "pct_chg"],
+        "volume": ["成交量", "成交量(手)", "volume"],
+        "amount": ["成交额", "成交额(元)", "amount"],
+        "turnover": ["换手率", "turnover"],
+        "vol_ratio": ["量比", "vol_ratio"],
+    }
+
+    mapping = {}
+    for target, cand in candidates.items():
+        src = _pick_col(df, cand)
+        if src and src != target:
+            mapping[src] = target
+
+    if mapping:
+        df = df.rename(columns=mapping)
+
+    required = ["symbol", "name", "price", "pct_chg"]
+    missing = [c for c in required if c not in df.columns]
+    if missing:
+        raise ValueError(f"{data_source} 缺少必需字段: {missing}; 当前列: {list(df.columns)}")
+
+    return df
+
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=5))
 @delay_request
 def fetch_single_history_safe(symbol: str):
@@ -155,19 +195,12 @@ def generate_market_data():
         return None
     print(f"[INFO] 使用数据源: {data_source}")
 
-    # 列映射 - 找回更多字段
-    col_mapping = {
-        "代码": "symbol", 
-        "名称": "name", 
-        "最新价": "price", 
-        "涨跌幅": "pct_chg", 
-        "成交量": "volume",
-        "成交额": "amount",
-        "换手率": "turnover",
-        "量比": "vol_ratio",
-    }
-    for old, new in col_mapping.items():
-        if old in df.columns: df[new] = df[old]
+    # 统一列名 (支持不同数据源)
+    try:
+        df = normalize_spot_columns(df, data_source)
+    except ValueError as e:
+        print(f"[ERROR] {e}")
+        return None
     
     # 清洗数据
     numeric_cols = ["price", "pct_chg", "volume", "amount", "turnover", "vol_ratio"]

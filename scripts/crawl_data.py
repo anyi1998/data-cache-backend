@@ -49,13 +49,48 @@ def delay_request(func):
             raise e
     return wrapper
 
-@retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=1, min=5, max=20))
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=5, max=20))
 @delay_request
-def fetch_etf_spot_data():
-    """获取 ETF 实时行情数据"""
-    print("[INFO] 获取 ETF 实时行情...")
+def fetch_etf_spot_eastmoney():
+    """获取 ETF 实时行情 - 东方财富"""
+    print("[INFO] 尝试东方财富数据源...")
     df = ak.fund_etf_spot_em()
     return df
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=3, max=10))
+@delay_request
+def fetch_etf_spot_tonghuashun():
+    """获取 ETF 实时行情 - 同花顺"""
+    print("[INFO] 尝试同花顺数据源...")
+    df = ak.fund_etf_spot_ths()
+    # 同花顺返回字段可能不同，需要统一格式
+    return df
+
+def fetch_etf_spot_data():
+    """获取 ETF 实时行情 - 多数据源自动切换"""
+    print("[INFO] 获取 ETF 实时行情...")
+    
+    # 数据源列表：按优先级排序
+    sources = [
+        ("东方财富", fetch_etf_spot_eastmoney),
+        ("同花顺", fetch_etf_spot_tonghuashun),
+    ]
+    
+    last_error = None
+    for name, fetch_func in sources:
+        try:
+            df = fetch_func()
+            if df is not None and not df.empty:
+                print(f"[SUCCESS] {name} 数据获取成功，共 {len(df)} 条")
+                return df, name
+        except Exception as e:
+            print(f"[WARN] {name} 数据源失败: {e}")
+            last_error = e
+            continue
+    
+    if last_error:
+        raise last_error
+    raise Exception("所有数据源都失败了")
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=5))
 @delay_request
@@ -109,11 +144,16 @@ def generate_market_data():
     
     today_str = datetime.now().strftime("%Y-%m-%d")
     
-    # 2. 获取今日实时行情
-    df = fetch_etf_spot_data()
-    if df is None or df.empty:
+    # 2. 获取今日实时行情 (多数据源自动切换)
+    result = fetch_etf_spot_data()
+    if result is None:
         print("[ERROR] 无法获取行情")
         return None
+    df, data_source = result
+    if df is None or df.empty:
+        print("[ERROR] 数据为空")
+        return None
+    print(f"[INFO] 使用数据源: {data_source}")
 
     # 列映射 - 找回更多字段
     col_mapping = {
@@ -249,13 +289,31 @@ def generate_market_data():
         "crash": []
     }
     
-    # 推荐逻辑
+    # 推荐逻辑 - 修复 NaN 处理
     for r in result["rankings"]:
-        # 推荐：高RPS + 站上20日线
-        if r["rps_today"] > 85 and r.get("pct_chg", 0) < 7 and r.get("MA20") and r["price"] > r["MA20"]:
-            result["recommend"].append(r)
+        rps = r.get("rps_today", 0) or 0
+        pct = r.get("pct_chg", 0) or 0
+        price = r.get("price", 0) or 0
+        ma20 = r.get("MA20")
+        
+        # 检查 MA20 是否是有效数字
+        ma20_valid = ma20 is not None and not (isinstance(ma20, float) and pd.isna(ma20))
+        above_ma20 = ma20_valid and price > ma20
+        
+        # 推荐条件：高RPS + 涨幅适中 + (站上MA20 或 MA20不可用时仅凭RPS)
+        # 如果 MA20 可用，需要站上；如果不可用，仅凭 RPS > 90 + 涨幅 < 5%
+        if rps > 85 and pct < 7 and pct > -3:
+            if above_ma20:
+                # 完美条件：站上20日线
+                r["recommend_reason"] = "站上MA20"
+                result["recommend"].append(r)
+            elif not ma20_valid and rps > 90 and pct > 0 and pct < 5:
+                # 降级条件：无MA数据但RPS极高+温和上涨
+                r["recommend_reason"] = "动量强势"
+                result["recommend"].append(r)
+        
         # 预警：高RPS + 大跌
-        if r["rps_today"] > 90 and r.get("pct_chg", 0) < -2:
+        if rps > 90 and pct < -2:
             result["crash"].append(r)
             
     result["recommend"] = result["recommend"][:15]

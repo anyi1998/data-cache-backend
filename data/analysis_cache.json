@@ -1,471 +1,196 @@
 {
-  "generated_at": "2026-02-13 07:30:50",
+  "generated_at": "2026-02-16 03:45:24",
   "data_source": "akshare_eastmoney",
   "count": 50,
   "analyses": {
-    "159773": {
-      "symbol": "159773",
-      "name": "159773",
-      "date": "2026-02-13",
-      "price": 1.265,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:15:45",
-      "realtime": null,
+    "159855": {
+      "symbol": "159855",
+      "name": "影视ETF",
+      "date": "2026-02-16",
+      "price": 1.14,
+      "today_pct": 0.88,
+      "updated_at": "2026-02-16 03:44:44",
+      "realtime": {
+        "price": 1.14,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.88,
+        "volume": 2123967.0,
+        "turnover_rate": 29.1
+      },
       "macd": {
-        "dif": 0.0085,
-        "dea": 0.0099,
-        "macd": -0.0028,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 48.87,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.3,
-        "middle": 1.264,
-        "lower": 1.227,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.274,
-        "ma20": 1.264,
-        "ma60": 1.217,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.265,
-      "pct_20d": -0.86,
-      "pct_60d": 12.85
-    },
-    "159998": {
-      "symbol": "159998",
-      "name": "159998",
-      "date": "2026-02-13",
-      "price": 1.107,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:16:46",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0058,
-        "dea": 0.009,
-        "macd": -0.0064,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 44.39,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.155,
-        "middle": 1.104,
-        "lower": 1.054,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.097,
-        "ma20": 1.104,
-        "ma60": 1.045,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.107,
-      "pct_20d": -1.6,
-      "pct_60d": 10.04
-    },
-    "159890": {
-      "symbol": "159890",
-      "name": "159890",
-      "date": "2026-02-13",
-      "price": 1.907,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:16:58",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0143,
-        "dea": 0.022,
-        "macd": -0.0153,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 46.24,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.992,
-        "middle": 1.902,
-        "lower": 1.812,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.891,
-        "ma20": 1.902,
-        "ma60": 1.775,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.907,
-      "pct_20d": -2.0,
-      "pct_60d": 19.11
-    },
-    "159739": {
-      "symbol": "159739",
-      "name": "159739",
-      "date": "2026-02-13",
-      "price": 1.78,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:17:27",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0121,
-        "dea": 0.0196,
-        "macd": -0.0149,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 44.21,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.863,
-        "middle": 1.78,
-        "lower": 1.698,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.769,
-        "ma20": 1.78,
-        "ma60": 1.665,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.78,
-      "pct_20d": -2.09,
-      "pct_60d": 18.51
-    },
-    "159886": {
-      "symbol": "159886",
-      "name": "159886",
-      "date": "2026-02-13",
-      "price": 1.098,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:17:51",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0142,
-        "dea": 0.0118,
-        "macd": 0.0048,
+        "dif": 0.0384,
+        "dea": 0.0303,
+        "macd": 0.0162,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 52.7,
+        "rsi": 61.82,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.121,
-        "middle": 1.08,
-        "lower": 1.039,
+        "upper": 1.193,
+        "middle": 1.072,
+        "lower": 0.95,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.103,
-        "ma20": 1.08,
-        "ma60": 1.041,
+        "ma5": 1.164,
+        "ma20": 1.072,
+        "ma60": 1.003,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 1.098,
-      "pct_20d": 0.83,
-      "pct_60d": 7.54
+      "last_close": 1.14,
+      "pct_20d": 11.0,
+      "pct_60d": 19.12
     },
-    "159819": {
-      "symbol": "159819",
-      "name": "159819",
-      "date": "2026-02-13",
-      "price": 1.596,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:18:17",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0028,
-        "dea": 0.0057,
-        "macd": -0.0169,
-        "signal": "空头"
+    "159985": {
+      "symbol": "159985",
+      "name": "豆粕ETF",
+      "date": "2026-02-16",
+      "price": 2.0,
+      "today_pct": 0.55,
+      "updated_at": "2026-02-16 03:44:45",
+      "realtime": {
+        "price": 2.0,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.55,
+        "volume": 640094.0,
+        "turnover_rate": 4.56
       },
-      "rsi": {
-        "rsi": 42.29,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.711,
-        "middle": 1.623,
-        "lower": 1.534,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.592,
-        "ma20": 1.623,
-        "ma60": 1.551,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.596,
-      "pct_20d": -3.51,
-      "pct_60d": 13.03
-    },
-    "159896": {
-      "symbol": "159896",
-      "name": "159896",
-      "date": "2026-02-13",
-      "price": 1.2,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:18:48",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0003,
-        "dea": 0.006,
-        "macd": -0.0114,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 43.14,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.276,
-        "middle": 1.218,
-        "lower": 1.159,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.198,
-        "ma20": 1.218,
-        "ma60": 1.162,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.2,
-      "pct_20d": -3.23,
-      "pct_60d": 12.68
-    },
-    "159778": {
-      "symbol": "159778",
-      "name": "159778",
-      "date": "2026-02-13",
-      "price": 1.16,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:19:21",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0074,
-        "dea": 0.0093,
-        "macd": -0.004,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 48.08,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.195,
-        "middle": 1.157,
-        "lower": 1.119,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.157,
-        "ma20": 1.157,
-        "ma60": 1.103,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.16,
-      "pct_20d": -0.85,
-      "pct_60d": 11.22
-    },
-    "159895": {
-      "symbol": "159895",
-      "name": "159895",
-      "date": "2026-02-13",
-      "price": 1.289,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:20:22",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0007,
-        "dea": 0.0066,
-        "macd": -0.0118,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 43.56,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.369,
-        "middle": 1.307,
-        "lower": 1.245,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.286,
-        "ma20": 1.307,
-        "ma60": 1.247,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.289,
-      "pct_20d": -3.08,
-      "pct_60d": 13.17
-    },
-    "159777": {
-      "symbol": "159777",
-      "name": "159777",
-      "date": "2026-02-13",
-      "price": 1.189,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:20:41",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0077,
-        "dea": 0.0093,
-        "macd": -0.0032,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 48.74,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.223,
-        "middle": 1.19,
-        "lower": 1.157,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.2,
-        "ma20": 1.19,
-        "ma60": 1.148,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.189,
-      "pct_20d": -0.59,
-      "pct_60d": 10.5
-    },
-    "159732": {
-      "symbol": "159732",
-      "name": "159732",
-      "date": "2026-02-13",
-      "price": 1.157,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:20:52",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0002,
-        "dea": 0.0036,
-        "macd": -0.0076,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 44.39,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.226,
-        "middle": 1.169,
-        "lower": 1.112,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.154,
-        "ma20": 1.169,
-        "ma60": 1.121,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.157,
-      "pct_20d": -3.82,
-      "pct_60d": 12.11
-    },
-    "159801": {
-      "symbol": "159801",
-      "name": "159801",
-      "date": "2026-02-13",
-      "price": 0.96,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:21:08",
-      "realtime": null,
       "macd": {
         "dif": 0.0058,
-        "dea": 0.012,
-        "macd": -0.0123,
-        "signal": "空头"
+        "dea": 0.0043,
+        "macd": 0.003,
+        "signal": "多头"
       },
       "rsi": {
-        "rsi": 43.63,
+        "rsi": 59.54,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.039,
-        "middle": 0.973,
-        "lower": 0.908,
-        "position": "中轨附近"
+        "upper": 2.004,
+        "middle": 1.978,
+        "lower": 1.951,
+        "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 0.953,
-        "ma20": 0.973,
-        "ma60": 0.898,
-        "trend": "震荡",
+        "ma5": 1.987,
+        "ma20": 1.978,
+        "ma60": 1.971,
+        "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 0.96,
-      "pct_20d": -2.24,
-      "pct_60d": 16.79
+      "last_close": 2.0,
+      "pct_20d": 1.99,
+      "pct_60d": 0.91
     },
-    "159995": {
-      "symbol": "159995",
-      "name": "159995",
-      "date": "2026-02-13",
-      "price": 1.936,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:21:17",
-      "realtime": null,
+    "159866": {
+      "symbol": "159866",
+      "name": "日经ETF工银",
+      "date": "2026-02-16",
+      "price": 1.536,
+      "today_pct": 0.33,
+      "updated_at": "2026-02-16 03:44:46",
+      "realtime": {
+        "price": 1.536,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.33,
+        "volume": 2121659.0,
+        "turnover_rate": 30.86
+      },
       "macd": {
-        "dif": 0.0113,
-        "dea": 0.0239,
-        "macd": -0.025,
-        "signal": "空头"
+        "dif": 0.0361,
+        "dea": 0.0221,
+        "macd": 0.0281,
+        "signal": "多头"
       },
       "rsi": {
-        "rsi": 43.7,
+        "rsi": 69.72,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 2.093,
-        "middle": 1.963,
-        "lower": 1.833,
+        "upper": 1.545,
+        "middle": 1.433,
+        "lower": 1.32,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.52,
+        "ma20": 1.433,
+        "ma60": 1.391,
+        "trend": "强势",
+        "above_ma60": true
+      },
+      "last_close": 1.536,
+      "pct_20d": 9.56,
+      "pct_60d": 11.95
+    },
+    "159735": {
+      "symbol": "159735",
+      "name": "港股消费ETF银华",
+      "date": "2026-02-16",
+      "price": 0.856,
+      "today_pct": 0.23,
+      "updated_at": "2026-02-16 03:44:48",
+      "realtime": {
+        "price": 0.856,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.23,
+        "volume": 948919.0,
+        "turnover_rate": 8.71
+      },
+      "macd": {
+        "dif": 0.0137,
+        "dea": 0.0104,
+        "macd": 0.0066,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 64.0,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.88,
+        "middle": 0.833,
+        "lower": 0.786,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.922,
-        "ma20": 1.963,
-        "ma60": 1.812,
+        "ma5": 0.864,
+        "ma20": 0.833,
+        "ma60": 0.82,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 1.936,
-      "pct_20d": -2.22,
-      "pct_60d": 17.12
+      "last_close": 0.856,
+      "pct_20d": 7.13,
+      "pct_60d": 3.01
     },
     "159813": {
       "symbol": "159813",
-      "name": "159813",
-      "date": "2026-02-13",
+      "name": "半导体ETF",
+      "date": "2026-02-16",
       "price": 1.241,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:22:05",
-      "realtime": null,
+      "today_pct": 0.16,
+      "updated_at": "2026-02-16 03:44:49",
+      "realtime": {
+        "price": 1.241,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.16,
+        "volume": 2233928.0,
+        "turnover_rate": 4.33
+      },
       "macd": {
         "dif": 0.0076,
         "dea": 0.0156,
@@ -493,609 +218,108 @@
       "pct_20d": -2.21,
       "pct_60d": 17.08
     },
-    "159918": {
-      "symbol": "159918",
-      "name": "159918",
-      "date": "2026-02-13",
-      "price": 2.648,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:22:27",
-      "realtime": null,
+    "159995": {
+      "symbol": "159995",
+      "name": "芯片ETF",
+      "date": "2026-02-16",
+      "price": 1.936,
+      "today_pct": 0.16,
+      "updated_at": "2026-02-16 03:44:51",
+      "realtime": {
+        "price": 1.936,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.16,
+        "volume": 3757030.0,
+        "turnover_rate": 2.63
+      },
       "macd": {
-        "dif": 0.034,
-        "dea": 0.041,
-        "macd": -0.014,
+        "dif": 0.0113,
+        "dea": 0.0239,
+        "macd": -0.025,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 47.34,
+        "rsi": 43.7,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 2.725,
-        "middle": 2.642,
-        "lower": 2.56,
+        "upper": 2.093,
+        "middle": 1.963,
+        "lower": 1.833,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 2.656,
-        "ma20": 2.642,
-        "ma60": 2.462,
+        "ma5": 1.922,
+        "ma20": 1.963,
+        "ma60": 1.812,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 2.648,
-      "pct_20d": -0.23,
-      "pct_60d": 16.14
+      "last_close": 1.936,
+      "pct_20d": -2.22,
+      "pct_60d": 17.12
     },
-    "159994": {
-      "symbol": "159994",
-      "name": "159994",
-      "date": "2026-02-13",
-      "price": 0.948,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:22:39",
-      "realtime": null,
+    "159801": {
+      "symbol": "159801",
+      "name": "芯片ETF广发",
+      "date": "2026-02-16",
+      "price": 0.96,
+      "today_pct": 0.1,
+      "updated_at": "2026-02-16 03:44:52",
+      "realtime": {
+        "price": 0.96,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.1,
+        "volume": 1130934.0,
+        "turnover_rate": 2.37
+      },
       "macd": {
-        "dif": 0.003,
-        "dea": 0.0058,
-        "macd": -0.0056,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 49.21,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.988,
-        "middle": 0.956,
-        "lower": 0.924,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.954,
-        "ma20": 0.956,
-        "ma60": 0.917,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.948,
-      "pct_20d": -1.96,
-      "pct_60d": 16.75
-    },
-    "159997": {
-      "symbol": "159997",
-      "name": "159997",
-      "date": "2026-02-13",
-      "price": 1.712,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:22:51",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0014,
-        "dea": 0.0056,
-        "macd": -0.0139,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 41.33,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.839,
-        "middle": 1.735,
-        "lower": 1.632,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.704,
-        "ma20": 1.735,
-        "ma60": 1.656,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.712,
-      "pct_20d": -3.6,
-      "pct_60d": 10.88
-    },
-    "159796": {
-      "symbol": "159796",
-      "name": "159796",
-      "date": "2026-02-13",
-      "price": 0.98,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:23:29",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0027,
-        "dea": -0.0048,
-        "macd": 0.0042,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 44.98,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.026,
-        "middle": 0.975,
-        "lower": 0.924,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.978,
-        "ma20": 0.975,
-        "ma60": 0.971,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 0.98,
-      "pct_20d": -3.83,
-      "pct_60d": -0.81
-    },
-    "159795": {
-      "symbol": "159795",
-      "name": "159795",
-      "date": "2026-02-13",
-      "price": 1.132,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:23:37",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0009,
-        "dea": 0.0017,
-        "macd": -0.0052,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 43.52,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.193,
-        "middle": 1.137,
-        "lower": 1.082,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.125,
-        "ma20": 1.137,
-        "ma60": 1.094,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.132,
-      "pct_20d": -3.41,
-      "pct_60d": 11.09
-    },
-    "159852": {
-      "symbol": "159852",
-      "name": "159852",
-      "date": "2026-02-13",
-      "price": 0.926,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:23:54",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0027,
-        "dea": 0.0027,
-        "macd": -0.0109,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 40.08,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.008,
-        "middle": 0.948,
-        "lower": 0.889,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.929,
-        "ma20": 0.948,
-        "ma60": 0.904,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.926,
-      "pct_20d": -5.99,
-      "pct_60d": 6.68
-    },
-    "159781": {
-      "symbol": "159781",
-      "name": "159781",
-      "date": "2026-02-13",
-      "price": 0.93,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:24:05",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0026,
-        "dea": 0.0003,
-        "macd": -0.0057,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 43.65,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.981,
-        "middle": 0.946,
-        "lower": 0.91,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.936,
-        "ma20": 0.946,
-        "ma60": 0.923,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.93,
-      "pct_20d": -3.53,
-      "pct_60d": 7.27
-    },
-    "159811": {
-      "symbol": "159811",
-      "name": "159811",
-      "date": "2026-02-13",
-      "price": 2.296,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:24:31",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0024,
-        "dea": 0.0085,
+        "dif": 0.0058,
+        "dea": 0.012,
         "macd": -0.0123,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 47.76,
+        "rsi": 43.63,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 2.401,
-        "middle": 2.318,
-        "lower": 2.235,
+        "upper": 1.039,
+        "middle": 0.973,
+        "lower": 0.908,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 2.31,
-        "ma20": 2.318,
-        "ma60": 2.24,
+        "ma5": 0.953,
+        "ma20": 0.973,
+        "ma60": 0.898,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 2.296,
-      "pct_20d": -2.01,
-      "pct_60d": 12.88
-    },
-    "159915": {
-      "symbol": "159915",
-      "name": "159915",
-      "date": "2026-02-13",
-      "price": 3.265,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:24:42",
-      "realtime": null,
-      "macd": {
-        "dif": 0.008,
-        "dea": 0.0144,
-        "macd": -0.0127,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 46.48,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 3.359,
-        "middle": 3.295,
-        "lower": 3.231,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 3.298,
-        "ma20": 3.295,
-        "ma60": 3.205,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 3.265,
-      "pct_20d": -1.6,
-      "pct_60d": 7.9
-    },
-    "159752": {
-      "symbol": "159752",
-      "name": "159752",
-      "date": "2026-02-13",
-      "price": 0.714,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:24:52",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0041,
-        "dea": 0.0043,
-        "macd": -0.0003,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 44.81,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.738,
-        "middle": 0.713,
-        "lower": 0.688,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.717,
-        "ma20": 0.713,
-        "ma60": 0.691,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.714,
-      "pct_20d": -1.38,
-      "pct_60d": 4.85
-    },
-    "159783": {
-      "symbol": "159783",
-      "name": "159783",
-      "date": "2026-02-13",
-      "price": 0.935,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:25:01",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0026,
-        "dea": 0.0003,
-        "macd": -0.0057,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 43.59,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.986,
-        "middle": 0.95,
-        "lower": 0.915,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.941,
-        "ma20": 0.95,
-        "ma60": 0.928,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.935,
-      "pct_20d": -3.41,
-      "pct_60d": 7.22
-    },
-    "159939": {
-      "symbol": "159939",
-      "name": "159939",
-      "date": "2026-02-13",
-      "price": 0.942,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:25:11",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0009,
-        "dea": 0.0053,
-        "macd": -0.0088,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 41.36,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.011,
-        "middle": 0.957,
-        "lower": 0.902,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.941,
-        "ma20": 0.957,
-        "ma60": 0.906,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.942,
-      "pct_20d": -3.88,
-      "pct_60d": 11.88
-    },
-    "159804": {
-      "symbol": "159804",
-      "name": "159804",
-      "date": "2026-02-13",
-      "price": 1.605,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:25:22",
-      "realtime": null,
-      "macd": {
-        "dif": 0.013,
-        "dea": 0.015,
-        "macd": -0.004,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 47.31,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.667,
-        "middle": 1.599,
-        "lower": 1.53,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.608,
-        "ma20": 1.599,
-        "ma60": 1.514,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.605,
-      "pct_20d": -2.25,
-      "pct_60d": 14.23
-    },
-    "159836": {
-      "symbol": "159836",
-      "name": "159836",
-      "date": "2026-02-13",
-      "price": 1.241,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:25:36",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0048,
-        "dea": 0.0072,
-        "macd": -0.0049,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 45.81,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.276,
-        "middle": 1.249,
-        "lower": 1.221,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.25,
-        "ma20": 1.249,
-        "ma60": 1.206,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.241,
-      "pct_20d": -1.59,
-      "pct_60d": 9.05
-    },
-    "159779": {
-      "symbol": "159779",
-      "name": "159779",
-      "date": "2026-02-13",
-      "price": 1.177,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:25:55",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0043,
-        "dea": 0.0004,
-        "macd": -0.0094,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 41.83,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.27,
-        "middle": 1.2,
-        "lower": 1.13,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.178,
-        "ma20": 1.2,
-        "ma60": 1.157,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.177,
-      "pct_20d": -4.54,
-      "pct_60d": 7.88
-    },
-    "159899": {
-      "symbol": "159899",
-      "name": "159899",
-      "date": "2026-02-13",
-      "price": 0.952,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:26:04",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0029,
-        "dea": 0.0025,
-        "macd": -0.011,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 38.99,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.036,
-        "middle": 0.976,
-        "lower": 0.917,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.957,
-        "ma20": 0.976,
-        "ma60": 0.931,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.952,
-      "pct_20d": -7.3,
-      "pct_60d": 6.61
-    },
-    "159952": {
-      "symbol": "159952",
-      "name": "159952",
-      "date": "2026-02-13",
-      "price": 1.989,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:26:31",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0046,
-        "dea": 0.0084,
-        "macd": -0.0076,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 46.45,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 2.042,
-        "middle": 2.005,
-        "lower": 1.967,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 2.006,
-        "ma20": 2.005,
-        "ma60": 1.951,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.989,
-      "pct_20d": -1.58,
-      "pct_60d": 7.92
+      "last_close": 0.96,
+      "pct_20d": -2.24,
+      "pct_60d": 16.79
     },
     "159770": {
       "symbol": "159770",
-      "name": "159770",
-      "date": "2026-02-13",
+      "name": "机器人ETF",
+      "date": "2026-02-16",
       "price": 1.121,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:27:11",
-      "realtime": null,
+      "today_pct": 0.09,
+      "updated_at": "2026-02-16 03:44:53",
+      "realtime": {
+        "price": 1.121,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.09,
+        "volume": 3383919.0,
+        "turnover_rate": 3.69
+      },
       "macd": {
         "dif": 0.0081,
         "dea": 0.011,
@@ -1123,154 +347,57 @@
       "pct_20d": -2.44,
       "pct_60d": 14.39
     },
-    "159889": {
-      "symbol": "159889",
-      "name": "159889",
-      "date": "2026-02-13",
-      "price": 1.143,
+    "159816": {
+      "symbol": "159816",
+      "name": "159816",
+      "date": "2026-02-16",
+      "price": 114.264,
       "today_pct": null,
-      "updated_at": "2026-02-13 07:27:34",
+      "updated_at": "2026-02-16 03:44:53",
       "realtime": null,
       "macd": {
-        "dif": -0.0013,
-        "dea": 0.0014,
-        "macd": -0.0054,
-        "signal": "空头"
+        "dif": 0.1076,
+        "dea": 0.0987,
+        "macd": 0.0177,
+        "signal": "多头"
       },
       "rsi": {
-        "rsi": 43.09,
-        "status": "中性"
+        "rsi": 86.7,
+        "status": "超买"
       },
       "bollinger": {
-        "upper": 1.205,
-        "middle": 1.148,
-        "lower": 1.092,
-        "position": "中轨附近"
+        "upper": 114.266,
+        "middle": 114.051,
+        "lower": 113.837,
+        "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.135,
-        "ma20": 1.148,
-        "ma60": 1.106,
-        "trend": "震荡",
+        "ma5": 114.181,
+        "ma20": 114.051,
+        "ma60": 113.814,
+        "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 1.143,
-      "pct_20d": -3.05,
-      "pct_60d": 10.97
-    },
-    "159971": {
-      "symbol": "159971",
-      "name": "159971",
-      "date": "2026-02-13",
-      "price": 1.144,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:27:43",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0029,
-        "dea": 0.0048,
-        "macd": -0.0038,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 47.54,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.17,
-        "middle": 1.15,
-        "lower": 1.129,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.151,
-        "ma20": 1.15,
-        "ma60": 1.119,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.144,
-      "pct_20d": -1.38,
-      "pct_60d": 8.03
-    },
-    "159957": {
-      "symbol": "159957",
-      "name": "159957",
-      "date": "2026-02-13",
-      "price": 2.149,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:28:12",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0047,
-        "dea": 0.0091,
-        "macd": -0.0086,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 46.28,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 2.208,
-        "middle": 2.168,
-        "lower": 2.127,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 2.168,
-        "ma20": 2.168,
-        "ma60": 2.11,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 2.149,
-      "pct_20d": -1.74,
-      "pct_60d": 7.83
-    },
-    "159821": {
-      "symbol": "159821",
-      "name": "159821",
-      "date": "2026-02-13",
-      "price": 1.229,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:28:23",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0031,
-        "dea": 0.0055,
-        "macd": -0.0048,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 47.03,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.262,
-        "middle": 1.239,
-        "lower": 1.215,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.24,
-        "ma20": 1.239,
-        "ma60": 1.205,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.229,
-      "pct_20d": -1.52,
-      "pct_60d": 7.71
+      "last_close": 114.264,
+      "pct_20d": 0.36,
+      "pct_60d": 0.56
     },
     "159888": {
       "symbol": "159888",
-      "name": "159888",
-      "date": "2026-02-13",
+      "name": "智能汽车ETF华夏",
+      "date": "2026-02-16",
       "price": 1.326,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:28:32",
-      "realtime": null,
+      "today_pct": 0.08,
+      "updated_at": "2026-02-16 03:44:55",
+      "realtime": {
+        "price": 1.326,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.08,
+        "volume": 65675.0,
+        "turnover_rate": 10.35
+      },
       "macd": {
         "dif": -0.0016,
         "dea": 0.0014,
@@ -1298,460 +425,1717 @@
       "pct_20d": -3.14,
       "pct_60d": 10.87
     },
-    "159949": {
-      "symbol": "159949",
-      "name": "159949",
-      "date": "2026-02-13",
-      "price": 1.537,
+    "159972": {
+      "symbol": "159972",
+      "name": "159972",
+      "date": "2026-02-16",
+      "price": 117.757,
       "today_pct": null,
-      "updated_at": "2026-02-13 07:28:44",
+      "updated_at": "2026-02-16 03:44:56",
       "realtime": null,
       "macd": {
-        "dif": 0.0012,
-        "dea": 0.0036,
-        "macd": -0.0049,
-        "signal": "空头"
+        "dif": 0.1377,
+        "dea": 0.1386,
+        "macd": -0.0018,
+        "signal": "死叉"
       },
       "rsi": {
-        "rsi": 47.93,
+        "rsi": 63.03,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.581,
-        "middle": 1.551,
-        "lower": 1.521,
-        "position": "下轨附近"
+        "upper": 117.826,
+        "middle": 117.601,
+        "lower": 117.377,
+        "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.554,
-        "ma20": 1.551,
-        "ma60": 1.523,
-        "trend": "震荡",
+        "ma5": 117.728,
+        "ma20": 117.601,
+        "ma60": 117.24,
+        "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 1.537,
-      "pct_20d": -1.66,
-      "pct_60d": 6.74
+      "last_close": 117.757,
+      "pct_20d": 0.3,
+      "pct_60d": 0.47
     },
-    "159780": {
-      "symbol": "159780",
-      "name": "159780",
-      "date": "2026-02-13",
-      "price": 0.93,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:28:53",
-      "realtime": null,
+    "159862": {
+      "symbol": "159862",
+      "name": "食品饮料ETF银华",
+      "date": "2026-02-16",
+      "price": 0.638,
+      "today_pct": 0.0,
+      "updated_at": "2026-02-16 03:44:57",
+      "realtime": {
+        "price": 0.638,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.0,
+        "volume": 96530.0,
+        "turnover_rate": 2.86
+      },
       "macd": {
-        "dif": -0.0028,
-        "dea": -0.0,
-        "macd": -0.0056,
-        "signal": "空头"
+        "dif": -0.0004,
+        "dea": -0.0006,
+        "macd": 0.0004,
+        "signal": "多头"
       },
       "rsi": {
-        "rsi": 43.59,
+        "rsi": 54.14,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.982,
-        "middle": 0.946,
-        "lower": 0.91,
+        "upper": 0.667,
+        "middle": 0.641,
+        "lower": 0.616,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.936,
-        "ma20": 0.946,
-        "ma60": 0.924,
+        "ma5": 0.645,
+        "ma20": 0.641,
+        "ma60": 0.651,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.638,
+      "pct_20d": -0.31,
+      "pct_60d": -6.04
+    },
+    "159741": {
+      "symbol": "159741",
+      "name": "恒生科技ETF嘉实",
+      "date": "2026-02-16",
+      "price": 0.695,
+      "today_pct": 0.0,
+      "updated_at": "2026-02-16 03:44:58",
+      "realtime": {
+        "price": 0.695,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.0,
+        "volume": 1850733.0,
+        "turnover_rate": 13.31
+      },
+      "macd": {
+        "dif": -0.0121,
+        "dea": -0.0091,
+        "macd": -0.006,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 29.73,
+        "status": "超卖"
+      },
+      "bollinger": {
+        "upper": 0.769,
+        "middle": 0.722,
+        "lower": 0.674,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.699,
+        "ma20": 0.722,
+        "ma60": 0.73,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.695,
+      "pct_20d": -6.71,
+      "pct_60d": -5.05
+    },
+    "159889": {
+      "symbol": "159889",
+      "name": "智能汽车ETF",
+      "date": "2026-02-16",
+      "price": 1.143,
+      "today_pct": -0.09,
+      "updated_at": "2026-02-16 03:44:58",
+      "realtime": {
+        "price": 1.143,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.09,
+        "volume": 8772.0,
+        "turnover_rate": 2.23
+      },
+      "macd": {
+        "dif": -0.0013,
+        "dea": 0.0014,
+        "macd": -0.0054,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 43.09,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.205,
+        "middle": 1.148,
+        "lower": 1.092,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.135,
+        "ma20": 1.148,
+        "ma60": 1.106,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 0.93,
-      "pct_20d": -3.33,
-      "pct_60d": 7.02
+      "last_close": 1.143,
+      "pct_20d": -3.05,
+      "pct_60d": 10.97
     },
-    "159974": {
-      "symbol": "159974",
-      "name": "159974",
-      "date": "2026-02-13",
-      "price": 1.855,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:29:13",
-      "realtime": null,
+    "159909": {
+      "symbol": "159909",
+      "name": "TMT50ETF",
+      "date": "2026-02-16",
+      "price": 1.095,
+      "today_pct": -0.09,
+      "updated_at": "2026-02-16 03:45:00",
+      "realtime": {
+        "price": 1.095,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.09,
+        "volume": 45555.0,
+        "turnover_rate": 0.87
+      },
       "macd": {
-        "dif": 0.0152,
-        "dea": 0.0178,
+        "dif": -0.0017,
+        "dea": 0.0019,
+        "macd": -0.0073,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 43.27,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.149,
+        "middle": 1.109,
+        "lower": 1.068,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.097,
+        "ma20": 1.109,
+        "ma60": 1.074,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.095,
+      "pct_20d": -3.78,
+      "pct_60d": 11.96
+    },
+    "159997": {
+      "symbol": "159997",
+      "name": "电子ETF",
+      "date": "2026-02-16",
+      "price": 1.712,
+      "today_pct": -0.12,
+      "updated_at": "2026-02-16 03:45:00",
+      "realtime": {
+        "price": 1.712,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.12,
+        "volume": 194237.0,
+        "turnover_rate": 2.5
+      },
+      "macd": {
+        "dif": -0.0014,
+        "dea": 0.0056,
+        "macd": -0.0139,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 41.33,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.839,
+        "middle": 1.735,
+        "lower": 1.632,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.704,
+        "ma20": 1.735,
+        "ma60": 1.656,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.712,
+      "pct_20d": -3.6,
+      "pct_60d": 10.88
+    },
+    "159768": {
+      "symbol": "159768",
+      "name": "房地产ETF银华",
+      "date": "2026-02-16",
+      "price": 0.579,
+      "today_pct": -0.17,
+      "updated_at": "2026-02-16 03:45:01",
+      "realtime": {
+        "price": 0.579,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.17,
+        "volume": 390428.0,
+        "turnover_rate": 5.31
+      },
+      "macd": {
+        "dif": 0.0045,
+        "dea": 0.005,
+        "macd": -0.0011,
+        "signal": "死叉"
+      },
+      "rsi": {
+        "rsi": 52.47,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.604,
+        "middle": 0.58,
+        "lower": 0.556,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.585,
+        "ma20": 0.58,
+        "ma60": 0.57,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 0.579,
+      "pct_20d": 3.76,
+      "pct_60d": -3.02
+    },
+    "159795": {
+      "symbol": "159795",
+      "name": "智能汽车ETF汇添富",
+      "date": "2026-02-16",
+      "price": 1.132,
+      "today_pct": -0.26,
+      "updated_at": "2026-02-16 03:45:01",
+      "realtime": {
+        "price": 1.132,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.26,
+        "volume": 39353.0,
+        "turnover_rate": 12.63
+      },
+      "macd": {
+        "dif": -0.0009,
+        "dea": 0.0017,
         "macd": -0.0052,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 45.16,
+        "rsi": 43.52,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.9,
-        "middle": 1.858,
-        "lower": 1.816,
+        "upper": 1.193,
+        "middle": 1.137,
+        "lower": 1.082,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.863,
-        "ma20": 1.858,
-        "ma60": 1.78,
+        "ma5": 1.125,
+        "ma20": 1.137,
+        "ma60": 1.094,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 1.855,
-      "pct_20d": 0.22,
-      "pct_60d": 7.79
+      "last_close": 1.132,
+      "pct_20d": -3.41,
+      "pct_60d": 11.09
     },
-    "159810": {
-      "symbol": "159810",
-      "name": "159810",
-      "date": "2026-02-13",
-      "price": 1.316,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:29:20",
-      "realtime": null,
+    "159736": {
+      "symbol": "159736",
+      "name": "食品饮料ETF天弘",
+      "date": "2026-02-16",
+      "price": 0.683,
+      "today_pct": -0.29,
+      "updated_at": "2026-02-16 03:45:02",
+      "realtime": {
+        "price": 0.683,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.29,
+        "volume": 218917.0,
+        "turnover_rate": 0.28
+      },
       "macd": {
-        "dif": 0.0028,
-        "dea": 0.0054,
-        "macd": -0.0053,
-        "signal": "空头"
+        "dif": -0.0008,
+        "dea": -0.0004,
+        "macd": -0.0009,
+        "signal": "死叉"
       },
       "rsi": {
-        "rsi": 45.75,
+        "rsi": 51.41,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.355,
-        "middle": 1.33,
-        "lower": 1.305,
-        "position": "下轨附近"
+        "upper": 0.714,
+        "middle": 0.69,
+        "lower": 0.666,
+        "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.33,
-        "ma20": 1.33,
-        "ma60": 1.295,
+        "ma5": 0.692,
+        "ma20": 0.69,
+        "ma60": 0.697,
         "trend": "震荡",
-        "above_ma60": true
+        "above_ma60": false
       },
-      "last_close": 1.316,
-      "pct_20d": -2.37,
-      "pct_60d": 7.43
+      "last_close": 0.683,
+      "pct_20d": -0.87,
+      "pct_60d": -5.4
     },
-    "159930": {
-      "symbol": "159930",
-      "name": "159930",
-      "date": "2026-02-13",
-      "price": 1.612,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:29:30",
-      "realtime": null,
+    "159928": {
+      "symbol": "159928",
+      "name": "消费ETF",
+      "date": "2026-02-16",
+      "price": 0.777,
+      "today_pct": -0.38,
+      "updated_at": "2026-02-16 03:45:03",
+      "realtime": {
+        "price": 0.777,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.38,
+        "volume": 5329070.0,
+        "turnover_rate": 1.85
+      },
       "macd": {
-        "dif": 0.0368,
-        "dea": 0.0333,
-        "macd": 0.0071,
+        "dif": -0.0018,
+        "dea": -0.0024,
+        "macd": 0.001,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 55.2,
+        "rsi": 52.05,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.674,
-        "middle": 1.573,
-        "lower": 1.472,
+        "upper": 0.81,
+        "middle": 0.782,
+        "lower": 0.755,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.626,
-        "ma20": 1.573,
-        "ma60": 1.496,
+        "ma5": 0.787,
+        "ma20": 0.782,
+        "ma60": 0.798,
         "trend": "震荡",
-        "above_ma60": true
+        "above_ma60": false
       },
-      "last_close": 1.612,
-      "pct_20d": 8.19,
-      "pct_60d": 8.41
+      "last_close": 0.777,
+      "pct_20d": -0.64,
+      "pct_60d": -6.5
     },
-    "159968": {
-      "symbol": "159968",
-      "name": "159968",
-      "date": "2026-02-13",
-      "price": 10.58,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:29:39",
-      "realtime": null,
+    "159895": {
+      "symbol": "159895",
+      "name": "物联网ETF易方达",
+      "date": "2026-02-16",
+      "price": 1.289,
+      "today_pct": -0.39,
+      "updated_at": "2026-02-16 03:45:03",
+      "realtime": {
+        "price": 1.289,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.39,
+        "volume": 1260.0,
+        "turnover_rate": 0.18
+      },
       "macd": {
-        "dif": 0.1551,
-        "dea": 0.2014,
-        "macd": -0.0927,
+        "dif": 0.0007,
+        "dea": 0.0066,
+        "macd": -0.0118,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 43.34,
+        "rsi": 43.56,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 11.03,
-        "middle": 10.626,
-        "lower": 10.222,
+        "upper": 1.369,
+        "middle": 1.307,
+        "lower": 1.245,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 10.62,
-        "ma20": 10.626,
-        "ma60": 9.757,
+        "ma5": 1.286,
+        "ma20": 1.307,
+        "ma60": 1.247,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 10.58,
-      "pct_20d": 0.47,
-      "pct_60d": 18.48
+      "last_close": 1.289,
+      "pct_20d": -3.08,
+      "pct_60d": 13.17
     },
-    "159857": {
-      "symbol": "159857",
-      "name": "159857",
-      "date": "2026-02-13",
-      "price": 0.93,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:29:50",
-      "realtime": null,
+    "159896": {
+      "symbol": "159896",
+      "name": "物联网ETF南方",
+      "date": "2026-02-16",
+      "price": 1.2,
+      "today_pct": -0.41,
+      "updated_at": "2026-02-16 03:45:04",
+      "realtime": {
+        "price": 1.2,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.41,
+        "volume": 11772.0,
+        "turnover_rate": 2.4
+      },
       "macd": {
-        "dif": 0.0208,
-        "dea": 0.0242,
-        "macd": -0.0068,
+        "dif": 0.0003,
+        "dea": 0.006,
+        "macd": -0.0114,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 46.43,
+        "rsi": 43.14,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.995,
-        "middle": 0.937,
-        "lower": 0.878,
+        "upper": 1.276,
+        "middle": 1.218,
+        "lower": 1.159,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.952,
-        "ma20": 0.937,
-        "ma60": 0.861,
+        "ma5": 1.198,
+        "ma20": 1.218,
+        "ma60": 1.162,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 0.93,
-      "pct_20d": 1.09,
-      "pct_60d": 11.91
+      "last_close": 1.2,
+      "pct_20d": -3.23,
+      "pct_60d": 12.68
     },
-    "159808": {
-      "symbol": "159808",
-      "name": "159808",
-      "date": "2026-02-13",
-      "price": 1.259,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:29:59",
-      "realtime": null,
+    "159798": {
+      "symbol": "159798",
+      "name": "消费ETF易方达",
+      "date": "2026-02-16",
+      "price": 0.943,
+      "today_pct": -0.42,
+      "updated_at": "2026-02-16 03:45:04",
+      "realtime": {
+        "price": 0.943,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.42,
+        "volume": 51442.0,
+        "turnover_rate": 4.01
+      },
       "macd": {
-        "dif": 0.0032,
-        "dea": 0.0057,
-        "macd": -0.005,
-        "signal": "空头"
+        "dif": 0.0009,
+        "dea": -0.0004,
+        "macd": 0.0024,
+        "signal": "多头"
       },
       "rsi": {
-        "rsi": 45.41,
+        "rsi": 55.07,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.294,
-        "middle": 1.27,
-        "lower": 1.246,
+        "upper": 0.974,
+        "middle": 0.944,
+        "lower": 0.913,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.954,
+        "ma20": 0.944,
+        "ma60": 0.954,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.943,
+      "pct_20d": 0.11,
+      "pct_60d": -2.58
+    },
+    "159939": {
+      "symbol": "159939",
+      "name": "信息技术ETF",
+      "date": "2026-02-16",
+      "price": 0.942,
+      "today_pct": -0.42,
+      "updated_at": "2026-02-16 03:45:05",
+      "realtime": {
+        "price": 0.942,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.42,
+        "volume": 145621.0,
+        "turnover_rate": 1.17
+      },
+      "macd": {
+        "dif": 0.0009,
+        "dea": 0.0053,
+        "macd": -0.0088,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 41.36,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.011,
+        "middle": 0.957,
+        "lower": 0.902,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.941,
+        "ma20": 0.957,
+        "ma60": 0.906,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 0.942,
+      "pct_20d": -3.88,
+      "pct_60d": 11.88
+    },
+    "159732": {
+      "symbol": "159732",
+      "name": "消费电子ETF",
+      "date": "2026-02-16",
+      "price": 1.157,
+      "today_pct": -0.43,
+      "updated_at": "2026-02-16 03:45:06",
+      "realtime": {
+        "price": 1.157,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.43,
+        "volume": 581324.0,
+        "turnover_rate": 2.69
+      },
+      "macd": {
+        "dif": -0.0002,
+        "dea": 0.0036,
+        "macd": -0.0076,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 44.39,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.226,
+        "middle": 1.169,
+        "lower": 1.112,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.154,
+        "ma20": 1.169,
+        "ma60": 1.121,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.157,
+      "pct_20d": -3.82,
+      "pct_60d": 12.11
+    },
+    "159902": {
+      "symbol": "159902",
+      "name": "中小100ETF华夏",
+      "date": "2026-02-16",
+      "price": 4.562,
+      "today_pct": -0.44,
+      "updated_at": "2026-02-16 03:45:07",
+      "realtime": {
+        "price": 4.562,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.44,
+        "volume": 11954.0,
+        "turnover_rate": 1.48
+      },
+      "macd": {
+        "dif": 0.0138,
+        "dea": 0.0224,
+        "macd": -0.0173,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 43.61,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 4.738,
+        "middle": 4.584,
+        "lower": 4.43,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 4.571,
+        "ma20": 4.584,
+        "ma60": 4.412,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 4.562,
+      "pct_20d": -2.58,
+      "pct_60d": 9.32
+    },
+    "159941": {
+      "symbol": "159941",
+      "name": "纳指ETF",
+      "date": "2026-02-16",
+      "price": 1.363,
+      "today_pct": -0.44,
+      "updated_at": "2026-02-16 03:45:07",
+      "realtime": {
+        "price": 1.363,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.44,
+        "volume": 5237365.0,
+        "turnover_rate": 2.34
+      },
+      "macd": {
+        "dif": -0.0127,
+        "dea": -0.0116,
+        "macd": -0.0022,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 44.12,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.422,
+        "middle": 1.383,
+        "lower": 1.345,
         "position": "下轨附近"
       },
       "ma_trend": {
-        "ma5": 1.271,
-        "ma20": 1.27,
-        "ma60": 1.235,
+        "ma5": 1.369,
+        "ma20": 1.383,
+        "ma60": 1.412,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 1.363,
+      "pct_20d": -2.29,
+      "pct_60d": -4.48
+    },
+    "159996": {
+      "symbol": "159996",
+      "name": "家电ETF",
+      "date": "2026-02-16",
+      "price": 1.581,
+      "today_pct": -0.44,
+      "updated_at": "2026-02-16 03:45:07",
+      "realtime": {
+        "price": 1.581,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.44,
+        "volume": 164516.0,
+        "turnover_rate": 1.69
+      },
+      "macd": {
+        "dif": 0.0027,
+        "dea": 0.0054,
+        "macd": -0.0054,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 42.47,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.643,
+        "middle": 1.596,
+        "lower": 1.55,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.59,
+        "ma20": 1.596,
+        "ma60": 1.554,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 1.259,
-      "pct_20d": -1.72,
-      "pct_60d": 8.07
+      "last_close": 1.581,
+      "pct_20d": -2.89,
+      "pct_60d": 6.39
     },
-    "159840": {
-      "symbol": "159840",
-      "name": "159840",
-      "date": "2026-02-13",
-      "price": 0.871,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:30:08",
-      "realtime": null,
+    "159791": {
+      "symbol": "159791",
+      "name": "300ESGETF华夏",
+      "date": "2026-02-16",
+      "price": 1.111,
+      "today_pct": -0.45,
+      "updated_at": "2026-02-16 03:45:09",
+      "realtime": {
+        "price": 1.111,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.45,
+        "volume": 5325.0,
+        "turnover_rate": 1.97
+      },
       "macd": {
-        "dif": 0.0003,
-        "dea": -0.0011,
+        "dif": 0.0016,
+        "dea": 0.0017,
+        "macd": -0.0003,
+        "signal": "死叉"
+      },
+      "rsi": {
+        "rsi": 49.0,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.129,
+        "middle": 1.112,
+        "lower": 1.095,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.116,
+        "ma20": 1.112,
+        "ma60": 1.1,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.111,
+      "pct_20d": -0.54,
+      "pct_60d": 2.11
+    },
+    "159998": {
+      "symbol": "159998",
+      "name": "计算机ETF",
+      "date": "2026-02-16",
+      "price": 1.107,
+      "today_pct": -0.45,
+      "updated_at": "2026-02-16 03:45:09",
+      "realtime": {
+        "price": 1.107,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.45,
+        "volume": 738619.0,
+        "turnover_rate": 2.86
+      },
+      "macd": {
+        "dif": 0.0058,
+        "dea": 0.009,
+        "macd": -0.0064,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 44.39,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.155,
+        "middle": 1.104,
+        "lower": 1.054,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.097,
+        "ma20": 1.104,
+        "ma60": 1.045,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.107,
+      "pct_20d": -1.6,
+      "pct_60d": 10.04
+    },
+    "159843": {
+      "symbol": "159843",
+      "name": "食品饮料ETF",
+      "date": "2026-02-16",
+      "price": 0.624,
+      "today_pct": -0.48,
+      "updated_at": "2026-02-16 03:45:10",
+      "realtime": {
+        "price": 0.624,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.48,
+        "volume": 288347.0,
+        "turnover_rate": 4.22
+      },
+      "macd": {
+        "dif": -0.0005,
+        "dea": -0.0005,
+        "macd": -0.0,
+        "signal": "死叉"
+      },
+      "rsi": {
+        "rsi": 53.38,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.655,
+        "middle": 0.629,
+        "lower": 0.604,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.633,
+        "ma20": 0.629,
+        "ma60": 0.638,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.624,
+      "pct_20d": -0.64,
+      "pct_60d": -6.17
+    },
+    "159819": {
+      "symbol": "159819",
+      "name": "人工智能ETF易方达",
+      "date": "2026-02-16",
+      "price": 1.596,
+      "today_pct": -0.5,
+      "updated_at": "2026-02-16 03:45:11",
+      "realtime": {
+        "price": 1.596,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.5,
+        "volume": 3001680.0,
+        "turnover_rate": 1.85
+      },
+      "macd": {
+        "dif": -0.0028,
+        "dea": 0.0057,
+        "macd": -0.0169,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 42.29,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.711,
+        "middle": 1.623,
+        "lower": 1.534,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.592,
+        "ma20": 1.623,
+        "ma60": 1.551,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.596,
+      "pct_20d": -3.51,
+      "pct_60d": 13.03
+    },
+    "159936": {
+      "symbol": "159936",
+      "name": "可选消费ETF",
+      "date": "2026-02-16",
+      "price": 2.204,
+      "today_pct": -0.54,
+      "updated_at": "2026-02-16 03:45:12",
+      "realtime": {
+        "price": 2.204,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.54,
+        "volume": 12992.0,
+        "turnover_rate": 0.83
+      },
+      "macd": {
+        "dif": -0.0018,
+        "dea": -0.0007,
+        "macd": -0.0023,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 43.54,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 2.291,
+        "middle": 2.222,
+        "lower": 2.152,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 2.216,
+        "ma20": 2.222,
+        "ma60": 2.191,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 2.204,
+      "pct_20d": -3.16,
+      "pct_60d": 4.45
+    },
+    "159887": {
+      "symbol": "159887",
+      "name": "银行ETF",
+      "date": "2026-02-16",
+      "price": 1.266,
+      "today_pct": -0.55,
+      "updated_at": "2026-02-16 03:45:13",
+      "realtime": {
+        "price": 1.266,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.55,
+        "volume": 913219.0,
+        "turnover_rate": 7.63
+      },
+      "macd": {
+        "dif": -0.0078,
+        "dea": -0.0115,
+        "macd": 0.0073,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 54.39,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.3,
+        "middle": 1.27,
+        "lower": 1.239,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.282,
+        "ma20": 1.27,
+        "ma60": 1.317,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 1.266,
+      "pct_20d": -0.94,
+      "pct_60d": -8.39
+    },
+    "159742": {
+      "symbol": "159742",
+      "name": "恒生科技ETF博时",
+      "date": "2026-02-16",
+      "price": 0.708,
+      "today_pct": -0.56,
+      "updated_at": "2026-02-16 03:45:13",
+      "realtime": {
+        "price": 0.708,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.56,
+        "volume": 3597849.0,
+        "turnover_rate": 5.21
+      },
+      "macd": {
+        "dif": -0.0136,
+        "dea": -0.0103,
+        "macd": -0.0066,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 29.84,
+        "status": "超卖"
+      },
+      "bollinger": {
+        "upper": 0.791,
+        "middle": 0.741,
+        "lower": 0.69,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.716,
+        "ma20": 0.741,
+        "ma60": 0.753,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.708,
+      "pct_20d": -7.45,
+      "pct_60d": -10.15
+    },
+    "159872": {
+      "symbol": "159872",
+      "name": "智能网联汽车ETF",
+      "date": "2026-02-16",
+      "price": 1.056,
+      "today_pct": -0.56,
+      "updated_at": "2026-02-16 03:45:13",
+      "realtime": {
+        "price": 1.056,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.56,
+        "volume": 9989.0,
+        "turnover_rate": 1.71
+      },
+      "macd": {
+        "dif": -0.0044,
+        "dea": -0.0015,
+        "macd": -0.0058,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 39.29,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.119,
+        "middle": 1.071,
+        "lower": 1.022,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.057,
+        "ma20": 1.071,
+        "ma60": 1.042,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.056,
+      "pct_20d": -5.04,
+      "pct_60d": 7.98
+    },
+    "159751": {
+      "symbol": "159751",
+      "name": "港股通科技ETF鹏华",
+      "date": "2026-02-16",
+      "price": 1.014,
+      "today_pct": -0.59,
+      "updated_at": "2026-02-16 03:45:14",
+      "realtime": {
+        "price": 1.014,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.59,
+        "volume": 552222.0,
+        "turnover_rate": 4.34
+      },
+      "macd": {
+        "dif": -0.0146,
+        "dea": -0.0117,
+        "macd": -0.0058,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 35.33,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.108,
+        "middle": 1.046,
+        "lower": 0.985,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.022,
+        "ma20": 1.046,
+        "ma60": 1.059,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 1.014,
+      "pct_20d": -6.02,
+      "pct_60d": -5.85
+    },
+    "159786": {
+      "symbol": "159786",
+      "name": "VRETF",
+      "date": "2026-02-16",
+      "price": 1.171,
+      "today_pct": -0.59,
+      "updated_at": "2026-02-16 03:45:14",
+      "realtime": {
+        "price": 1.171,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.59,
+        "volume": 62652.0,
+        "turnover_rate": 4.33
+      },
+      "macd": {
+        "dif": 0.0044,
+        "dea": 0.0062,
+        "macd": -0.0035,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 47.66,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.211,
+        "middle": 1.172,
+        "lower": 1.133,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.174,
+        "ma20": 1.172,
+        "ma60": 1.128,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.171,
+      "pct_20d": -2.09,
+      "pct_60d": 12.49
+    },
+    "159792": {
+      "symbol": "159792",
+      "name": "港股通互联网ETF",
+      "date": "2026-02-16",
+      "price": 0.834,
+      "today_pct": -0.6,
+      "updated_at": "2026-02-16 03:45:15",
+      "realtime": {
+        "price": 0.834,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.6,
+        "volume": 23965883.0,
+        "turnover_rate": 2.37
+      },
+      "macd": {
+        "dif": -0.0147,
+        "dea": -0.0094,
+        "macd": -0.0107,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 31.76,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.939,
+        "middle": 0.878,
+        "lower": 0.817,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.847,
+        "ma20": 0.878,
+        "ma60": 0.883,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.834,
+      "pct_20d": -7.44,
+      "pct_60d": -6.4
+    },
+    "159892": {
+      "symbol": "159892",
+      "name": "恒生医药ETF",
+      "date": "2026-02-16",
+      "price": 0.828,
+      "today_pct": -0.6,
+      "updated_at": "2026-02-16 03:45:16",
+      "realtime": {
+        "price": 0.828,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.6,
+        "volume": 6614695.0,
+        "turnover_rate": 8.1
+      },
+      "macd": {
+        "dif": -0.0009,
+        "dea": -0.0023,
         "macd": 0.0028,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 45.0,
+        "rsi": 49.07,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.905,
-        "middle": 0.865,
-        "lower": 0.825,
+        "upper": 0.863,
+        "middle": 0.828,
+        "lower": 0.792,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.867,
-        "ma20": 0.865,
-        "ma60": 0.851,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 0.871,
-      "pct_20d": -2.13,
-      "pct_60d": 0.81
-    },
-    "159922": {
-      "symbol": "159922",
-      "name": "159922",
-      "date": "2026-02-13",
-      "price": 3.328,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:30:17",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0446,
-        "dea": 0.0599,
-        "macd": -0.0307,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 43.5,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 3.474,
-        "middle": 3.35,
-        "lower": 3.226,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 3.343,
-        "ma20": 3.35,
-        "ma60": 3.084,
+        "ma5": 0.834,
+        "ma20": 0.828,
+        "ma60": 0.827,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 3.328,
-      "pct_20d": 0.0,
-      "pct_60d": 17.72
+      "last_close": 0.828,
+      "pct_20d": -2.59,
+      "pct_60d": -3.27
     },
-    "159763": {
-      "symbol": "159763",
-      "name": "159763",
-      "date": "2026-02-13",
-      "price": 0.72,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:30:27",
-      "realtime": null,
+    "159766": {
+      "symbol": "159766",
+      "name": "旅游ETF",
+      "date": "2026-02-16",
+      "price": 0.8,
+      "today_pct": -0.62,
+      "updated_at": "2026-02-16 03:45:17",
+      "realtime": {
+        "price": 0.8,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.62,
+        "volume": 2741549.0,
+        "turnover_rate": 2.48
+      },
       "macd": {
-        "dif": 0.0084,
-        "dea": 0.0083,
-        "macd": 0.0001,
+        "dif": 0.0045,
+        "dea": 0.0063,
+        "macd": -0.0035,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 46.98,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.847,
+        "middle": 0.815,
+        "lower": 0.782,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.819,
+        "ma20": 0.815,
+        "ma60": 0.79,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 0.8,
+      "pct_20d": -3.03,
+      "pct_60d": 4.03
+    },
+    "159776": {
+      "symbol": "159776",
+      "name": "港股医药ETF银华",
+      "date": "2026-02-16",
+      "price": 1.259,
+      "today_pct": -0.63,
+      "updated_at": "2026-02-16 03:45:17",
+      "realtime": {
+        "price": 1.259,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.63,
+        "volume": 48033.0,
+        "turnover_rate": 4.76
+      },
+      "macd": {
+        "dif": -0.0021,
+        "dea": -0.0037,
+        "macd": 0.0032,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 49.04,
+        "rsi": 47.34,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.741,
-        "middle": 0.714,
-        "lower": 0.686,
+        "upper": 1.311,
+        "middle": 1.262,
+        "lower": 1.212,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.722,
-        "ma20": 0.714,
-        "ma60": 0.675,
+        "ma5": 1.269,
+        "ma20": 1.262,
+        "ma60": 1.263,
         "trend": "震荡",
-        "above_ma60": true
+        "above_ma60": false
       },
-      "last_close": 0.72,
-      "pct_20d": -0.14,
-      "pct_60d": 11.28
+      "last_close": 1.259,
+      "pct_20d": -2.25,
+      "pct_60d": -3.89
     },
-    "159982": {
-      "symbol": "159982",
-      "name": "159982",
-      "date": "2026-02-13",
-      "price": 2.175,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:30:34",
-      "realtime": null,
+    "159797": {
+      "symbol": "159797",
+      "name": "医疗器械ETF汇添富",
+      "date": "2026-02-16",
+      "price": 0.777,
+      "today_pct": -0.64,
+      "updated_at": "2026-02-16 03:45:18",
+      "realtime": {
+        "price": 0.777,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.64,
+        "volume": 29007.0,
+        "turnover_rate": 0.68
+      },
       "macd": {
-        "dif": 0.0302,
-        "dea": 0.0398,
-        "macd": -0.0192,
+        "dif": -0.0037,
+        "dea": -0.0015,
+        "macd": -0.0045,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 42.68,
-        "status": "中性"
+        "rsi": 29.09,
+        "status": "超卖"
       },
       "bollinger": {
-        "upper": 2.267,
-        "middle": 2.185,
-        "lower": 2.104,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 2.182,
-        "ma20": 2.185,
-        "ma60": 2.012,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 2.175,
-      "pct_20d": 0.18,
-      "pct_60d": 17.76
-    },
-    "159977": {
-      "symbol": "159977",
-      "name": "159977",
-      "date": "2026-02-13",
-      "price": 1.704,
-      "today_pct": null,
-      "updated_at": "2026-02-13 07:30:50",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0038,
-        "dea": 0.0072,
-        "macd": -0.0068,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 46.29,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.751,
-        "middle": 1.719,
-        "lower": 1.687,
+        "upper": 0.824,
+        "middle": 0.795,
+        "lower": 0.766,
         "position": "下轨附近"
       },
       "ma_trend": {
-        "ma5": 1.72,
-        "ma20": 1.719,
-        "ma60": 1.673,
+        "ma5": 0.787,
+        "ma20": 0.795,
+        "ma60": 0.785,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.777,
+      "pct_20d": -4.43,
+      "pct_60d": -0.89
+    },
+    "159965": {
+      "symbol": "159965",
+      "name": "央视50ETF国联",
+      "date": "2026-02-16",
+      "price": 1.68,
+      "today_pct": -0.65,
+      "updated_at": "2026-02-16 03:45:20",
+      "realtime": {
+        "price": 1.68,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.65,
+        "volume": 3641.0,
+        "turnover_rate": 1.16
+      },
+      "macd": {
+        "dif": 0.0081,
+        "dea": 0.0097,
+        "macd": -0.0032,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 52.0,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.711,
+        "middle": 1.686,
+        "lower": 1.661,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.696,
+        "ma20": 1.686,
+        "ma60": 1.648,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 1.704,
-      "pct_20d": -1.73,
-      "pct_60d": 7.64
+      "last_close": 1.68,
+      "pct_20d": -0.59,
+      "pct_60d": 3.96
+    },
+    "159873": {
+      "symbol": "159873",
+      "name": "医疗设备ETF",
+      "date": "2026-02-16",
+      "price": 0.6,
+      "today_pct": -0.66,
+      "updated_at": "2026-02-16 03:45:21",
+      "realtime": {
+        "price": 0.6,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.66,
+        "volume": 113114.0,
+        "turnover_rate": 2.54
+      },
+      "macd": {
+        "dif": -0.002,
+        "dea": 0.0001,
+        "macd": -0.0042,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 30.49,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.635,
+        "middle": 0.614,
+        "lower": 0.593,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.608,
+        "ma20": 0.614,
+        "ma60": 0.602,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.6,
+      "pct_20d": -4.61,
+      "pct_60d": 0.17
+    },
+    "159976": {
+      "symbol": "159976",
+      "name": "湾创ETF工银",
+      "date": "2026-02-16",
+      "price": 1.331,
+      "today_pct": -0.67,
+      "updated_at": "2026-02-16 03:45:22",
+      "realtime": {
+        "price": 1.331,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.67,
+        "volume": 766.0,
+        "turnover_rate": 0.05
+      },
+      "macd": {
+        "dif": -0.0085,
+        "dea": -0.0056,
+        "macd": -0.0058,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 30.91,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.391,
+        "middle": 1.358,
+        "lower": 1.324,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.343,
+        "ma20": 1.358,
+        "ma60": 1.355,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 1.331,
+      "pct_20d": -3.27,
+      "pct_60d": -0.6
+    },
+    "159779": {
+      "symbol": "159779",
+      "name": "消费电子50ETF",
+      "date": "2026-02-16",
+      "price": 1.177,
+      "today_pct": -0.68,
+      "updated_at": "2026-02-16 03:45:22",
+      "realtime": {
+        "price": 1.177,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.68,
+        "volume": 32546.0,
+        "turnover_rate": 1.78
+      },
+      "macd": {
+        "dif": -0.0043,
+        "dea": 0.0004,
+        "macd": -0.0094,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 41.83,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.27,
+        "middle": 1.2,
+        "lower": 1.13,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.178,
+        "ma20": 1.2,
+        "ma60": 1.157,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.177,
+      "pct_20d": -4.54,
+      "pct_60d": 7.88
+    },
+    "159898": {
+      "symbol": "159898",
+      "name": "医疗器械指数ETF",
+      "date": "2026-02-16",
+      "price": 0.556,
+      "today_pct": -0.71,
+      "updated_at": "2026-02-16 03:45:23",
+      "realtime": {
+        "price": 0.556,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.71,
+        "volume": 240112.0,
+        "turnover_rate": 1.68
+      },
+      "macd": {
+        "dif": -0.0023,
+        "dea": -0.0008,
+        "macd": -0.003,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 30.67,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.587,
+        "middle": 0.568,
+        "lower": 0.548,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.562,
+        "ma20": 0.568,
+        "ma60": 0.56,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.556,
+      "pct_20d": -4.3,
+      "pct_60d": -0.18
+    },
+    "159730": {
+      "symbol": "159730",
+      "name": "家电ETF博时",
+      "date": "2026-02-16",
+      "price": 1.106,
+      "today_pct": -0.72,
+      "updated_at": "2026-02-16 03:45:23",
+      "realtime": {
+        "price": 1.106,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.72,
+        "volume": 5267.0,
+        "turnover_rate": 1.11
+      },
+      "macd": {
+        "dif": -0.0003,
+        "dea": -0.0005,
+        "macd": 0.0006,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 46.53,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.145,
+        "middle": 1.113,
+        "lower": 1.08,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.115,
+        "ma20": 1.113,
+        "ma60": 1.105,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.106,
+      "pct_20d": -2.73,
+      "pct_60d": 3.17
+    },
+    "159740": {
+      "symbol": "159740",
+      "name": "恒生科技ETF大成",
+      "date": "2026-02-16",
+      "price": 0.69,
+      "today_pct": -0.72,
+      "updated_at": "2026-02-16 03:45:24",
+      "realtime": {
+        "price": 0.69,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.72,
+        "volume": 28852196.0,
+        "turnover_rate": 10.46
+      },
+      "macd": {
+        "dif": -0.0126,
+        "dea": -0.0094,
+        "macd": -0.0064,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 30.0,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.769,
+        "middle": 0.721,
+        "lower": 0.673,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.698,
+        "ma20": 0.721,
+        "ma60": 0.73,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.69,
+      "pct_20d": -7.26,
+      "pct_60d": -5.99
     }
   }
 }

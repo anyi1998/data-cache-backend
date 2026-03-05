@@ -1,252 +1,77 @@
 {
-  "generated_at": "2026-03-05 06:15:04",
+  "generated_at": "2026-03-05 07:08:10",
   "data_source": "akshare_eastmoney",
-  "count": 48,
+  "count": 17,
   "analyses": {
     "159985": {
       "symbol": "159985",
       "name": "159985",
       "date": "2026-03-05",
-      "price": 2.072,
+      "price": 2.061,
       "today_pct": null,
-      "updated_at": "2026-03-05 05:57:58",
+      "updated_at": "2026-03-05 07:04:46",
       "realtime": null,
       "macd": {
-        "dif": 0.0241,
-        "dea": 0.0148,
-        "macd": 0.0186,
+        "dif": 0.0233,
+        "dea": 0.0147,
+        "macd": 0.0172,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 75.84,
+        "rsi": 71.43,
         "status": "超买"
       },
       "bollinger": {
-        "upper": 2.077,
+        "upper": 2.075,
         "middle": 2.006,
-        "lower": 1.935,
+        "lower": 1.937,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 2.055,
+        "ma5": 2.053,
         "ma20": 2.006,
         "ma60": 1.976,
         "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 2.072,
-      "pct_20d": 3.14,
-      "pct_60d": 5.23
-    },
-    "159825": {
-      "symbol": "159825",
-      "name": "159825",
-      "date": "2026-03-05",
-      "price": 0.861,
-      "today_pct": null,
-      "updated_at": "2026-03-05 05:58:21",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0063,
-        "dea": 0.0044,
-        "macd": 0.0039,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 59.66,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.882,
-        "middle": 0.852,
-        "lower": 0.822,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.869,
-        "ma20": 0.852,
-        "ma60": 0.839,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.861,
-      "pct_20d": -1.03,
-      "pct_60d": 6.56
-    },
-    "159827": {
-      "symbol": "159827",
-      "name": "159827",
-      "date": "2026-03-05",
-      "price": 0.927,
-      "today_pct": null,
-      "updated_at": "2026-03-05 05:58:31",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0067,
-        "dea": 0.0046,
-        "macd": 0.0042,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 60.95,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.947,
-        "middle": 0.917,
-        "lower": 0.887,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.935,
-        "ma20": 0.917,
-        "ma60": 0.904,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.927,
-      "pct_20d": -0.86,
-      "pct_60d": 6.31
-    },
-    "159902": {
-      "symbol": "159902",
-      "name": "159902",
-      "date": "2026-03-05",
-      "price": 4.573,
-      "today_pct": null,
-      "updated_at": "2026-03-05 05:59:26",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0195,
-        "dea": 0.0256,
-        "macd": -0.0121,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 61.11,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 4.711,
-        "middle": 4.571,
-        "lower": 4.431,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 4.61,
-        "ma20": 4.571,
-        "ma60": 4.477,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 4.573,
-      "pct_20d": -0.48,
-      "pct_60d": 8.54
-    },
-    "159980": {
-      "symbol": "159980",
-      "name": "159980",
-      "date": "2026-03-05",
-      "price": 2.098,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:00:47",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0097,
-        "dea": 0.0132,
-        "macd": -0.0068,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 55.56,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 2.223,
-        "middle": 2.109,
-        "lower": 1.995,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 2.126,
-        "ma20": 2.109,
-        "ma60": 2.046,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 2.098,
-      "pct_20d": -7.5,
-      "pct_60d": 13.34
+      "last_close": 2.061,
+      "pct_20d": 2.59,
+      "pct_60d": 4.67
     },
     "159974": {
       "symbol": "159974",
       "name": "159974",
       "date": "2026-03-05",
-      "price": 1.982,
+      "price": 1.974,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:00:56",
+      "updated_at": "2026-03-05 07:04:59",
       "realtime": null,
       "macd": {
-        "dif": 0.0369,
-        "dea": 0.029,
-        "macd": 0.0159,
+        "dif": 0.0363,
+        "dea": 0.0289,
+        "macd": 0.0149,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 75.68,
+        "rsi": 75.0,
         "status": "超买"
       },
       "bollinger": {
-        "upper": 1.994,
+        "upper": 1.992,
         "middle": 1.888,
-        "lower": 1.782,
+        "lower": 1.784,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.961,
+        "ma5": 1.96,
         "ma20": 1.888,
         "ma60": 1.813,
         "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 1.982,
-      "pct_20d": 5.31,
-      "pct_60d": 16.31
-    },
-    "159865": {
-      "symbol": "159865",
-      "name": "159865",
-      "date": "2026-03-05",
-      "price": 0.625,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:01:18",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0007,
-        "dea": -0.0012,
-        "macd": 0.0009,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 47.76,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.642,
-        "middle": 0.629,
-        "lower": 0.616,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.632,
-        "ma20": 0.629,
-        "ma60": 0.632,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.625,
-      "pct_20d": -2.5,
-      "pct_60d": -1.42
+      "last_close": 1.974,
+      "pct_20d": 4.89,
+      "pct_60d": 15.85
     },
     "159867": {
       "symbol": "159867",
@@ -254,7 +79,7 @@
       "date": "2026-03-05",
       "price": 0.634,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:01:31",
+      "updated_at": "2026-03-05 07:05:07",
       "realtime": null,
       "macd": {
         "dif": -0.0009,
@@ -283,232 +108,57 @@
       "pct_20d": -2.31,
       "pct_60d": -1.86
     },
-    "159886": {
-      "symbol": "159886",
-      "name": "159886",
-      "date": "2026-03-05",
-      "price": 1.104,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:01:44",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0094,
-        "dea": 0.0121,
-        "macd": -0.0054,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 59.12,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.137,
-        "middle": 1.089,
-        "lower": 1.041,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.093,
-        "ma20": 1.089,
-        "ma60": 1.054,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.104,
-      "pct_20d": 4.64,
-      "pct_60d": 9.96
-    },
-    "159981": {
-      "symbol": "159981",
-      "name": "159981",
-      "date": "2026-03-05",
-      "price": 1.458,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:02:19",
-      "realtime": null,
-      "macd": {
-        "dif": 0.031,
-        "dea": 0.015,
-        "macd": 0.0321,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 80.26,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 1.419,
-        "middle": 1.312,
-        "lower": 1.205,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.381,
-        "ma20": 1.312,
-        "ma60": 1.272,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.458,
-      "pct_20d": 9.95,
-      "pct_60d": 17.77
-    },
-    "159778": {
-      "symbol": "159778",
-      "name": "159778",
-      "date": "2026-03-05",
-      "price": 1.145,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:02:31",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0022,
-        "dea": 0.0066,
-        "macd": -0.0088,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 55.36,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.189,
-        "middle": 1.151,
-        "lower": 1.113,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.148,
-        "ma20": 1.151,
-        "ma60": 1.12,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.145,
-      "pct_20d": -1.12,
-      "pct_60d": 8.63
-    },
     "159857": {
       "symbol": "159857",
       "name": "159857",
       "date": "2026-03-05",
-      "price": 0.953,
+      "price": 0.957,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:02:58",
+      "updated_at": "2026-03-05 07:05:18",
       "realtime": null,
       "macd": {
-        "dif": 0.0139,
+        "dif": 0.0142,
         "dea": 0.0176,
-        "macd": -0.0074,
+        "macd": -0.0069,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 55.98,
+        "rsi": 56.91,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.986,
+        "upper": 0.987,
         "middle": 0.946,
         "lower": 0.905,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.954,
+        "ma5": 0.955,
         "ma20": 0.946,
         "ma60": 0.881,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.953,
-      "pct_20d": 2.69,
-      "pct_60d": 19.27
-    },
-    "159972": {
-      "symbol": "159972",
-      "name": "159972",
-      "date": "2026-03-05",
-      "price": 117.86,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:03:17",
-      "realtime": null,
-      "macd": {
-        "dif": 0.1219,
-        "dea": 0.1271,
-        "macd": -0.0104,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 65.14,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 117.924,
-        "middle": 117.725,
-        "lower": 117.527,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 117.833,
-        "ma20": 117.725,
-        "ma60": 117.335,
         "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 117.86,
-      "pct_20d": 0.3,
-      "pct_60d": 0.76
-    },
-    "159816": {
-      "symbol": "159816",
-      "name": "159816",
-      "date": "2026-03-05",
-      "price": 114.32,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:03:27",
-      "realtime": null,
-      "macd": {
-        "dif": 0.1011,
-        "dea": 0.0999,
-        "macd": 0.0024,
-        "signal": "金叉"
-      },
-      "rsi": {
-        "rsi": 74.41,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 114.349,
-        "middle": 114.169,
-        "lower": 113.989,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 114.271,
-        "ma20": 114.169,
-        "ma60": 113.89,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 114.32,
-      "pct_20d": 0.27,
-      "pct_60d": 0.55
+      "last_close": 0.957,
+      "pct_20d": 3.12,
+      "pct_60d": 19.77
     },
     "159943": {
       "symbol": "159943",
       "name": "159943",
       "date": "2026-03-05",
-      "price": 1.531,
+      "price": 1.534,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:03:42",
+      "updated_at": "2026-03-05 07:05:33",
       "realtime": null,
       "macd": {
-        "dif": 0.0054,
+        "dif": 0.0056,
         "dea": 0.0096,
-        "macd": -0.0085,
+        "macd": -0.0081,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 52.8,
+        "rsi": 53.8,
         "status": "中性"
       },
       "bollinger": {
@@ -518,15 +168,15 @@
         "position": "下轨附近"
       },
       "ma_trend": {
-        "ma5": 1.551,
+        "ma5": 1.552,
         "ma20": 1.548,
         "ma60": 1.51,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 1.531,
-      "pct_20d": -1.67,
-      "pct_60d": 7.74
+      "last_close": 1.534,
+      "pct_20d": -1.48,
+      "pct_60d": 7.95
     },
     "159732": {
       "symbol": "159732",
@@ -534,7 +184,7 @@
       "date": "2026-03-05",
       "price": 1.152,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:04:08",
+      "updated_at": "2026-03-05 07:05:45",
       "realtime": null,
       "macd": {
         "dif": 0.0008,
@@ -567,18 +217,18 @@
       "symbol": "159755",
       "name": "159755",
       "date": "2026-03-05",
-      "price": 1.068,
+      "price": 1.069,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:04:20",
+      "updated_at": "2026-03-05 07:05:54",
       "realtime": null,
       "macd": {
         "dif": 0.0005,
         "dea": 0.0024,
-        "macd": -0.0039,
+        "macd": -0.0038,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 57.89,
+        "rsi": 58.14,
         "status": "中性"
       },
       "bollinger": {
@@ -594,166 +244,26 @@
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 1.068,
-      "pct_20d": -0.47,
-      "pct_60d": 3.09
-    },
-    "159906": {
-      "symbol": "159906",
-      "name": "159906",
-      "date": "2026-03-05",
-      "price": 1.574,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:04:31",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0227,
-        "dea": 0.0196,
-        "macd": 0.0063,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 66.86,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.618,
-        "middle": 1.524,
-        "lower": 1.429,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.571,
-        "ma20": 1.524,
-        "ma60": 1.482,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.574,
-      "pct_20d": 5.0,
-      "pct_60d": 18.61
-    },
-    "159863": {
-      "symbol": "159863",
-      "name": "159863",
-      "date": "2026-03-05",
-      "price": 0.741,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:04:40",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0105,
-        "dea": 0.0136,
-        "macd": -0.006,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 56.12,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.767,
-        "middle": 0.736,
-        "lower": 0.705,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.741,
-        "ma20": 0.736,
-        "ma60": 0.686,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.741,
-      "pct_20d": 2.77,
-      "pct_60d": 18.56
-    },
-    "159864": {
-      "symbol": "159864",
-      "name": "159864",
-      "date": "2026-03-05",
-      "price": 0.73,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:04:50",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0101,
-        "dea": 0.013,
-        "macd": -0.0058,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 55.63,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.756,
-        "middle": 0.725,
-        "lower": 0.693,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.729,
-        "ma20": 0.725,
-        "ma60": 0.675,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 0.73,
-      "pct_20d": 2.53,
-      "pct_60d": 19.28
-    },
-    "159796": {
-      "symbol": "159796",
-      "name": "159796",
-      "date": "2026-03-05",
-      "price": 0.947,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:04:58",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0062,
-        "dea": -0.0033,
-        "macd": -0.0058,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 52.67,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.001,
-        "middle": 0.963,
-        "lower": 0.925,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.956,
-        "ma20": 0.963,
-        "ma60": 0.972,
-        "trend": "弱势",
-        "above_ma60": false
-      },
-      "last_close": 0.947,
-      "pct_20d": 0.11,
-      "pct_60d": -1.15
+      "last_close": 1.069,
+      "pct_20d": -0.37,
+      "pct_60d": 3.19
     },
     "159757": {
       "symbol": "159757",
       "name": "159757",
       "date": "2026-03-05",
-      "price": 0.883,
+      "price": 0.888,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:05:07",
+      "updated_at": "2026-03-05 07:06:21",
       "realtime": null,
       "macd": {
-        "dif": 0.0002,
-        "dea": 0.002,
-        "macd": -0.0037,
+        "dif": 0.0006,
+        "dea": 0.0021,
+        "macd": -0.003,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 57.55,
+        "rsi": 59.03,
         "status": "中性"
       },
       "bollinger": {
@@ -763,388 +273,73 @@
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.895,
+        "ma5": 0.896,
         "ma20": 0.891,
         "ma60": 0.887,
         "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.883,
-      "pct_20d": -0.23,
-      "pct_60d": 2.91
-    },
-    "159840": {
-      "symbol": "159840",
-      "name": "159840",
-      "date": "2026-03-05",
-      "price": 0.854,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:05:37",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0001,
-        "dea": 0.0018,
-        "macd": -0.0035,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 57.04,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.897,
-        "middle": 0.861,
-        "lower": 0.825,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.865,
-        "ma20": 0.861,
-        "ma60": 0.857,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.854,
-      "pct_20d": -0.47,
-      "pct_60d": 3.02
-    },
-    "159968": {
-      "symbol": "159968",
-      "name": "159968",
-      "date": "2026-03-05",
-      "price": 10.533,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:05:49",
-      "realtime": null,
-      "macd": {
-        "dif": 0.1091,
-        "dea": 0.1599,
-        "macd": -0.1015,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 55.16,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 11.081,
-        "middle": 10.637,
-        "lower": 10.193,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 10.728,
-        "ma20": 10.637,
-        "ma60": 10.02,
-        "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 10.533,
-      "pct_20d": -2.95,
-      "pct_60d": 18.9
-    },
-    "159959": {
-      "symbol": "159959",
-      "name": "159959",
-      "date": "2026-03-05",
-      "price": 1.724,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:06:09",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0208,
-        "dea": 0.0183,
-        "macd": 0.0049,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 70.29,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 1.735,
-        "middle": 1.68,
-        "lower": 1.626,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.716,
-        "ma20": 1.68,
-        "ma60": 1.623,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.724,
-      "pct_20d": 2.31,
-      "pct_60d": 11.95
+      "last_close": 0.888,
+      "pct_20d": 0.34,
+      "pct_60d": 3.5
     },
     "159935": {
       "symbol": "159935",
       "name": "159935",
       "date": "2026-03-05",
-      "price": 2.606,
+      "price": 2.595,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:06:20",
+      "updated_at": "2026-03-05 07:06:46",
       "realtime": null,
       "macd": {
-        "dif": 0.0248,
-        "dea": 0.0361,
-        "macd": -0.0227,
+        "dif": 0.0239,
+        "dea": 0.0359,
+        "macd": -0.0241,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 56.13,
+        "rsi": 54.91,
         "status": "中性"
       },
       "bollinger": {
         "upper": 2.723,
-        "middle": 2.621,
-        "lower": 2.518,
+        "middle": 2.62,
+        "lower": 2.517,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 2.641,
-        "ma20": 2.621,
+        "ma5": 2.639,
+        "ma20": 2.62,
         "ma60": 2.478,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 2.606,
-      "pct_20d": -2.62,
-      "pct_60d": 17.92
-    },
-    "159913": {
-      "symbol": "159913",
-      "name": "159913",
-      "date": "2026-03-05",
-      "price": 2.566,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:06:47",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0133,
-        "dea": 0.0169,
-        "macd": -0.0072,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 56.47,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 2.607,
-        "middle": 2.553,
-        "lower": 2.499,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 2.563,
-        "ma20": 2.553,
-        "ma60": 2.486,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 2.566,
-      "pct_20d": -1.42,
-      "pct_60d": 7.23
-    },
-    "159982": {
-      "symbol": "159982",
-      "name": "159982",
-      "date": "2026-03-05",
-      "price": 2.167,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:07:00",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0217,
-        "dea": 0.0314,
-        "macd": -0.0193,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 55.31,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 2.272,
-        "middle": 2.186,
-        "lower": 2.1,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 2.206,
-        "ma20": 2.186,
-        "ma60": 2.064,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 2.167,
-      "pct_20d": -2.69,
-      "pct_60d": 18.09
-    },
-    "159861": {
-      "symbol": "159861",
-      "name": "159861",
-      "date": "2026-03-05",
-      "price": 1.228,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:07:14",
-      "realtime": null,
-      "macd": {
-        "dif": 0.006,
-        "dea": 0.0101,
-        "macd": -0.0083,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 54.76,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.268,
-        "middle": 1.232,
-        "lower": 1.196,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.231,
-        "ma20": 1.232,
-        "ma60": 1.189,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.228,
-      "pct_20d": 0.74,
-      "pct_60d": 9.35
-    },
-    "159939": {
-      "symbol": "159939",
-      "name": "159939",
-      "date": "2026-03-05",
-      "price": 0.919,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:07:50",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0033,
-        "dea": 0.0018,
-        "macd": -0.0101,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 50.28,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.981,
-        "middle": 0.94,
-        "lower": 0.898,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.932,
-        "ma20": 0.94,
-        "ma60": 0.921,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.919,
-      "pct_20d": -4.57,
-      "pct_60d": 7.99
-    },
-    "159957": {
-      "symbol": "159957",
-      "name": "159957",
-      "date": "2026-03-05",
-      "price": 2.1,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:08:11",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0087,
-        "dea": 0.0012,
-        "macd": -0.0198,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 44.2,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 2.218,
-        "middle": 2.156,
-        "lower": 2.094,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 2.125,
-        "ma20": 2.156,
-        "ma60": 2.133,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 2.1,
-      "pct_20d": -2.91,
-      "pct_60d": 4.48
-    },
-    "159767": {
-      "symbol": "159767",
-      "name": "159767",
-      "date": "2026-03-05",
-      "price": 0.866,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:08:33",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0001,
-        "dea": 0.0019,
-        "macd": -0.0036,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 57.03,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.911,
-        "middle": 0.874,
-        "lower": 0.838,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.878,
-        "ma20": 0.874,
-        "ma60": 0.871,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.866,
-      "pct_20d": -0.57,
-      "pct_60d": 2.73
+      "last_close": 2.595,
+      "pct_20d": -3.03,
+      "pct_60d": 17.42
     },
     "159875": {
       "symbol": "159875",
       "name": "159875",
       "date": "2026-03-05",
-      "price": 0.717,
+      "price": 0.72,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:08:48",
+      "updated_at": "2026-03-05 07:07:13",
       "realtime": null,
       "macd": {
-        "dif": 0.0039,
-        "dea": 0.0059,
-        "macd": -0.004,
+        "dif": 0.0042,
+        "dea": 0.006,
+        "macd": -0.0036,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 57.85,
+        "rsi": 58.87,
         "status": "中性"
       },
       "bollinger": {
         "upper": 0.744,
         "middle": 0.719,
-        "lower": 0.693,
+        "lower": 0.694,
         "position": "中轨附近"
       },
       "ma_trend": {
@@ -1154,347 +349,102 @@
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 0.717,
-      "pct_20d": 0.28,
-      "pct_60d": 8.14
-    },
-    "159820": {
-      "symbol": "159820",
-      "name": "159820",
-      "date": "2026-03-05",
-      "price": 1.409,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:09:02",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0141,
-        "dea": 0.0205,
-        "macd": -0.0128,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 55.28,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.478,
-        "middle": 1.422,
-        "lower": 1.367,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.435,
-        "ma20": 1.422,
-        "ma60": 1.342,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.409,
-      "pct_20d": -2.89,
-      "pct_60d": 18.11
+      "last_close": 0.72,
+      "pct_20d": 0.7,
+      "pct_60d": 8.6
     },
     "159976": {
       "symbol": "159976",
       "name": "159976",
       "date": "2026-03-05",
-      "price": 1.312,
+      "price": 1.299,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:09:33",
+      "updated_at": "2026-03-05 07:07:21",
       "realtime": null,
       "macd": {
-        "dif": -0.0148,
-        "dea": -0.0112,
-        "macd": -0.0072,
+        "dif": -0.0158,
+        "dea": -0.0114,
+        "macd": -0.0089,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 38.14,
+        "rsi": 30.48,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.376,
+        "upper": 1.377,
         "middle": 1.336,
-        "lower": 1.297,
+        "lower": 1.294,
         "position": "下轨附近"
       },
       "ma_trend": {
-        "ma5": 1.311,
+        "ma5": 1.309,
         "ma20": 1.336,
         "ma60": 1.354,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.312,
-      "pct_20d": -4.58,
-      "pct_60d": -2.02
-    },
-    "159885": {
-      "symbol": "159885",
-      "name": "159885",
-      "date": "2026-03-05",
-      "price": 0.819,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:10:28",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0011,
-        "dea": 0.0029,
-        "macd": -0.0036,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 53.61,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.843,
-        "middle": 0.822,
-        "lower": 0.8,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.819,
-        "ma20": 0.822,
-        "ma60": 0.808,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.819,
-      "pct_20d": 1.11,
-      "pct_60d": 3.8
-    },
-    "159824": {
-      "symbol": "159824",
-      "name": "159824",
-      "date": "2026-03-05",
-      "price": 1.21,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:10:47",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0071,
-        "dea": -0.0021,
-        "macd": -0.0099,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 50.72,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.288,
-        "middle": 1.238,
-        "lower": 1.187,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.229,
-        "ma20": 1.238,
-        "ma60": 1.238,
         "trend": "弱势",
         "above_ma60": false
       },
-      "last_close": 1.21,
-      "pct_20d": -2.97,
-      "pct_60d": 1.6
+      "last_close": 1.299,
+      "pct_20d": -5.53,
+      "pct_60d": -2.99
     },
     "159880": {
       "symbol": "159880",
       "name": "159880",
       "date": "2026-03-05",
-      "price": 2.347,
+      "price": 2.363,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:11:28",
+      "updated_at": "2026-03-05 07:07:29",
       "realtime": null,
       "macd": {
-        "dif": 0.0569,
-        "dea": 0.0601,
-        "macd": -0.0064,
+        "dif": 0.0582,
+        "dea": 0.0604,
+        "macd": -0.0043,
         "signal": "死叉"
       },
       "rsi": {
-        "rsi": 61.23,
+        "rsi": 62.62,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 2.564,
+        "upper": 2.566,
         "middle": 2.329,
         "lower": 2.093,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 2.422,
+        "ma5": 2.425,
         "ma20": 2.329,
         "ma60": 2.115,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 2.347,
-      "pct_20d": -10.45,
-      "pct_60d": 33.43
-    },
-    "159813": {
-      "symbol": "159813",
-      "name": "159813",
-      "date": "2026-03-05",
-      "price": 1.182,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:11:41",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0063,
-        "dea": 0.0042,
-        "macd": -0.0211,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 46.77,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.295,
-        "middle": 1.228,
-        "lower": 1.161,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.202,
-        "ma20": 1.228,
-        "ma60": 1.184,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.182,
-      "pct_20d": -7.0,
-      "pct_60d": 11.09
-    },
-    "159855": {
-      "symbol": "159855",
-      "name": "159855",
-      "date": "2026-03-05",
-      "price": 0.955,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:11:51",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0163,
-        "dea": 0.0052,
-        "macd": -0.0432,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 39.92,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.209,
-        "middle": 1.062,
-        "lower": 0.916,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.98,
-        "ma20": 1.062,
-        "ma60": 1.008,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.955,
-      "pct_20d": -9.56,
-      "pct_60d": -1.24
-    },
-    "159996": {
-      "symbol": "159996",
-      "name": "159996",
-      "date": "2026-03-05",
-      "price": 1.51,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:12:00",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0154,
-        "dea": -0.0049,
-        "macd": -0.0209,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 28.74,
-        "status": "超卖"
-      },
-      "bollinger": {
-        "upper": 1.628,
-        "middle": 1.569,
-        "lower": 1.51,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.53,
-        "ma20": 1.569,
-        "ma60": 1.562,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.51,
-      "pct_20d": -4.49,
-      "pct_60d": 0.13
-    },
-    "159909": {
-      "symbol": "159909",
-      "name": "159909",
-      "date": "2026-03-05",
-      "price": 1.093,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:12:11",
-      "realtime": null,
-      "macd": {
-        "dif": -0.0002,
-        "dea": 0.0024,
-        "macd": -0.0053,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 53.68,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.141,
-        "middle": 1.102,
-        "lower": 1.063,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.103,
-        "ma20": 1.102,
-        "ma60": 1.092,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.093,
-      "pct_20d": -1.53,
-      "pct_60d": 7.58
+      "last_close": 2.363,
+      "pct_20d": -9.84,
+      "pct_60d": 34.34
     },
     "159898": {
       "symbol": "159898",
       "name": "159898",
       "date": "2026-03-05",
-      "price": 0.535,
+      "price": 0.536,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:12:36",
+      "updated_at": "2026-03-05 07:07:40",
       "realtime": null,
       "macd": {
-        "dif": -0.007,
+        "dif": -0.0069,
         "dea": -0.0039,
-        "macd": -0.0061,
+        "macd": -0.006,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 29.23,
-        "status": "超卖"
+        "rsi": 30.3,
+        "status": "中性"
       },
       "bollinger": {
         "upper": 0.577,
         "middle": 0.557,
-        "lower": 0.536,
+        "lower": 0.537,
         "position": "下轨附近"
       },
       "ma_trend": {
@@ -1504,184 +454,149 @@
         "trend": "弱势",
         "above_ma60": false
       },
-      "last_close": 0.535,
-      "pct_20d": -5.98,
-      "pct_60d": -2.9
-    },
-    "159800": {
-      "symbol": "159800",
-      "name": "159800",
-      "date": "2026-03-05",
-      "price": 1.435,
-      "today_pct": null,
-      "updated_at": "2026-03-05 06:13:10",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0017,
-        "dea": 0.0061,
-        "macd": -0.0089,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 50.0,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.486,
-        "middle": 1.45,
-        "lower": 1.415,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.447,
-        "ma20": 1.45,
-        "ma60": 1.422,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 1.435,
-      "pct_20d": -2.51,
-      "pct_60d": 6.06
+      "last_close": 0.536,
+      "pct_20d": -5.8,
+      "pct_60d": -2.72
     },
     "159752": {
       "symbol": "159752",
       "name": "159752",
       "date": "2026-03-05",
-      "price": 0.702,
+      "price": 0.707,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:13:29",
+      "updated_at": "2026-03-05 07:07:47",
       "realtime": null,
       "macd": {
-        "dif": 0.0004,
-        "dea": 0.0028,
-        "macd": -0.0047,
+        "dif": 0.0008,
+        "dea": 0.0029,
+        "macd": -0.004,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 55.1,
+        "rsi": 57.28,
         "status": "中性"
       },
       "bollinger": {
         "upper": 0.73,
         "middle": 0.71,
-        "lower": 0.689,
-        "position": "下轨附近"
+        "lower": 0.69,
+        "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.707,
+        "ma5": 0.708,
         "ma20": 0.71,
         "ma60": 0.698,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 0.702,
-      "pct_20d": -0.43,
-      "pct_60d": 5.09
+      "last_close": 0.707,
+      "pct_20d": 0.28,
+      "pct_60d": 5.84
     },
     "159918": {
       "symbol": "159918",
       "name": "159918",
       "date": "2026-03-05",
-      "price": 2.587,
+      "price": 2.595,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:13:53",
+      "updated_at": "2026-03-05 07:07:55",
       "realtime": null,
       "macd": {
-        "dif": 0.0148,
-        "dea": 0.031,
-        "macd": -0.0325,
+        "dif": 0.0154,
+        "dea": 0.0312,
+        "macd": -0.0315,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 51.23,
+        "rsi": 52.09,
         "status": "中性"
       },
       "bollinger": {
         "upper": 2.752,
         "middle": 2.642,
-        "lower": 2.531,
+        "lower": 2.532,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 2.639,
+        "ma5": 2.641,
         "ma20": 2.642,
         "ma60": 2.516,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 2.587,
-      "pct_20d": -2.45,
-      "pct_60d": 13.42
+      "last_close": 2.595,
+      "pct_20d": -2.15,
+      "pct_60d": 13.77
     },
     "159871": {
       "symbol": "159871",
       "name": "159871",
       "date": "2026-03-05",
-      "price": 1.163,
+      "price": 1.173,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:14:27",
+      "updated_at": "2026-03-05 07:08:02",
       "realtime": null,
       "macd": {
-        "dif": 0.0273,
-        "dea": 0.0287,
-        "macd": -0.0027,
+        "dif": 0.0281,
+        "dea": 0.0288,
+        "macd": -0.0014,
         "signal": "死叉"
       },
       "rsi": {
-        "rsi": 61.14,
+        "rsi": 62.85,
         "status": "中性"
       },
       "bollinger": {
         "upper": 1.275,
-        "middle": 1.154,
+        "middle": 1.155,
         "lower": 1.034,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.201,
-        "ma20": 1.154,
+        "ma5": 1.203,
+        "ma20": 1.155,
         "ma60": 1.051,
         "trend": "震荡",
         "above_ma60": true
       },
-      "last_close": 1.163,
-      "pct_20d": -10.95,
-      "pct_60d": 32.61
+      "last_close": 1.173,
+      "pct_20d": -10.18,
+      "pct_60d": 33.75
     },
     "159805": {
       "symbol": "159805",
       "name": "159805",
       "date": "2026-03-05",
-      "price": 1.493,
+      "price": 1.498,
       "today_pct": null,
-      "updated_at": "2026-03-05 06:15:04",
+      "updated_at": "2026-03-05 07:08:10",
       "realtime": null,
       "macd": {
-        "dif": -0.0254,
-        "dea": 0.0039,
-        "macd": -0.0586,
+        "dif": -0.025,
+        "dea": 0.004,
+        "macd": -0.0579,
         "signal": "空头"
       },
       "rsi": {
-        "rsi": 35.81,
+        "rsi": 36.43,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.799,
+        "upper": 1.798,
         "middle": 1.637,
-        "lower": 1.476,
+        "lower": 1.477,
         "position": "下轨附近"
       },
       "ma_trend": {
-        "ma5": 1.528,
+        "ma5": 1.529,
         "ma20": 1.637,
         "ma60": 1.537,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 1.493,
-      "pct_20d": -12.74,
-      "pct_60d": 8.58
+      "last_close": 1.498,
+      "pct_20d": -12.45,
+      "pct_60d": 8.95
     }
   }
 }

@@ -45,28 +45,39 @@ DEFAULT_HOT_ETFS = [
     "512690", "159766", "159992", "512800", "512880",  # 白酒/芯片/银行
 ]
 
+def _normalize_symbol(value):
+    sym = str(value or "").strip()
+    if sym.startswith(("sz", "sh")):
+        sym = sym[2:]
+    return sym
+
+
 def get_etf_symbols_from_rankings(limit=50):
-    """从 latest.json 动态读取 symbol 列表"""
+    """? latest.json ???????????????? ETF ???? analysis_cache.json?"""
     try:
         latest_file = DATA_DIR / "latest.json"
         if latest_file.exists():
             with open(latest_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                rankings = data.get("rankings", [])
-                # 提取 symbol，去掉 sz/sh 前缀
-                symbols = []
-                for item in rankings[:limit]:
-                    sym = item.get("symbol", "")
-                    # 去掉 sz/sh 前缀（如 sz159967 -> 159967）
-                    if sym.startswith(("sz", "sh")):
-                        sym = sym[2:]
+
+            symbols = []
+            for item in data.get("rankings", [])[:limit]:
+                sym = _normalize_symbol(item.get("symbol", ""))
+                if sym:
+                    symbols.append(sym)
+
+            for section in ("recommend", "crash"):
+                for item in data.get(section, []):
+                    sym = _normalize_symbol(item.get("symbol", ""))
                     if sym:
                         symbols.append(sym)
-                if symbols:
-                    print(f"[INFO] 从 latest.json 读取 {len(symbols)} 个 ETF symbol")
-                    return symbols
+
+            unique_symbols = list(dict.fromkeys(symbols))
+            if unique_symbols:
+                print(f"[INFO] ? latest.json ?? {len(unique_symbols)} ? ETF symbol????/???????")
+                return unique_symbols
     except Exception as e:
-        print(f"[WARN] 无法读取 latest.json: {e}")
+        print(f"[WARN] ???? latest.json: {e}")
     return DEFAULT_HOT_ETFS
 
 

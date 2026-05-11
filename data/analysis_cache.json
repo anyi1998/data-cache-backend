@@ -1,136 +1,50 @@
 {
-  "generated_at": "2026-05-11 05:01:17",
+  "generated_at": "2026-05-11 08:31:01",
   "data_source": "akshare_eastmoney",
-  "count": 3,
+  "count": 1,
   "analyses": {
-    "561370": {
-      "symbol": "561370",
-      "name": "中证2000ETF国泰",
+    "159663": {
+      "symbol": "159663",
+      "name": "机床ETF华夏",
       "date": "2026-05-11",
-      "price": 1.643,
-      "today_pct": 0.06,
-      "updated_at": "2026-05-11 05:00:40",
+      "price": 2.288,
+      "today_pct": 3.44,
+      "updated_at": "2026-05-11 08:30:40",
       "realtime": {
-        "price": 1.643,
+        "price": 2.288,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 0.06,
-        "volume": 30542.0,
-        "turnover_rate": 15.0
+        "pct_chg": 3.44,
+        "volume": 424217.0,
+        "turnover_rate": 28.95
       },
       "macd": {
-        "dif": 0.0321,
-        "dea": 0.021,
-        "macd": 0.0222,
+        "dif": 0.0979,
+        "dea": 0.0655,
+        "macd": 0.0647,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 82.25,
+        "rsi": 86.74,
         "status": "超买"
       },
       "bollinger": {
-        "upper": 1.633,
-        "middle": 1.548,
-        "lower": 1.463,
+        "upper": 2.232,
+        "middle": 1.975,
+        "lower": 1.718,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.605,
-        "ma20": 1.548,
-        "ma60": 1.521,
+        "ma5": 2.149,
+        "ma20": 1.975,
+        "ma60": 1.865,
         "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 1.644,
-      "pct_20d": 10.34,
-      "pct_60d": 8.37
-    },
-    "159770": {
-      "symbol": "159770",
-      "name": "机器人ETF天弘",
-      "date": "2026-05-11",
-      "price": 1.183,
-      "today_pct": 1.81,
-      "updated_at": "2026-05-11 05:01:02",
-      "realtime": {
-        "price": 1.183,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 1.81,
-        "volume": 2067512.0,
-        "turnover_rate": 2.86
-      },
-      "macd": {
-        "dif": 0.0341,
-        "dea": 0.019,
-        "macd": 0.0303,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 81.01,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 1.16,
-        "middle": 1.059,
-        "lower": 0.958,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.128,
-        "ma20": 1.059,
-        "ma60": 1.046,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.183,
-      "pct_20d": 19.62,
-      "pct_60d": 6.87
-    },
-    "159583": {
-      "symbol": "159583",
-      "name": "通信ETF富国",
-      "date": "2026-05-11",
-      "price": 1.814,
-      "today_pct": 1.85,
-      "updated_at": "2026-05-11 05:01:09",
-      "realtime": {
-        "price": 1.814,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 1.85,
-        "volume": 1303019.0,
-        "turnover_rate": 11.63
-      },
-      "macd": {
-        "dif": 0.0817,
-        "dea": 0.0746,
-        "macd": 0.0142,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 71.43,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 1.828,
-        "middle": 1.654,
-        "lower": 1.479,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.733,
-        "ma20": 1.653,
-        "ma60": 1.461,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.819,
-      "pct_20d": 20.7,
-      "pct_60d": 31.34
+      "last_close": 2.288,
+      "pct_20d": 26.97,
+      "pct_60d": 32.64
     }
   }
 }

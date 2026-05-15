@@ -1,265 +1,50 @@
 {
-  "generated_at": "2026-05-15 04:54:08",
+  "generated_at": "2026-05-15 08:09:49",
   "data_source": "akshare_eastmoney",
-  "count": 6,
+  "count": 1,
   "analyses": {
-    "512450": {
-      "symbol": "512450",
-      "name": "畜牧养殖ETF广发",
-      "date": "2026-05-15",
-      "price": 0.97,
-      "today_pct": -1.12,
-      "updated_at": "2026-05-15 04:53:16",
-      "realtime": {
-        "price": 0.97,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.12,
-        "volume": 45311.0,
-        "turnover_rate": 4.4
-      },
-      "macd": {
-        "dif": -0.0049,
-        "dea": -0.0017,
-        "macd": -0.0064,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 40.24,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.034,
-        "middle": 0.994,
-        "lower": 0.954,
-        "position": "下轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0,
-        "ma20": 0,
-        "ma60": 0,
-        "trend": "无数据",
-        "above_ma60": false
-      },
-      "last_close": 0.97,
-      "pct_20d": -5.83,
-      "pct_60d": 0
-    },
-    "513310": {
-      "symbol": "513310",
-      "name": "中韩半导体ETF华泰柏瑞",
-      "date": "2026-05-15",
-      "price": 6.008,
-      "today_pct": -3.67,
-      "updated_at": "2026-05-15 04:53:18",
-      "realtime": {
-        "price": 6.008,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -3.67,
-        "volume": 14653855.0,
-        "turnover_rate": 66.35
-      },
-      "macd": {
-        "dif": 0.5819,
-        "dea": 0.3871,
-        "macd": 0.3896,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 88.42,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 6.367,
-        "middle": 4.613,
-        "lower": 2.86,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 5.922,
-        "ma20": 4.613,
-        "ma60": 4.085,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 6.008,
-      "pct_20d": 57.48,
-      "pct_60d": 70.05
-    },
-    "513850": {
-      "symbol": "513850",
-      "name": "美国50ETF易方达",
-      "date": "2026-05-15",
-      "price": 1.753,
-      "today_pct": 0.34,
-      "updated_at": "2026-05-15 04:53:21",
-      "realtime": {
-        "price": 1.753,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 0.34,
-        "volume": 589797.0,
-        "turnover_rate": 5.04
-      },
-      "macd": {
-        "dif": 0.0438,
-        "dea": 0.037,
-        "macd": 0.0138,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 89.47,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 1.756,
-        "middle": 1.67,
-        "lower": 1.584,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.729,
-        "ma20": 1.67,
-        "ma60": 1.591,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.753,
-      "pct_20d": 8.75,
-      "pct_60d": 7.41
-    },
-    "159865": {
-      "symbol": "159865",
-      "name": "养殖ETF国泰",
-      "date": "2026-05-15",
-      "price": 0.598,
-      "today_pct": -0.33,
-      "updated_at": "2026-05-15 04:53:25",
-      "realtime": {
-        "price": 0.598,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -0.33,
-        "volume": 2076337.0,
-        "turnover_rate": 1.91
-      },
-      "macd": {
-        "dif": -0.0055,
-        "dea": -0.0044,
-        "macd": -0.0022,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 40.4,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.636,
-        "middle": 0.611,
-        "lower": 0.586,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.6,
-        "ma20": 0.611,
-        "ma60": 0.622,
-        "trend": "弱势",
-        "above_ma60": false
-      },
-      "last_close": 0.598,
-      "pct_20d": -5.68,
-      "pct_60d": -5.23
-    },
-    "516760": {
-      "symbol": "516760",
-      "name": "养殖ETF平安",
-      "date": "2026-05-15",
-      "price": 0.64,
-      "today_pct": -0.31,
-      "updated_at": "2026-05-15 04:53:30",
-      "realtime": {
-        "price": 0.64,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -0.31,
-        "volume": 62150.0,
-        "turnover_rate": 2.46
-      },
-      "macd": {
-        "dif": -0.0056,
-        "dea": -0.0045,
-        "macd": -0.0022,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 39.39,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.68,
-        "middle": 0.654,
-        "lower": 0.627,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.642,
-        "ma20": 0.654,
-        "ma60": 0.665,
-        "trend": "弱势",
-        "above_ma60": false
-      },
-      "last_close": 0.64,
-      "pct_20d": -5.74,
-      "pct_60d": -5.04
-    },
     "159577": {
       "symbol": "159577",
       "name": "美国50ETF汇添富",
       "date": "2026-05-15",
-      "price": 1.576,
-      "today_pct": 0.51,
-      "updated_at": "2026-05-15 04:53:32",
+      "price": 1.564,
+      "today_pct": -0.26,
+      "updated_at": "2026-05-15 08:08:38",
       "realtime": {
-        "price": 1.576,
+        "price": 1.564,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 0.51,
-        "volume": 423035.0,
-        "turnover_rate": 6.53
+        "pct_chg": -0.26,
+        "volume": 1048270.0,
+        "turnover_rate": 16.04
       },
       "macd": {
-        "dif": 0.0412,
-        "dea": 0.0346,
-        "macd": 0.0131,
+        "dif": 0.0402,
+        "dea": 0.0344,
+        "macd": 0.0116,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 87.92,
+        "rsi": 84.83,
         "status": "超买"
       },
       "bollinger": {
-        "upper": 1.581,
+        "upper": 1.578,
         "middle": 1.498,
-        "lower": 1.415,
+        "lower": 1.417,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.554,
+        "ma5": 1.552,
         "ma20": 1.498,
         "ma60": 1.426,
         "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 1.576,
-      "pct_20d": 9.52,
-      "pct_60d": 7.8
+      "last_close": 1.564,
+      "pct_20d": 8.69,
+      "pct_60d": 6.98
     }
   }
 }

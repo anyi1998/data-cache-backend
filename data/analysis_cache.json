@@ -1,6 +1,222 @@
 {
-  "generated_at": "2026-07-03 04:44:29",
+  "generated_at": "2026-07-03 08:18:52",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 5,
+  "analyses": {
+    "159812": {
+      "symbol": "159812",
+      "name": "黄金ETF前海开源",
+      "date": "2026-07-03",
+      "price": 8.639,
+      "today_pct": 2.35,
+      "updated_at": "2026-07-03 08:18:35",
+      "realtime": {
+        "price": 8.639,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 2.35,
+        "volume": 46560.0,
+        "turnover_rate": 2.7
+      },
+      "macd": {
+        "dif": -0.2359,
+        "dea": -0.254,
+        "macd": 0.0363,
+        "signal": "金叉"
+      },
+      "rsi": {
+        "rsi": 50.38,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 9.192,
+        "middle": 8.644,
+        "lower": 8.095,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 8.412,
+        "ma20": 8.644,
+        "ma60": 9.33,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 8.639,
+      "pct_20d": -6.2,
+      "pct_60d": -11.86
+    },
+    "518890": {
+      "symbol": "518890",
+      "name": "上海金ETF中银",
+      "date": "2026-07-03",
+      "price": 8.68,
+      "today_pct": 2.21,
+      "updated_at": "2026-07-03 08:18:36",
+      "realtime": {
+        "price": 8.68,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 2.21,
+        "volume": 42246.0,
+        "turnover_rate": 1.06
+      },
+      "macd": {
+        "dif": -0.2372,
+        "dea": -0.2557,
+        "macd": 0.0371,
+        "signal": "金叉"
+      },
+      "rsi": {
+        "rsi": 50.12,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 9.245,
+        "middle": 8.692,
+        "lower": 8.138,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 8.463,
+        "ma20": 8.692,
+        "ma60": 9.383,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 8.68,
+      "pct_20d": -6.34,
+      "pct_60d": -11.91
+    },
+    "518880": {
+      "symbol": "518880",
+      "name": "黄金ETF华安",
+      "date": "2026-07-03",
+      "price": 8.672,
+      "today_pct": 2.32,
+      "updated_at": "2026-07-03 08:18:38",
+      "realtime": {
+        "price": 8.672,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 2.32,
+        "volume": 4676685.0,
+        "turnover_rate": 4.55
+      },
+      "macd": {
+        "dif": -0.2362,
+        "dea": -0.2551,
+        "macd": 0.0376,
+        "signal": "金叉"
+      },
+      "rsi": {
+        "rsi": 50.38,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 9.229,
+        "middle": 8.677,
+        "lower": 8.126,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 8.449,
+        "ma20": 8.677,
+        "ma60": 9.367,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 8.672,
+      "pct_20d": -6.27,
+      "pct_60d": -11.84
+    },
+    "518680": {
+      "symbol": "518680",
+      "name": "金ETF富国",
+      "date": "2026-07-03",
+      "price": 9.072,
+      "today_pct": 2.27,
+      "updated_at": "2026-07-03 08:18:39",
+      "realtime": {
+        "price": 9.072,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 2.27,
+        "volume": 204601.0,
+        "turnover_rate": 2.65
+      },
+      "macd": {
+        "dif": -0.247,
+        "dea": -0.2662,
+        "macd": 0.0384,
+        "signal": "金叉"
+      },
+      "rsi": {
+        "rsi": 50.31,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 9.659,
+        "middle": 9.081,
+        "lower": 8.504,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 8.841,
+        "ma20": 9.081,
+        "ma60": 9.8,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 9.072,
+      "pct_20d": -6.29,
+      "pct_60d": -11.81
+    },
+    "520790": {
+      "symbol": "520790",
+      "name": "港股通互联网ETF兴业",
+      "date": "2026-07-03",
+      "price": 0.783,
+      "today_pct": 1.69,
+      "updated_at": "2026-07-03 08:18:52",
+      "realtime": {
+        "price": 0.783,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 1.69,
+        "volume": 85947.0,
+        "turnover_rate": 2.23
+      },
+      "macd": {
+        "dif": -0.0398,
+        "dea": -0.0414,
+        "macd": 0.0033,
+        "signal": "金叉"
+      },
+      "rsi": {
+        "rsi": 32.85,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.907,
+        "middle": 0.807,
+        "lower": 0.707,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.763,
+        "ma20": 0.807,
+        "ma60": 0.91,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.783,
+      "pct_20d": -11.92,
+      "pct_60d": -18.01
+    }
+  }
 }

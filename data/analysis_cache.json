@@ -1,39 +1,82 @@
 {
-  "generated_at": "2026-07-07 04:54:54",
+  "generated_at": "2026-07-07 08:31:04",
   "data_source": "akshare_eastmoney",
-  "count": 14,
+  "count": 10,
   "analyses": {
-    "159023": {
-      "symbol": "159023",
-      "name": "养殖ETF万家",
+    "159827": {
+      "symbol": "159827",
+      "name": "农业ETF银华",
       "date": "2026-07-07",
-      "price": 1.035,
-      "today_pct": -1.62,
-      "updated_at": "2026-07-07 04:54:03",
+      "price": 0.755,
+      "today_pct": -2.58,
+      "updated_at": "2026-07-07 08:30:17",
       "realtime": {
-        "price": 1.035,
+        "price": 0.755,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -1.62,
-        "volume": 137397.0,
-        "turnover_rate": 19.98
+        "pct_chg": -2.58,
+        "volume": 46379.0,
+        "turnover_rate": 5.0
       },
       "macd": {
-        "dif": 0,
-        "dea": 0,
-        "macd": 0,
-        "signal": "无数据"
+        "dif": -0.0127,
+        "dea": -0.0216,
+        "macd": 0.0179,
+        "signal": "多头"
       },
       "rsi": {
-        "rsi": 58.47,
+        "rsi": 51.3,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0,
-        "middle": 0,
-        "lower": 0,
-        "position": "无数据"
+        "upper": 0.777,
+        "middle": 0.737,
+        "lower": 0.697,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.752,
+        "ma20": 0.737,
+        "ma60": 0.817,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.755,
+      "pct_20d": 1.89,
+      "pct_60d": -17.12
+    },
+    "159027": {
+      "symbol": "159027",
+      "name": "畜牧养殖ETF大成",
+      "date": "2026-07-07",
+      "price": 0.883,
+      "today_pct": -1.67,
+      "updated_at": "2026-07-07 08:30:19",
+      "realtime": {
+        "price": 0.883,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -1.67,
+        "volume": 152867.0,
+        "turnover_rate": 11.9
+      },
+      "macd": {
+        "dif": -0.0066,
+        "dea": -0.0183,
+        "macd": 0.0235,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 58.04,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.895,
+        "middle": 0.842,
+        "lower": 0.79,
+        "position": "上轨附近"
       },
       "ma_trend": {
         "ma5": 0,
@@ -42,120 +85,120 @@
         "trend": "无数据",
         "above_ma60": false
       },
-      "last_close": 1.035,
-      "pct_20d": 0,
+      "last_close": 0.883,
+      "pct_20d": 4.13,
       "pct_60d": 0
+    },
+    "159172": {
+      "symbol": "159172",
+      "name": "养殖ETF汇添富",
+      "date": "2026-07-07",
+      "price": 0.813,
+      "today_pct": -1.45,
+      "updated_at": "2026-07-07 08:30:26",
+      "realtime": {
+        "price": 0.813,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -1.45,
+        "volume": 196165.0,
+        "turnover_rate": 5.06
+      },
+      "macd": {
+        "dif": -0.0073,
+        "dea": -0.0189,
+        "macd": 0.0232,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 59.57,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.823,
+        "middle": 0.774,
+        "lower": 0.726,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.805,
+        "ma20": 0.774,
+        "ma60": 0.852,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.813,
+      "pct_20d": 4.63,
+      "pct_60d": -12.49
     },
     "516760": {
       "symbol": "516760",
       "name": "养殖ETF平安",
       "date": "2026-07-07",
-      "price": 0.563,
-      "today_pct": -2.26,
-      "updated_at": "2026-07-07 04:54:11",
+      "price": 0.569,
+      "today_pct": -1.22,
+      "updated_at": "2026-07-07 08:30:34",
       "realtime": {
-        "price": 0.563,
+        "price": 0.569,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -2.26,
-        "volume": 117295.0,
-        "turnover_rate": 3.66
+        "pct_chg": -1.22,
+        "volume": 167515.0,
+        "turnover_rate": 5.23
       },
       "macd": {
-        "dif": -0.0069,
-        "dea": -0.0148,
-        "macd": 0.0159,
+        "dif": -0.0064,
+        "dea": -0.0147,
+        "macd": 0.0166,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 56.72,
+        "rsi": 59.37,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.576,
+        "upper": 0.577,
         "middle": 0.542,
         "lower": 0.507,
-        "position": "中轨附近"
+        "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 0.561,
+        "ma5": 0.562,
         "ma20": 0.542,
         "ma60": 0.599,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 0.563,
-      "pct_20d": 2.74,
-      "pct_60d": -13.78
-    },
-    "562900": {
-      "symbol": "562900",
-      "name": "农业ETF易方达",
-      "date": "2026-07-07",
-      "price": 0.659,
-      "today_pct": -1.79,
-      "updated_at": "2026-07-07 04:54:11",
-      "realtime": {
-        "price": 0.659,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.79,
-        "volume": 202986.0,
-        "turnover_rate": 9.16
-      },
-      "macd": {
-        "dif": -0.0102,
-        "dea": -0.019,
-        "macd": 0.0176,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 54.55,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.675,
-        "middle": 0.636,
-        "lower": 0.598,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.655,
-        "ma20": 0.636,
-        "ma60": 0.706,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.659,
-      "pct_20d": 2.17,
-      "pct_60d": -15.08
+      "last_close": 0.569,
+      "pct_20d": 3.83,
+      "pct_60d": -12.86
     },
     "159945": {
       "symbol": "159945",
       "name": "能源ETF广发",
       "date": "2026-07-07",
-      "price": 1.233,
-      "today_pct": -2.14,
-      "updated_at": "2026-07-07 04:54:12",
+      "price": 1.235,
+      "today_pct": -1.98,
+      "updated_at": "2026-07-07 08:30:36",
       "realtime": {
-        "price": 1.233,
+        "price": 1.235,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -2.14,
-        "volume": 62840.0,
-        "turnover_rate": 8.9
+        "pct_chg": -1.98,
+        "volume": 104576.0,
+        "turnover_rate": 14.82
       },
       "macd": {
-        "dif": -0.04,
+        "dif": -0.0398,
         "dea": -0.0421,
-        "macd": 0.0043,
+        "macd": 0.0045,
         "signal": "金叉"
       },
       "rsi": {
-        "rsi": 38.72,
+        "rsi": 38.98,
         "status": "中性"
       },
       "bollinger": {
@@ -165,31 +208,117 @@
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.218,
+        "ma5": 1.219,
         "ma20": 1.264,
         "ma60": 1.346,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 1.233,
-      "pct_20d": -11.61,
-      "pct_60d": -11.74
+      "last_close": 1.235,
+      "pct_20d": -11.47,
+      "pct_60d": -11.6
+    },
+    "159165": {
+      "symbol": "159165",
+      "name": "养殖ETF永赢",
+      "date": "2026-07-07",
+      "price": 0.846,
+      "today_pct": -1.05,
+      "updated_at": "2026-07-07 08:30:36",
+      "realtime": {
+        "price": 0.846,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -1.05,
+        "volume": 118285.0,
+        "turnover_rate": 10.42
+      },
+      "macd": {
+        "dif": -0.0081,
+        "dea": -0.0204,
+        "macd": 0.0246,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 59.28,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.857,
+        "middle": 0.804,
+        "lower": 0.752,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.837,
+        "ma20": 0.804,
+        "ma60": 0.887,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.846,
+      "pct_20d": 4.57,
+      "pct_60d": -13.05
+    },
+    "516670": {
+      "symbol": "516670",
+      "name": "畜牧养殖ETF招商",
+      "date": "2026-07-07",
+      "price": 0.596,
+      "today_pct": -1.0,
+      "updated_at": "2026-07-07 08:30:38",
+      "realtime": {
+        "price": 0.596,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -1.0,
+        "volume": 2031022.0,
+        "turnover_rate": 6.59
+      },
+      "macd": {
+        "dif": -0.0065,
+        "dea": -0.0152,
+        "macd": 0.0174,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 59.4,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.604,
+        "middle": 0.567,
+        "lower": 0.53,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.589,
+        "ma20": 0.567,
+        "ma60": 0.627,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.596,
+      "pct_20d": 4.01,
+      "pct_60d": -12.61
     },
     "159041": {
       "symbol": "159041",
       "name": "农业ETF鹏华",
       "date": "2026-07-07",
-      "price": 0.971,
-      "today_pct": -2.12,
-      "updated_at": "2026-07-07 04:54:20",
+      "price": 0.97,
+      "today_pct": -2.22,
+      "updated_at": "2026-07-07 08:30:39",
       "realtime": {
-        "price": 0.971,
+        "price": 0.97,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -2.12,
-        "volume": 10595.0,
-        "turnover_rate": 0.7
+        "pct_chg": -2.22,
+        "volume": 33523.0,
+        "turnover_rate": 2.21
       },
       "macd": {
         "dif": 0,
@@ -198,7 +327,7 @@
         "signal": "无数据"
       },
       "rsi": {
-        "rsi": 50.22,
+        "rsi": 50.0,
         "status": "中性"
       },
       "bollinger": {
@@ -214,396 +343,95 @@
         "trend": "无数据",
         "above_ma60": false
       },
-      "last_close": 0.971,
+      "last_close": 0.97,
       "pct_20d": 0,
       "pct_60d": 0
     },
-    "516810": {
-      "symbol": "516810",
-      "name": "农业ETF华夏",
+    "159217": {
+      "symbol": "159217",
+      "name": "港股通创新药ETF工银",
       "date": "2026-07-07",
-      "price": 0.717,
-      "today_pct": -1.92,
-      "updated_at": "2026-07-07 04:54:23",
+      "price": 1.128,
+      "today_pct": -3.75,
+      "updated_at": "2026-07-07 08:30:43",
       "realtime": {
-        "price": 0.717,
+        "price": 1.128,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -1.92,
-        "volume": 1157070.0,
-        "turnover_rate": 21.89
+        "pct_chg": -3.75,
+        "volume": 9078812.0,
+        "turnover_rate": 18.26
       },
       "macd": {
-        "dif": -0.0125,
-        "dea": -0.0206,
-        "macd": 0.0163,
+        "dif": 0.0062,
+        "dea": -0.0194,
+        "macd": 0.0511,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 50.96,
+        "rsi": 66.18,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.738,
-        "middle": 0.701,
-        "lower": 0.665,
+        "upper": 1.147,
+        "middle": 1.027,
+        "lower": 0.908,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.115,
+        "ma20": 1.027,
+        "ma60": 1.152,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 1.128,
+      "pct_20d": 14.52,
+      "pct_60d": -14.87
+    },
+    "159197": {
+      "symbol": "159197",
+      "name": "石油ETF招商",
+      "date": "2026-07-07",
+      "price": 0.835,
+      "today_pct": -2.57,
+      "updated_at": "2026-07-07 08:31:04",
+      "realtime": {
+        "price": 0.835,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -2.57,
+        "volume": 193830.0,
+        "turnover_rate": 39.25
+      },
+      "macd": {
+        "dif": -0.0239,
+        "dea": -0.0257,
+        "macd": 0.0036,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 39.18,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.908,
+        "middle": 0.856,
+        "lower": 0.804,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.714,
-        "ma20": 0.701,
-        "ma60": 0.777,
+        "ma5": 0.832,
+        "ma20": 0.856,
+        "ma60": 0.927,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 0.717,
-      "pct_20d": 1.41,
-      "pct_60d": -17.01
-    },
-    "159825": {
-      "symbol": "159825",
-      "name": "农业ETF富国",
-      "date": "2026-07-07",
-      "price": 0.698,
-      "today_pct": -1.83,
-      "updated_at": "2026-07-07 04:54:27",
-      "realtime": {
-        "price": 0.698,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.83,
-        "volume": 708401.0,
-        "turnover_rate": 3.08
-      },
-      "macd": {
-        "dif": -0.0122,
-        "dea": -0.0202,
-        "macd": 0.0161,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 51.25,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.719,
-        "middle": 0.683,
-        "lower": 0.647,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.696,
-        "ma20": 0.683,
-        "ma60": 0.758,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.698,
-      "pct_20d": 1.6,
-      "pct_60d": -17.2
-    },
-    "520930": {
-      "symbol": "520930",
-      "name": "恒生生物科技ETF国泰",
-      "date": "2026-07-07",
-      "price": 0.884,
-      "today_pct": -1.89,
-      "updated_at": "2026-07-07 04:54:31",
-      "realtime": {
-        "price": 0.884,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.89,
-        "volume": 569307.0,
-        "turnover_rate": 45.64
-      },
-      "macd": {
-        "dif": 0.0102,
-        "dea": -0.0085,
-        "macd": 0.0375,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 74.43,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 0.888,
-        "middle": 0.793,
-        "lower": 0.698,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.863,
-        "ma20": 0.793,
-        "ma60": 0.869,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.884,
-      "pct_20d": 17.09,
-      "pct_60d": -9.61
-    },
-    "530880": {
-      "symbol": "530880",
-      "name": "红利国企ETF银河",
-      "date": "2026-07-07",
-      "price": 0.998,
-      "today_pct": -2.16,
-      "updated_at": "2026-07-07 04:54:35",
-      "realtime": {
-        "price": 0.998,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -2.16,
-        "volume": 20937.0,
-        "turnover_rate": 4.52
-      },
-      "macd": {
-        "dif": -0.019,
-        "dea": -0.0188,
-        "macd": -0.0004,
-        "signal": "空头"
-      },
-      "rsi": {
-        "rsi": 37.33,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.108,
-        "middle": 1.02,
-        "lower": 0.933,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.991,
-        "ma20": 1.02,
-        "ma60": 1.044,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.998,
-      "pct_20d": -8.94,
-      "pct_60d": -3.57
-    },
-    "159303": {
-      "symbol": "159303",
-      "name": "恒生医疗ETF大成",
-      "date": "2026-07-07",
-      "price": 1.472,
-      "today_pct": -1.6,
-      "updated_at": "2026-07-07 04:54:36",
-      "realtime": {
-        "price": 1.472,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.6,
-        "volume": 1009159.0,
-        "turnover_rate": 91.75
-      },
-      "macd": {
-        "dif": 0.0119,
-        "dea": -0.0163,
-        "macd": 0.0564,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 66.37,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.493,
-        "middle": 1.345,
-        "lower": 1.197,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.46,
-        "ma20": 1.345,
-        "ma60": 1.473,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.472,
-      "pct_20d": 14.02,
-      "pct_60d": -11.06
-    },
-    "520500": {
-      "symbol": "520500",
-      "name": "恒生创新药ETF华泰柏瑞",
-      "date": "2026-07-07",
-      "price": 1.406,
-      "today_pct": -1.47,
-      "updated_at": "2026-07-07 04:54:42",
-      "realtime": {
-        "price": 1.406,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.47,
-        "volume": 12079266.0,
-        "turnover_rate": 57.84
-      },
-      "macd": {
-        "dif": 0.0114,
-        "dea": -0.0233,
-        "macd": 0.0693,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 70.65,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 1.406,
-        "middle": 1.246,
-        "lower": 1.086,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.366,
-        "ma20": 1.246,
-        "ma60": 1.406,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.406,
-      "pct_20d": 18.35,
-      "pct_60d": -14.06
-    },
-    "159616": {
-      "symbol": "159616",
-      "name": "农牧ETF建信",
-      "date": "2026-07-07",
-      "price": 0.774,
-      "today_pct": -2.15,
-      "updated_at": "2026-07-07 04:54:46",
-      "realtime": {
-        "price": 0.774,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -2.15,
-        "volume": 82708.0,
-        "turnover_rate": 11.4
-      },
-      "macd": {
-        "dif": -0.0115,
-        "dea": -0.0179,
-        "macd": 0.0127,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 47.74,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.794,
-        "middle": 0.767,
-        "lower": 0.74,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.776,
-        "ma20": 0.767,
-        "ma60": 0.837,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.774,
-      "pct_20d": 2.11,
-      "pct_60d": -16.14
-    },
-    "513700": {
-      "symbol": "513700",
-      "name": "港股通医药ETF鹏华",
-      "date": "2026-07-07",
-      "price": 0.581,
-      "today_pct": -1.69,
-      "updated_at": "2026-07-07 04:54:47",
-      "realtime": {
-        "price": 0.581,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.69,
-        "volume": 1538623.0,
-        "turnover_rate": 17.49
-      },
-      "macd": {
-        "dif": 0.0059,
-        "dea": -0.0056,
-        "macd": 0.023,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 73.05,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 0.583,
-        "middle": 0.526,
-        "lower": 0.468,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.568,
-        "ma20": 0.526,
-        "ma60": 0.573,
-        "trend": "震荡",
-        "above_ma60": true
-      },
-      "last_close": 0.581,
-      "pct_20d": 15.05,
-      "pct_60d": -9.5
-    },
-    "513060": {
-      "symbol": "513060",
-      "name": "恒生医疗ETF博时",
-      "date": "2026-07-07",
-      "price": 0.529,
-      "today_pct": -1.67,
-      "updated_at": "2026-07-07 04:54:53",
-      "realtime": {
-        "price": 0.529,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.67,
-        "volume": 9401080.0,
-        "turnover_rate": 8.56
-      },
-      "macd": {
-        "dif": 0.0032,
-        "dea": -0.0072,
-        "macd": 0.0208,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 72.03,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 0.531,
-        "middle": 0.482,
-        "lower": 0.433,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.519,
-        "ma20": 0.482,
-        "ma60": 0.531,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.529,
-      "pct_20d": 14.25,
-      "pct_60d": -11.54
+      "last_close": 0.835,
+      "pct_20d": -5.22,
+      "pct_60d": -16.75
     }
   }
 }

@@ -1,6 +1,222 @@
 {
-  "generated_at": "2026-07-08 04:17:40",
+  "generated_at": "2026-07-08 07:37:42",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 5,
+  "analyses": {
+    "589020": {
+      "symbol": "589020",
+      "name": "科创半导体设备ETF鹏华",
+      "date": "2026-07-08",
+      "price": 3.08,
+      "today_pct": 2.7,
+      "updated_at": "2026-07-08 07:36:36",
+      "realtime": {
+        "price": 3.08,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 2.7,
+        "volume": 3215785.0,
+        "turnover_rate": 33.56
+      },
+      "macd": {
+        "dif": 0.273,
+        "dea": 0.2776,
+        "macd": -0.0093,
+        "signal": "死叉"
+      },
+      "rsi": {
+        "rsi": 68.99,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 3.524,
+        "middle": 2.726,
+        "lower": 1.928,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 2.984,
+        "ma20": 2.726,
+        "ma60": 2.08,
+        "trend": "强势",
+        "above_ma60": true
+      },
+      "last_close": 3.08,
+      "pct_20d": 47.23,
+      "pct_60d": 120.95
+    },
+    "513050": {
+      "symbol": "513050",
+      "name": "中概互联网ETF易方达",
+      "date": "2026-07-08",
+      "price": 1.092,
+      "today_pct": 5.2,
+      "updated_at": "2026-07-08 07:36:58",
+      "realtime": {
+        "price": 1.092,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 5.2,
+        "volume": 46455591.0,
+        "turnover_rate": 13.84
+      },
+      "macd": {
+        "dif": -0.0238,
+        "dea": -0.0373,
+        "macd": 0.0271,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 56.21,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.119,
+        "middle": 1.026,
+        "lower": 0.934,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.033,
+        "ma20": 1.026,
+        "ma60": 1.132,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 1.092,
+      "pct_20d": -0.91,
+      "pct_60d": -9.6
+    },
+    "588100": {
+      "symbol": "588100",
+      "name": "科创信息ETF嘉实",
+      "date": "2026-07-08",
+      "price": 3.219,
+      "today_pct": 0.94,
+      "updated_at": "2026-07-08 07:37:02",
+      "realtime": {
+        "price": 3.219,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.94,
+        "volume": 86410.0,
+        "turnover_rate": 14.34
+      },
+      "macd": {
+        "dif": 0.1508,
+        "dea": 0.1663,
+        "macd": -0.031,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 62.13,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 3.631,
+        "middle": 3.071,
+        "lower": 2.51,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 3.18,
+        "ma20": 3.071,
+        "ma60": 2.68,
+        "trend": "强势",
+        "above_ma60": true
+      },
+      "last_close": 3.219,
+      "pct_20d": 23.52,
+      "pct_60d": 59.59
+    },
+    "588090": {
+      "symbol": "588090",
+      "name": "科创50ETF华泰柏瑞",
+      "date": "2026-07-08",
+      "price": 2.087,
+      "today_pct": 0.77,
+      "updated_at": "2026-07-08 07:37:06",
+      "realtime": {
+        "price": 2.087,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.77,
+        "volume": 678218.0,
+        "turnover_rate": 3.07
+      },
+      "macd": {
+        "dif": 0.0883,
+        "dea": 0.0945,
+        "macd": -0.0123,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 62.64,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 2.332,
+        "middle": 1.989,
+        "lower": 1.646,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 2.064,
+        "ma20": 1.989,
+        "ma60": 1.779,
+        "trend": "强势",
+        "above_ma60": true
+      },
+      "last_close": 2.087,
+      "pct_20d": 22.69,
+      "pct_60d": 48.86
+    },
+    "513850": {
+      "symbol": "513850",
+      "name": "美国50ETF易方达",
+      "date": "2026-07-08",
+      "price": 1.751,
+      "today_pct": -1.19,
+      "updated_at": "2026-07-08 07:37:32",
+      "realtime": {
+        "price": 1.751,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -1.19,
+        "volume": 467099.0,
+        "turnover_rate": 3.88
+      },
+      "macd": {
+        "dif": 0.0033,
+        "dea": 0.003,
+        "macd": 0.0005,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 44.15,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.795,
+        "middle": 1.746,
+        "lower": 1.698,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.755,
+        "ma20": 1.746,
+        "ma60": 1.719,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.751,
+      "pct_20d": 1.33,
+      "pct_60d": 12.1
+    }
+  }
 }

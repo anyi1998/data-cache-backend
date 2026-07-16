@@ -1,6 +1,50 @@
 {
-  "generated_at": "2026-07-15 07:20:56",
+  "generated_at": "2026-07-16 04:11:33",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 1,
+  "analyses": {
+    "512170": {
+      "symbol": "512170",
+      "name": "医疗ETF华宝",
+      "date": "2026-07-16",
+      "price": 0.336,
+      "today_pct": 1.2,
+      "updated_at": "2026-07-16 04:11:19",
+      "realtime": {
+        "price": 0.336,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 1.2,
+        "volume": 25898641.0,
+        "turnover_rate": 3.13
+      },
+      "macd": {
+        "dif": 0.0047,
+        "dea": 0.0013,
+        "macd": 0.0068,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 71.74,
+        "status": "超买"
+      },
+      "bollinger": {
+        "upper": 0.332,
+        "middle": 0.31,
+        "lower": 0.288,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.323,
+        "ma20": 0.31,
+        "ma60": 0.316,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 0.336,
+      "pct_20d": 13.51,
+      "pct_60d": 0.6
+    }
+  }
 }

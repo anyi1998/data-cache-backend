@@ -1,6 +1,93 @@
 {
-  "generated_at": "2026-07-16 07:28:39",
+  "generated_at": "2026-07-17 04:09:07",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 2,
+  "analyses": {
+    "520910": {
+      "symbol": "520910",
+      "name": "港股通互联网ETF华夏",
+      "date": "2026-07-17",
+      "price": 0.65,
+      "today_pct": -4.13,
+      "updated_at": "2026-07-17 04:08:29",
+      "realtime": {
+        "price": 0.65,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.13,
+        "volume": 973128.0,
+        "turnover_rate": 13.0
+      },
+      "macd": {
+        "dif": 0.0003,
+        "dea": -0.0096,
+        "macd": 0.0197,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 68.93,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.682,
+        "middle": 0.616,
+        "lower": 0.55,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.651,
+        "ma20": 0.616,
+        "ma60": 0.681,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.65,
+      "pct_20d": 5.35,
+      "pct_60d": -17.72
+    },
+    "159237": {
+      "symbol": "159237",
+      "name": "港股汽车ETF工银",
+      "date": "2026-07-17",
+      "price": 0.866,
+      "today_pct": -4.2,
+      "updated_at": "2026-07-17 04:08:57",
+      "realtime": {
+        "price": 0.866,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.2,
+        "volume": 145031.0,
+        "turnover_rate": 51.19
+      },
+      "macd": {
+        "dif": -0.0194,
+        "dea": -0.0262,
+        "macd": 0.0136,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 57.0,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.92,
+        "middle": 0.873,
+        "lower": 0.825,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.878,
+        "ma20": 0.873,
+        "ma60": 0.977,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.866,
+      "pct_20d": -5.36,
+      "pct_60d": -23.36
+    }
+  }
 }

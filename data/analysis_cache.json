@@ -1,32 +1,161 @@
 {
-  "generated_at": "2026-07-17 04:09:07",
+  "generated_at": "2026-07-17 07:26:08",
   "data_source": "akshare_eastmoney",
-  "count": 2,
+  "count": 15,
   "analyses": {
+    "159121": {
+      "symbol": "159121",
+      "name": "港股通汽车ETF易方达",
+      "date": "2026-07-17",
+      "price": 0.737,
+      "today_pct": -5.51,
+      "updated_at": "2026-07-17 07:24:41",
+      "realtime": {
+        "price": 0.737,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -5.51,
+        "volume": 672710.0,
+        "turnover_rate": 53.61
+      },
+      "macd": {
+        "dif": -0.018,
+        "dea": -0.0252,
+        "macd": 0.0143,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 55.16,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.781,
+        "middle": 0.741,
+        "lower": 0.7,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.747,
+        "ma20": 0.741,
+        "ma60": 0.842,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.737,
+      "pct_20d": -3.41,
+      "pct_60d": -26.0
+    },
+    "159568": {
+      "symbol": "159568",
+      "name": "港股互联网ETF博时",
+      "date": "2026-07-17",
+      "price": 1.158,
+      "today_pct": -5.16,
+      "updated_at": "2026-07-17 07:24:42",
+      "realtime": {
+        "price": 1.158,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -5.16,
+        "volume": 1735851.0,
+        "turnover_rate": 52.31
+      },
+      "macd": {
+        "dif": 0.0014,
+        "dea": -0.0165,
+        "macd": 0.0357,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 67.46,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.22,
+        "middle": 1.1,
+        "lower": 0.981,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.165,
+        "ma20": 1.1,
+        "ma60": 1.214,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 1.158,
+      "pct_20d": 5.08,
+      "pct_60d": -17.87
+    },
+    "516620": {
+      "symbol": "516620",
+      "name": "影视ETF国泰",
+      "date": "2026-07-17",
+      "price": 0.811,
+      "today_pct": -4.92,
+      "updated_at": "2026-07-17 07:24:43",
+      "realtime": {
+        "price": 0.811,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.92,
+        "volume": 733492.0,
+        "turnover_rate": 36.81
+      },
+      "macd": {
+        "dif": -0.0201,
+        "dea": -0.0255,
+        "macd": 0.0107,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 49.57,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.862,
+        "middle": 0.824,
+        "lower": 0.787,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.814,
+        "ma20": 0.824,
+        "ma60": 0.915,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.811,
+      "pct_20d": -5.59,
+      "pct_60d": -23.06
+    },
     "520910": {
       "symbol": "520910",
       "name": "港股通互联网ETF华夏",
       "date": "2026-07-17",
-      "price": 0.65,
-      "today_pct": -4.13,
-      "updated_at": "2026-07-17 04:08:29",
+      "price": 0.647,
+      "today_pct": -4.57,
+      "updated_at": "2026-07-17 07:24:43",
       "realtime": {
-        "price": 0.65,
+        "price": 0.647,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -4.13,
-        "volume": 973128.0,
-        "turnover_rate": 13.0
+        "pct_chg": -4.57,
+        "volume": 1302312.0,
+        "turnover_rate": 17.4
       },
       "macd": {
-        "dif": 0.0003,
+        "dif": 0.0,
         "dea": -0.0096,
-        "macd": 0.0197,
+        "macd": 0.0193,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 68.93,
+        "rsi": 67.78,
         "status": "中性"
       },
       "bollinger": {
@@ -36,58 +165,488 @@
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.651,
+        "ma5": 0.65,
         "ma20": 0.616,
         "ma60": 0.681,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 0.65,
-      "pct_20d": 5.35,
-      "pct_60d": -17.72
+      "last_close": 0.647,
+      "pct_20d": 4.86,
+      "pct_60d": -18.1
     },
-    "159237": {
-      "symbol": "159237",
-      "name": "港股汽车ETF工银",
+    "159550": {
+      "symbol": "159550",
+      "name": "互联网ETF东财",
       "date": "2026-07-17",
-      "price": 0.866,
-      "today_pct": -4.2,
-      "updated_at": "2026-07-17 04:08:57",
+      "price": 0.795,
+      "today_pct": -5.24,
+      "updated_at": "2026-07-17 07:24:44",
       "realtime": {
-        "price": 0.866,
+        "price": 0.795,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -4.2,
-        "volume": 145031.0,
-        "turnover_rate": 51.19
+        "pct_chg": -5.24,
+        "volume": 200422.0,
+        "turnover_rate": 10.23
       },
       "macd": {
-        "dif": -0.0194,
-        "dea": -0.0262,
-        "macd": 0.0136,
+        "dif": 0.0004,
+        "dea": -0.0077,
+        "macd": 0.0162,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 57.0,
+        "rsi": 62.91,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.92,
-        "middle": 0.873,
-        "lower": 0.825,
+        "upper": 0.837,
+        "middle": 0.778,
+        "lower": 0.719,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.878,
-        "ma20": 0.873,
-        "ma60": 0.977,
+        "ma5": 0.806,
+        "ma20": 0.778,
+        "ma60": 0.838,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 0.866,
-      "pct_20d": -5.36,
-      "pct_60d": -23.36
+      "last_close": 0.795,
+      "pct_20d": 1.53,
+      "pct_60d": -15.15
+    },
+    "520730": {
+      "symbol": "520730",
+      "name": "港股通汽车ETF万家",
+      "date": "2026-07-17",
+      "price": 0.776,
+      "today_pct": -4.9,
+      "updated_at": "2026-07-17 07:24:44",
+      "realtime": {
+        "price": 0.776,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.9,
+        "volume": 48083.0,
+        "turnover_rate": 3.87
+      },
+      "macd": {
+        "dif": -0.0171,
+        "dea": -0.0244,
+        "macd": 0.0146,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 56.34,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.817,
+        "middle": 0.776,
+        "lower": 0.735,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0,
+        "ma20": 0,
+        "ma60": 0,
+        "trend": "无数据",
+        "above_ma60": false
+      },
+      "last_close": 0.776,
+      "pct_20d": -2.88,
+      "pct_60d": 0
+    },
+    "159239": {
+      "symbol": "159239",
+      "name": "港股通汽车ETF富国",
+      "date": "2026-07-17",
+      "price": 0.78,
+      "today_pct": -4.65,
+      "updated_at": "2026-07-17 07:24:45",
+      "realtime": {
+        "price": 0.78,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.65,
+        "volume": 191352.0,
+        "turnover_rate": 26.84
+      },
+      "macd": {
+        "dif": -0.0186,
+        "dea": -0.0264,
+        "macd": 0.0157,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 56.65,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.82,
+        "middle": 0.779,
+        "lower": 0.738,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.788,
+        "ma20": 0.779,
+        "ma60": 0.886,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.78,
+      "pct_20d": -2.74,
+      "pct_60d": -25.57
+    },
+    "520630": {
+      "symbol": "520630",
+      "name": "港股通互联网ETF广发",
+      "date": "2026-07-17",
+      "price": 0.677,
+      "today_pct": -4.38,
+      "updated_at": "2026-07-17 07:24:45",
+      "realtime": {
+        "price": 0.677,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.38,
+        "volume": 1578573.0,
+        "turnover_rate": 35.46
+      },
+      "macd": {
+        "dif": 0.0008,
+        "dea": -0.0098,
+        "macd": 0.0212,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 69.02,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.711,
+        "middle": 0.641,
+        "lower": 0.57,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.679,
+        "ma20": 0.641,
+        "ma60": 0.708,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.677,
+      "pct_20d": 5.45,
+      "pct_60d": -17.54
+    },
+    "513040": {
+      "symbol": "513040",
+      "name": "港股通互联网ETF易方达",
+      "date": "2026-07-17",
+      "price": 0.948,
+      "today_pct": -4.72,
+      "updated_at": "2026-07-17 07:24:46",
+      "realtime": {
+        "price": 0.948,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.72,
+        "volume": 10950931.0,
+        "turnover_rate": 16.59
+      },
+      "macd": {
+        "dif": -0.0024,
+        "dea": -0.016,
+        "macd": 0.0272,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 65.93,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.001,
+        "middle": 0.908,
+        "lower": 0.815,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.954,
+        "ma20": 0.908,
+        "ma60": 1.008,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.948,
+      "pct_20d": 3.95,
+      "pct_60d": -19.39
+    },
+    "159793": {
+      "symbol": "159793",
+      "name": "线上消费ETF平安",
+      "date": "2026-07-17",
+      "price": 0.783,
+      "today_pct": -5.89,
+      "updated_at": "2026-07-17 07:24:46",
+      "realtime": {
+        "price": 0.783,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -5.89,
+        "volume": 41379.0,
+        "turnover_rate": 10.96
+      },
+      "macd": {
+        "dif": -0.0036,
+        "dea": -0.0102,
+        "macd": 0.0131,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 56.87,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.824,
+        "middle": 0.779,
+        "lower": 0.733,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.797,
+        "ma20": 0.779,
+        "ma60": 0.839,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.783,
+      "pct_20d": -0.51,
+      "pct_60d": -17.32
+    },
+    "159028": {
+      "symbol": "159028",
+      "name": "港股汽车ETF天弘",
+      "date": "2026-07-17",
+      "price": 0.77,
+      "today_pct": -4.47,
+      "updated_at": "2026-07-17 07:24:47",
+      "realtime": {
+        "price": 0.77,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.47,
+        "volume": 76742.0,
+        "turnover_rate": 6.07
+      },
+      "macd": {
+        "dif": -0.0174,
+        "dea": -0.0253,
+        "macd": 0.0157,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 57.28,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.807,
+        "middle": 0.766,
+        "lower": 0.725,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0,
+        "ma20": 0,
+        "ma60": 0,
+        "trend": "无数据",
+        "above_ma60": false
+      },
+      "last_close": 0.77,
+      "pct_20d": -2.16,
+      "pct_60d": 0
+    },
+    "520650": {
+      "symbol": "520650",
+      "name": "港股通互联网ETF南方",
+      "date": "2026-07-17",
+      "price": 0.611,
+      "today_pct": -4.38,
+      "updated_at": "2026-07-17 07:24:47",
+      "realtime": {
+        "price": 0.611,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.38,
+        "volume": 3113416.0,
+        "turnover_rate": 15.87
+      },
+      "macd": {
+        "dif": -0.0002,
+        "dea": -0.0091,
+        "macd": 0.0178,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 67.66,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.645,
+        "middle": 0.583,
+        "lower": 0.52,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.615,
+        "ma20": 0.583,
+        "ma60": 0.644,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.611,
+      "pct_20d": 4.98,
+      "pct_60d": -18.32
+    },
+    "159855": {
+      "symbol": "159855",
+      "name": "影视ETF银华",
+      "date": "2026-07-17",
+      "price": 0.72,
+      "today_pct": -5.14,
+      "updated_at": "2026-07-17 07:24:48",
+      "realtime": {
+        "price": 0.72,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -5.14,
+        "volume": 378059.0,
+        "turnover_rate": 19.4
+      },
+      "macd": {
+        "dif": -0.0187,
+        "dea": -0.0232,
+        "macd": 0.0091,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 48.89,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.77,
+        "middle": 0.735,
+        "lower": 0.701,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.726,
+        "ma20": 0.735,
+        "ma60": 0.817,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.72,
+      "pct_20d": -6.25,
+      "pct_60d": -23.4
+    },
+    "520790": {
+      "symbol": "520790",
+      "name": "港股通互联网ETF兴业",
+      "date": "2026-07-17",
+      "price": 0.846,
+      "today_pct": -4.19,
+      "updated_at": "2026-07-17 07:24:49",
+      "realtime": {
+        "price": 0.846,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.19,
+        "volume": 320919.0,
+        "turnover_rate": 7.6
+      },
+      "macd": {
+        "dif": 0.0011,
+        "dea": -0.0119,
+        "macd": 0.026,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 68.33,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.887,
+        "middle": 0.8,
+        "lower": 0.713,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.847,
+        "ma20": 0.8,
+        "ma60": 0.883,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.846,
+      "pct_20d": 5.75,
+      "pct_60d": -17.06
+    },
+    "159186": {
+      "symbol": "159186",
+      "name": "港股通汽车ETF鹏华",
+      "date": "2026-07-17",
+      "price": 0.746,
+      "today_pct": -4.24,
+      "updated_at": "2026-07-17 07:24:49",
+      "realtime": {
+        "price": 0.746,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -4.24,
+        "volume": 22534.0,
+        "turnover_rate": 2.56
+      },
+      "macd": {
+        "dif": -0.0175,
+        "dea": -0.0249,
+        "macd": 0.0148,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 57.43,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.783,
+        "middle": 0.744,
+        "lower": 0.704,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.752,
+        "ma20": 0.744,
+        "ma60": 0.844,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.746,
+      "pct_20d": -2.48,
+      "pct_60d": -24.87
     }
   }
 }

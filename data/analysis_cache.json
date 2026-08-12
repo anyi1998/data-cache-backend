@@ -1,81 +1,81 @@
 {
-  "generated_at": "2026-08-12 03:24:26",
+  "generated_at": "2026-08-12 05:15:53",
   "data_source": "akshare_eastmoney",
-  "count": 17,
+  "count": 14,
   "analyses": {
-    "159278": {
-      "symbol": "159278",
-      "name": "机器人ETF鹏华",
+    "159048": {
+      "symbol": "159048",
+      "name": "机器人ETF大成",
       "date": "2026-08-12",
-      "price": 1.012,
-      "today_pct": -0.39,
-      "updated_at": "2026-08-12 03:23:52",
+      "price": 0.915,
+      "today_pct": -1.19,
+      "updated_at": "2026-08-12 05:15:03",
       "realtime": {
-        "price": 1.012,
+        "price": 0.915,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -0.39,
-        "volume": 632933.0,
-        "turnover_rate": 2.89
+        "pct_chg": -1.19,
+        "volume": 98032.0,
+        "turnover_rate": 4.91
       },
       "macd": {
-        "dif": -0.012,
-        "dea": -0.0279,
-        "macd": 0.0318,
+        "dif": -0.0119,
+        "dea": -0.0264,
+        "macd": 0.029,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 64.82,
+        "rsi": 64.39,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.044,
-        "middle": 0.953,
-        "lower": 0.862,
+        "upper": 0.949,
+        "middle": 0.866,
+        "lower": 0.783,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.004,
-        "ma20": 0.953,
-        "ma60": 1.071,
-        "trend": "震荡",
+        "ma5": 0,
+        "ma20": 0,
+        "ma60": 0,
+        "trend": "无数据",
         "above_ma60": false
       },
-      "last_close": 1.011,
-      "pct_20d": -0.59,
-      "pct_60d": -14.9
+      "last_close": 0.915,
+      "pct_20d": -1.29,
+      "pct_60d": 0
     },
     "159039": {
       "symbol": "159039",
       "name": "机器人ETF华安",
       "date": "2026-08-12",
-      "price": 0.894,
-      "today_pct": -0.22,
-      "updated_at": "2026-08-12 03:23:54",
+      "price": 0.889,
+      "today_pct": -0.78,
+      "updated_at": "2026-08-12 05:15:09",
       "realtime": {
-        "price": 0.894,
+        "price": 0.889,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": -0.22,
-        "volume": 241762.0,
-        "turnover_rate": 2.85
+        "pct_chg": -0.78,
+        "volume": 295723.0,
+        "turnover_rate": 3.54
       },
       "macd": {
-        "dif": -0.0129,
-        "dea": -0.0276,
-        "macd": 0.0294,
+        "dif": -0.0133,
+        "dea": -0.0277,
+        "macd": 0.0288,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 65.61,
+        "rsi": 64.34,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.924,
-        "middle": 0.843,
-        "lower": 0.761,
+        "upper": 0.923,
+        "middle": 0.842,
+        "lower": 0.762,
         "position": "中轨附近"
       },
       "ma_trend": {
@@ -85,374 +85,202 @@
         "trend": "无数据",
         "above_ma60": false
       },
-      "last_close": 0.894,
-      "pct_20d": -1.32,
+      "last_close": 0.889,
+      "pct_20d": -1.88,
       "pct_60d": 0
     },
-    "159566": {
-      "symbol": "159566",
-      "name": "储能电池ETF易方达",
+    "159052": {
+      "symbol": "159052",
+      "name": "新能源电池ETF嘉实",
       "date": "2026-08-12",
-      "price": 1.919,
-      "today_pct": 1.48,
-      "updated_at": "2026-08-12 03:23:57",
+      "price": 0.88,
+      "today_pct": 0.8,
+      "updated_at": "2026-08-12 05:15:12",
       "realtime": {
-        "price": 1.919,
+        "price": 0.88,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 1.48,
-        "volume": 818349.0,
-        "turnover_rate": 2.92
+        "pct_chg": 0.8,
+        "volume": 39337.0,
+        "turnover_rate": 1.99
       },
       "macd": {
-        "dif": -0.0394,
-        "dea": -0.0675,
-        "macd": 0.0563,
+        "dif": -0.0144,
+        "dea": -0.026,
+        "macd": 0.0232,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 55.73,
+        "rsi": 56.85,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.926,
-        "middle": 1.821,
-        "lower": 1.715,
+        "upper": 0.885,
+        "middle": 0.837,
+        "lower": 0.789,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.875,
-        "ma20": 1.821,
-        "ma60": 2.085,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.92,
-      "pct_20d": 3.17,
-      "pct_60d": -22.8
-    },
-    "562360": {
-      "symbol": "562360",
-      "name": "机器人ETF银华",
-      "date": "2026-08-12",
-      "price": 1.104,
-      "today_pct": -0.09,
-      "updated_at": "2026-08-12 03:24:00",
-      "realtime": {
-        "price": 1.104,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -0.09,
-        "volume": 92647.0,
-        "turnover_rate": 3.2
-      },
-      "macd": {
-        "dif": -0.0132,
-        "dea": -0.0283,
-        "macd": 0.0301,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 62.59,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.137,
-        "middle": 1.052,
-        "lower": 0.967,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.098,
-        "ma20": 1.052,
-        "ma60": 1.169,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.104,
-      "pct_20d": -0.9,
-      "pct_60d": -14.09
-    },
-    "159099": {
-      "symbol": "159099",
-      "name": "云计算ETF华宝",
-      "date": "2026-08-12",
-      "price": 1.022,
-      "today_pct": 0.69,
-      "updated_at": "2026-08-12 03:24:04",
-      "realtime": {
-        "price": 1.022,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 0.69,
-        "volume": 31288.0,
-        "turnover_rate": 2.51
-      },
-      "macd": {
-        "dif": 0,
-        "dea": 0,
-        "macd": 0,
-        "signal": "无数据"
-      },
-      "rsi": {
-        "rsi": 50,
-        "status": "无数据"
-      },
-      "bollinger": {
-        "upper": 0,
-        "middle": 0,
-        "lower": 0,
-        "position": "无数据"
-      },
-      "ma_trend": {
         "ma5": 0,
         "ma20": 0,
         "ma60": 0,
         "trend": "无数据",
         "above_ma60": false
       },
-      "last_close": 1.022,
-      "pct_20d": 0,
+      "last_close": 0.881,
+      "pct_20d": 2.92,
       "pct_60d": 0
+    },
+    "159305": {
+      "symbol": "159305",
+      "name": "储能电池ETF广发",
+      "date": "2026-08-12",
+      "price": 0.852,
+      "today_pct": 0.95,
+      "updated_at": "2026-08-12 05:15:15",
+      "realtime": {
+        "price": 0.852,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.95,
+        "volume": 273185.0,
+        "turnover_rate": 2.31
+      },
+      "macd": {
+        "dif": -0.0171,
+        "dea": -0.0294,
+        "macd": 0.0246,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 55.61,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.857,
+        "middle": 0.81,
+        "lower": 0.764,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.835,
+        "ma20": 0.81,
+        "ma60": 0.926,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.85,
+      "pct_20d": 2.41,
+      "pct_60d": -22.87
+    },
+    "561920": {
+      "symbol": "561920",
+      "name": "疫苗ETF招商",
+      "date": "2026-08-12",
+      "price": 0.682,
+      "today_pct": -0.15,
+      "updated_at": "2026-08-12 05:15:22",
+      "realtime": {
+        "price": 0.682,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.15,
+        "volume": 4616.0,
+        "turnover_rate": 1.11
+      },
+      "macd": {
+        "dif": 0.0079,
+        "dea": 0.0023,
+        "macd": 0.0112,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 61.84,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.686,
+        "middle": 0.645,
+        "lower": 0.604,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.668,
+        "ma20": 0.645,
+        "ma60": 0.637,
+        "trend": "强势",
+        "above_ma60": true
+      },
+      "last_close": 0.682,
+      "pct_20d": 0.74,
+      "pct_60d": 0.15
+    },
+    "159213": {
+      "symbol": "159213",
+      "name": "机器人ETF汇添富",
+      "date": "2026-08-12",
+      "price": 1.224,
+      "today_pct": -0.49,
+      "updated_at": "2026-08-12 05:15:24",
+      "realtime": {
+        "price": 1.224,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.49,
+        "volume": 108046.0,
+        "turnover_rate": 2.16
+      },
+      "macd": {
+        "dif": -0.0149,
+        "dea": -0.0312,
+        "macd": 0.0327,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 61.16,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.266,
+        "middle": 1.171,
+        "lower": 1.077,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.222,
+        "ma20": 1.171,
+        "ma60": 1.301,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 1.224,
+      "pct_20d": -1.13,
+      "pct_60d": -14.58
     },
     "512460": {
       "symbol": "512460",
       "name": "电池ETF华夏",
       "date": "2026-08-12",
-      "price": 0.892,
-      "today_pct": 0.56,
-      "updated_at": "2026-08-12 03:24:05",
-      "realtime": {
-        "price": 0.892,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 0.56,
-        "volume": 106226.0,
-        "turnover_rate": 3.62
-      },
-      "macd": {
-        "dif": -0.0147,
-        "dea": -0.0286,
-        "macd": 0.0278,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 61.88,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.896,
-        "middle": 0.843,
-        "lower": 0.79,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.876,
-        "ma20": 0.843,
-        "ma60": 0.967,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.893,
-      "pct_20d": 6.95,
-      "pct_60d": -22.08
-    },
-    "560770": {
-      "symbol": "560770",
-      "name": "机器人ETF招商",
-      "date": "2026-08-12",
-      "price": 1.018,
-      "today_pct": 0.2,
-      "updated_at": "2026-08-12 03:24:07",
-      "realtime": {
-        "price": 1.018,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 0.2,
-        "volume": 80650.0,
-        "turnover_rate": 0.48
-      },
-      "macd": {
-        "dif": -0.0103,
-        "dea": -0.0241,
-        "macd": 0.0278,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 63.74,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.046,
-        "middle": 0.966,
-        "lower": 0.887,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.012,
-        "ma20": 0.966,
-        "ma60": 1.07,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.017,
-      "pct_20d": -0.2,
-      "pct_60d": -13.52
-    },
-    "159067": {
-      "symbol": "159067",
-      "name": "绿色电力ETF鹏华",
-      "date": "2026-08-12",
-      "price": 1.034,
-      "today_pct": -1.24,
-      "updated_at": "2026-08-12 03:24:09",
-      "realtime": {
-        "price": 1.034,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": -1.24,
-        "volume": 2135.0,
-        "turnover_rate": 0.79
-      },
-      "macd": {
-        "dif": 0,
-        "dea": 0,
-        "macd": 0,
-        "signal": "无数据"
-      },
-      "rsi": {
-        "rsi": 39.6,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.071,
-        "middle": 1.036,
-        "lower": 1.002,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0,
-        "ma20": 0,
-        "ma60": 0,
-        "trend": "无数据",
-        "above_ma60": false
-      },
-      "last_close": 1.034,
-      "pct_20d": 4.34,
-      "pct_60d": 0
-    },
-    "159551": {
-      "symbol": "159551",
-      "name": "机器人ETF国泰",
-      "date": "2026-08-12",
-      "price": 1.331,
-      "today_pct": 0.15,
-      "updated_at": "2026-08-12 03:24:09",
-      "realtime": {
-        "price": 1.331,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 0.15,
-        "volume": 59037.0,
-        "turnover_rate": 1.86
-      },
-      "macd": {
-        "dif": -0.0139,
-        "dea": -0.032,
-        "macd": 0.0362,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 62.82,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.37,
-        "middle": 1.265,
-        "lower": 1.161,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.324,
-        "ma20": 1.265,
-        "ma60": 1.403,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 1.331,
-      "pct_20d": -0.3,
-      "pct_60d": -13.63
-    },
-    "560230": {
-      "symbol": "560230",
-      "name": "光伏ETF富国",
-      "date": "2026-08-12",
-      "price": 0.789,
-      "today_pct": 0.77,
-      "updated_at": "2026-08-12 03:24:12",
-      "realtime": {
-        "price": 0.789,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 0.77,
-        "volume": 36644.0,
-        "turnover_rate": 3.99
-      },
-      "macd": {
-        "dif": -0.0132,
-        "dea": -0.0253,
-        "macd": 0.0242,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 59.49,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 0.794,
-        "middle": 0.749,
-        "lower": 0.703,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.778,
-        "ma20": 0.749,
-        "ma60": 0.859,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.789,
-      "pct_20d": 6.05,
-      "pct_60d": -22.57
-    },
-    "560410": {
-      "symbol": "560410",
-      "name": "电池ETF鹏华",
-      "date": "2026-08-12",
       "price": 0.888,
-      "today_pct": 1.02,
-      "updated_at": "2026-08-12 03:24:13",
+      "today_pct": 0.11,
+      "updated_at": "2026-08-12 05:15:26",
       "realtime": {
         "price": 0.888,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 1.02,
-        "volume": 37951.0,
-        "turnover_rate": 5.68
+        "pct_chg": 0.11,
+        "volume": 116058.0,
+        "turnover_rate": 3.95
       },
       "macd": {
-        "dif": -0.0158,
-        "dea": -0.0295,
-        "macd": 0.0275,
+        "dif": -0.0151,
+        "dea": -0.0286,
+        "macd": 0.0271,
         "signal": "多头"
       },
       "rsi": {
@@ -460,179 +288,179 @@
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.891,
-        "middle": 0.839,
-        "lower": 0.788,
+        "upper": 0.895,
+        "middle": 0.843,
+        "lower": 0.791,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 0.871,
-        "ma20": 0.839,
-        "ma60": 0.965,
+        "ma5": 0.875,
+        "ma20": 0.843,
+        "ma60": 0.967,
         "trend": "震荡",
         "above_ma60": false
       },
       "last_close": 0.888,
-      "pct_20d": 6.22,
-      "pct_60d": -22.38
+      "pct_20d": 6.35,
+      "pct_60d": -22.51
     },
-    "159306": {
-      "symbol": "159306",
-      "name": "汽车零部件ETF平安",
+    "159368": {
+      "symbol": "159368",
+      "name": "创业板新能源ETF华夏",
       "date": "2026-08-12",
-      "price": 1.186,
-      "today_pct": 0.08,
-      "updated_at": "2026-08-12 03:24:14",
+      "price": 0.695,
+      "today_pct": 0.43,
+      "updated_at": "2026-08-12 05:15:26",
       "realtime": {
-        "price": 1.186,
+        "price": 0.695,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 0.08,
-        "volume": 7630.0,
-        "turnover_rate": 3.15
+        "pct_chg": 0.43,
+        "volume": 1329742.0,
+        "turnover_rate": 12.71
       },
       "macd": {
-        "dif": -0.0144,
-        "dea": -0.0285,
-        "macd": 0.0281,
+        "dif": -0.0116,
+        "dea": -0.0228,
+        "macd": 0.0224,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 64.36,
+        "rsi": 62.07,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.205,
-        "middle": 1.141,
-        "lower": 1.077,
+        "upper": 0.698,
+        "middle": 0.657,
+        "lower": 0.615,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.177,
-        "ma20": 1.141,
-        "ma60": 1.266,
+        "ma5": 0.684,
+        "ma20": 0.657,
+        "ma60": 0.755,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 1.186,
-      "pct_20d": 0.0,
-      "pct_60d": -17.98
+      "last_close": 0.695,
+      "pct_20d": 5.78,
+      "pct_60d": -20.84
     },
-    "589120": {
-      "symbol": "589120",
-      "name": "科创创新药ETF汇添富",
+    "159526": {
+      "symbol": "159526",
+      "name": "机器人ETF嘉实",
       "date": "2026-08-12",
-      "price": 0.896,
-      "today_pct": 0.34,
-      "updated_at": "2026-08-12 03:24:14",
+      "price": 1.507,
+      "today_pct": -0.2,
+      "updated_at": "2026-08-12 05:15:29",
       "realtime": {
-        "price": 0.896,
+        "price": 1.507,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 0.34,
-        "volume": 1598905.0,
-        "turnover_rate": 11.92
+        "pct_chg": -0.2,
+        "volume": 92095.0,
+        "turnover_rate": 1.54
       },
       "macd": {
-        "dif": 0.012,
-        "dea": 0.0049,
-        "macd": 0.0143,
+        "dif": -0.0152,
+        "dea": -0.0356,
+        "macd": 0.0408,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 54.29,
+        "rsi": 62.88,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.927,
-        "middle": 0.842,
-        "lower": 0.757,
+        "upper": 1.554,
+        "middle": 1.435,
+        "lower": 1.316,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0.872,
-        "ma20": 0.842,
-        "ma60": 0.801,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 0.896,
-      "pct_20d": -1.1,
-      "pct_60d": 10.48
-    },
-    "562500": {
-      "symbol": "562500",
-      "name": "机器人ETF华夏",
-      "date": "2026-08-12",
-      "price": 1.022,
-      "today_pct": 0.1,
-      "updated_at": "2026-08-12 03:24:15",
-      "realtime": {
-        "price": 1.022,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 0.1,
-        "volume": 2337732.0,
-        "turnover_rate": 1.26
-      },
-      "macd": {
-        "dif": -0.0121,
-        "dea": -0.0261,
-        "macd": 0.0279,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 62.89,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.052,
-        "middle": 0.973,
-        "lower": 0.893,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.016,
-        "ma20": 0.973,
-        "ma60": 1.082,
+        "ma5": 1.502,
+        "ma20": 1.435,
+        "ma60": 1.59,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 1.02,
-      "pct_20d": -0.87,
-      "pct_60d": -14.5
+      "last_close": 1.507,
+      "pct_20d": -0.26,
+      "pct_60d": -13.79
+    },
+    "159175": {
+      "symbol": "159175",
+      "name": "电池ETF易方达",
+      "date": "2026-08-12",
+      "price": 0.948,
+      "today_pct": 0.32,
+      "updated_at": "2026-08-12 05:15:44",
+      "realtime": {
+        "price": 0.948,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.32,
+        "volume": 146552.0,
+        "turnover_rate": 2.87
+      },
+      "macd": {
+        "dif": -0.0145,
+        "dea": -0.0289,
+        "macd": 0.0289,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 63.95,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.955,
+        "middle": 0.897,
+        "lower": 0.839,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.934,
+        "ma20": 0.897,
+        "ma60": 1.026,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.948,
+      "pct_20d": 6.52,
+      "pct_60d": -22.04
     },
     "588130": {
       "symbol": "588130",
       "name": "科创医药ETF华夏",
       "date": "2026-08-12",
-      "price": 1.073,
-      "today_pct": 0.37,
-      "updated_at": "2026-08-12 03:24:19",
+      "price": 1.069,
+      "today_pct": 0.0,
+      "updated_at": "2026-08-12 05:15:45",
       "realtime": {
-        "price": 1.073,
+        "price": 1.069,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 0.37,
-        "volume": 661105.0,
-        "turnover_rate": 14.9
+        "pct_chg": 0.0,
+        "volume": 730867.0,
+        "turnover_rate": 14.82
       },
       "macd": {
-        "dif": 0.0087,
-        "dea": 0.0011,
-        "macd": 0.0153,
+        "dif": 0.0084,
+        "dea": 0.001,
+        "macd": 0.0148,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 56.29,
+        "rsi": 55.67,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.096,
+        "upper": 1.095,
         "middle": 1.021,
         "lower": 0.946,
         "position": "中轨附近"
@@ -644,95 +472,138 @@
         "trend": "强势",
         "above_ma60": true
       },
-      "last_close": 1.073,
-      "pct_20d": -1.11,
-      "pct_60d": 2.78
+      "last_close": 1.069,
+      "pct_20d": -1.47,
+      "pct_60d": 2.39
     },
-    "159370": {
-      "symbol": "159370",
-      "name": "创50ETF工银",
+    "159149": {
+      "symbol": "159149",
+      "name": "创业板新能源ETF工银",
       "date": "2026-08-12",
-      "price": 1.882,
-      "today_pct": 1.57,
-      "updated_at": "2026-08-12 03:24:21",
+      "price": 0.893,
+      "today_pct": 0.56,
+      "updated_at": "2026-08-12 05:15:48",
       "realtime": {
-        "price": 1.882,
+        "price": 0.893,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 1.57,
-        "volume": 25682.0,
-        "turnover_rate": 1.17
+        "pct_chg": 0.56,
+        "volume": 23906.0,
+        "turnover_rate": 4.23
       },
       "macd": {
-        "dif": -0.0489,
-        "dea": -0.0668,
-        "macd": 0.0358,
+        "dif": -0.0153,
+        "dea": -0.0293,
+        "macd": 0.028,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 48.88,
+        "rsi": 62.5,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.978,
-        "middle": 1.843,
-        "lower": 1.708,
-        "position": "中轨附近"
+        "upper": 0.896,
+        "middle": 0.846,
+        "lower": 0.796,
+        "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 1.859,
-        "ma20": 1.843,
-        "ma60": 2.05,
+        "ma5": 0.88,
+        "ma20": 0.846,
+        "ma60": 0.971,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 1.885,
-      "pct_20d": -3.33,
-      "pct_60d": -9.38
+      "last_close": 0.893,
+      "pct_20d": 5.81,
+      "pct_60d": -20.69
     },
-    "159076": {
-      "symbol": "159076",
-      "name": "创业板新能源ETF华宝",
+    "159187": {
+      "symbol": "159187",
+      "name": "创业板新能源ETF景顺",
       "date": "2026-08-12",
-      "price": 0.891,
-      "today_pct": 0.91,
-      "updated_at": "2026-08-12 03:24:24",
+      "price": 0.888,
+      "today_pct": 0.57,
+      "updated_at": "2026-08-12 05:15:51",
       "realtime": {
-        "price": 0.891,
+        "price": 0.888,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 0.91,
-        "volume": 107937.0,
-        "turnover_rate": 4.18
+        "pct_chg": 0.57,
+        "volume": 5472.0,
+        "turnover_rate": 1.03
       },
       "macd": {
-        "dif": -0.0005,
-        "dea": -0.0102,
-        "macd": 0.0195,
+        "dif": -0.0151,
+        "dea": -0.0291,
+        "macd": 0.0279,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 62.57,
+        "rsi": 62.43,
         "status": "中性"
       },
       "bollinger": {
         "upper": 0.893,
-        "middle": 0.84,
-        "lower": 0.787,
+        "middle": 0.841,
+        "lower": 0.789,
         "position": "上轨附近"
       },
       "ma_trend": {
-        "ma5": 0,
-        "ma20": 0,
-        "ma60": 0,
-        "trend": "无数据",
+        "ma5": 0.875,
+        "ma20": 0.841,
+        "ma60": 0.967,
+        "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 0.891,
-      "pct_20d": 6.07,
-      "pct_60d": 0
+      "last_close": 0.888,
+      "pct_20d": 5.09,
+      "pct_60d": -20.93
+    },
+    "560190": {
+      "symbol": "560190",
+      "name": "公用事业ETF鹏华",
+      "date": "2026-08-12",
+      "price": 1.027,
+      "today_pct": -0.96,
+      "updated_at": "2026-08-12 05:15:52",
+      "realtime": {
+        "price": 1.027,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.96,
+        "volume": 7513.0,
+        "turnover_rate": 3.89
+      },
+      "macd": {
+        "dif": 0.0,
+        "dea": -0.0003,
+        "macd": 0.0006,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 38.76,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.062,
+        "middle": 1.032,
+        "lower": 1.002,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.028,
+        "ma20": 1.032,
+        "ma60": 1.053,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 1.027,
+      "pct_20d": 3.42,
+      "pct_60d": -7.31
     }
   }
 }

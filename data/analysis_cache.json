@@ -1,6 +1,222 @@
 {
-  "generated_at": "2026-09-11 09:31:20",
+  "generated_at": "2026-09-14 05:56:05",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 5,
+  "analyses": {
+    "159568": {
+      "symbol": "159568",
+      "name": "港股互联网ETF博时",
+      "date": "2026-09-14",
+      "price": 1.063,
+      "today_pct": -0.37,
+      "updated_at": "2026-09-14 05:55:33",
+      "realtime": {
+        "price": 1.063,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.37,
+        "volume": 271347.0,
+        "turnover_rate": 7.94
+      },
+      "macd": {
+        "dif": -0.0272,
+        "dea": -0.0213,
+        "macd": -0.0119,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 33.33,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.19,
+        "middle": 1.12,
+        "lower": 1.051,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.076,
+        "ma20": 1.12,
+        "ma60": 1.142,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 1.063,
+      "pct_20d": -9.15,
+      "pct_60d": 0.47
+    },
+    "159241": {
+      "symbol": "159241",
+      "name": "航空航天ETF天弘",
+      "date": "2026-09-14",
+      "price": 1.058,
+      "today_pct": -2.85,
+      "updated_at": "2026-09-14 05:55:33",
+      "realtime": {
+        "price": 1.058,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -2.85,
+        "volume": 685823.0,
+        "turnover_rate": 5.38
+      },
+      "macd": {
+        "dif": 0.0108,
+        "dea": 0.0065,
+        "macd": 0.0085,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 66.45,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.106,
+        "middle": 1.045,
+        "lower": 0.984,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.079,
+        "ma20": 1.045,
+        "ma60": 1.052,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 1.058,
+      "pct_20d": -0.56,
+      "pct_60d": -6.45
+    },
+    "520790": {
+      "symbol": "520790",
+      "name": "港股通互联网ETF兴业",
+      "date": "2026-09-14",
+      "price": 0.777,
+      "today_pct": -0.26,
+      "updated_at": "2026-09-14 05:55:34",
+      "realtime": {
+        "price": 0.777,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.26,
+        "volume": 105505.0,
+        "turnover_rate": 1.69
+      },
+      "macd": {
+        "dif": -0.019,
+        "dea": -0.0144,
+        "macd": -0.0091,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 35.48,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.87,
+        "middle": 0.819,
+        "lower": 0.769,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.787,
+        "ma20": 0.819,
+        "ma60": 0.832,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.779,
+      "pct_20d": -8.57,
+      "pct_60d": 1.7
+    },
+    "159269": {
+      "symbol": "159269",
+      "name": "港股通科技ETF南方",
+      "date": "2026-09-14",
+      "price": 0.808,
+      "today_pct": 0.12,
+      "updated_at": "2026-09-14 05:55:56",
+      "realtime": {
+        "price": 0.808,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.12,
+        "volume": 836100.0,
+        "turnover_rate": 5.57
+      },
+      "macd": {
+        "dif": -0.0137,
+        "dea": -0.0083,
+        "macd": -0.0109,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 28.43,
+        "status": "超卖"
+      },
+      "bollinger": {
+        "upper": 0.894,
+        "middle": 0.847,
+        "lower": 0.801,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.815,
+        "ma20": 0.847,
+        "ma60": 0.848,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.809,
+      "pct_20d": -7.86,
+      "pct_60d": 1.12
+    },
+    "560620": {
+      "symbol": "560620",
+      "name": "公用事业ETF万家",
+      "date": "2026-09-14",
+      "price": 0.966,
+      "today_pct": 0.21,
+      "updated_at": "2026-09-14 05:56:00",
+      "realtime": {
+        "price": 0.966,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.21,
+        "volume": 2445.0,
+        "turnover_rate": 0.95
+      },
+      "macd": {
+        "dif": 0.0008,
+        "dea": -0.001,
+        "macd": 0.0037,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 66.1,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.969,
+        "middle": 0.954,
+        "lower": 0.938,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.962,
+        "ma20": 0.954,
+        "ma60": 0.954,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 0.966,
+      "pct_20d": 1.79,
+      "pct_60d": -0.21
+    }
+  }
 }

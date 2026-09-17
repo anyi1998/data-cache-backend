@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-09-16 09:49:55",
+  "generated_at": "2026-09-17 05:53:06",
   "data_source": "akshare_eastmoney",
   "count": 1,
   "analyses": {
-    "588000": {
-      "symbol": "588000",
-      "name": "科创50ETF华夏",
-      "date": "2026-09-16",
-      "price": 1.708,
-      "today_pct": 4.27,
-      "updated_at": "2026-09-16 09:49:53",
+    "159546": {
+      "symbol": "159546",
+      "name": "集成电路ETF国泰",
+      "date": "2026-09-17",
+      "price": 0.742,
+      "today_pct": -1.2,
+      "updated_at": "2026-09-17 05:53:02",
       "realtime": {
-        "price": 1.708,
+        "price": 0.742,
         "open": 0,
         "high": 0,
         "low": 0,
-        "pct_chg": 4.27,
-        "volume": 47766717.0,
-        "turnover_rate": 8.58
+        "pct_chg": -1.2,
+        "volume": 464058.0,
+        "turnover_rate": 6.15
       },
       "macd": {
-        "dif": -0.0428,
-        "dea": -0.0442,
-        "macd": 0.0028,
-        "signal": "金叉"
+        "dif": -0.0193,
+        "dea": -0.021,
+        "macd": 0.0034,
+        "signal": "多头"
       },
       "rsi": {
-        "rsi": 39.64,
+        "rsi": 41.48,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 1.796,
-        "middle": 1.702,
-        "lower": 1.608,
+        "upper": 0.796,
+        "middle": 0.752,
+        "lower": 0.708,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 1.651,
-        "ma20": 1.702,
-        "ma60": 1.87,
+        "ma5": 0.73,
+        "ma20": 0.752,
+        "ma60": 0.84,
         "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 1.708,
-      "pct_20d": -2.06,
-      "pct_60d": -21.58
+      "last_close": 0.743,
+      "pct_20d": -4.01,
+      "pct_60d": -29.91
     }
   }
 }

@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-10-02 11:00:24",
+  "generated_at": "2026-10-05 06:38:41",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 1,
+  "analyses": {
+    "159859": {
+      "symbol": "159859",
+      "name": "159859",
+      "date": "2026-10-05",
+      "price": 0.41,
+      "today_pct": null,
+      "updated_at": "2026-10-05 06:37:31",
+      "realtime": null,
+      "macd": {
+        "dif": 0.0015,
+        "dea": -0.0001,
+        "macd": 0.0032,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 60.67,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.41,
+        "middle": 0.393,
+        "lower": 0.375,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.4,
+        "ma20": 0.393,
+        "ma60": 0.395,
+        "trend": "震荡",
+        "above_ma60": true
+      },
+      "last_close": 0.41,
+      "pct_20d": 5.67,
+      "pct_60d": 15.49
+    }
+  }
 }

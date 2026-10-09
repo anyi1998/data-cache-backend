@@ -1,6 +1,77 @@
 {
-  "generated_at": "2026-10-08 11:55:52",
+  "generated_at": "2026-10-09 07:13:21",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 2,
+  "analyses": {
+    "159944": {
+      "symbol": "159944",
+      "name": "159944",
+      "date": "2026-10-09",
+      "price": 1.381,
+      "today_pct": null,
+      "updated_at": "2026-10-09 07:12:39",
+      "realtime": null,
+      "macd": {
+        "dif": -0.0332,
+        "dea": -0.025,
+        "macd": -0.0166,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 33.01,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 1.54,
+        "middle": 1.438,
+        "lower": 1.336,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 1.366,
+        "ma20": 1.438,
+        "ma60": 1.458,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 1.381,
+      "pct_20d": -7.32,
+      "pct_60d": -4.03
+    },
+    "159763": {
+      "symbol": "159763",
+      "name": "159763",
+      "date": "2026-10-09",
+      "price": 0.663,
+      "today_pct": null,
+      "updated_at": "2026-10-09 07:13:16",
+      "realtime": null,
+      "macd": {
+        "dif": -0.0161,
+        "dea": -0.0133,
+        "macd": -0.0056,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 31.71,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.728,
+        "middle": 0.693,
+        "lower": 0.657,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.665,
+        "ma20": 0.693,
+        "ma60": 0.721,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.663,
+      "pct_20d": -4.33,
+      "pct_60d": -18.15
+    }
+  }
 }

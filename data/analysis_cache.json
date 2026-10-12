@@ -1,6 +1,112 @@
 {
-  "generated_at": "2026-10-09 11:47:37",
+  "generated_at": "2026-10-12 07:03:50",
   "data_source": "akshare_eastmoney",
-  "count": 0,
-  "analyses": {}
+  "count": 3,
+  "analyses": {
+    "159852": {
+      "symbol": "159852",
+      "name": "159852",
+      "date": "2026-10-12",
+      "price": 0.639,
+      "today_pct": null,
+      "updated_at": "2026-10-12 07:03:00",
+      "realtime": null,
+      "macd": {
+        "dif": -0.0115,
+        "dea": -0.0107,
+        "macd": -0.0017,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 45.67,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.682,
+        "middle": 0.652,
+        "lower": 0.622,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.636,
+        "ma20": 0.652,
+        "ma60": 0.678,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.639,
+      "pct_20d": -5.89,
+      "pct_60d": -7.53
+    },
+    "159750": {
+      "symbol": "159750",
+      "name": "159750",
+      "date": "2026-10-12",
+      "price": 0.794,
+      "today_pct": null,
+      "updated_at": "2026-10-12 07:03:30",
+      "realtime": null,
+      "macd": {
+        "dif": -0.0159,
+        "dea": -0.0145,
+        "macd": -0.0029,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 40.74,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.849,
+        "middle": 0.816,
+        "lower": 0.784,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.797,
+        "ma20": 0.816,
+        "ma60": 0.858,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.794,
+      "pct_20d": -6.48,
+      "pct_60d": -7.78
+    },
+    "159891": {
+      "symbol": "159891",
+      "name": "159891",
+      "date": "2026-10-12",
+      "price": 0.381,
+      "today_pct": null,
+      "updated_at": "2026-10-12 07:03:38",
+      "realtime": null,
+      "macd": {
+        "dif": -0.0004,
+        "dea": -0.001,
+        "macd": 0.0012,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 60.38,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.39,
+        "middle": 0.378,
+        "lower": 0.366,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.38,
+        "ma20": 0.378,
+        "ma60": 0.381,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.381,
+      "pct_20d": -0.52,
+      "pct_60d": 4.1
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10 08:06:11",
+  "generated_at": "2026-11-10 13:24:55",
   "data_source": "akshare_eastmoney",
-  "count": 43,
+  "count": 49,
   "analyses": {
     "159994": {
       "symbol": "159994",
@@ -9,7 +9,7 @@
       "date": "2026-11-10",
       "price": 0.821,
       "today_pct": 2.63,
-      "updated_at": "2026-11-10 08:05:06",
+      "updated_at": "2026-11-10 13:23:39",
       "realtime": {
         "price": 0.821,
         "open": 0,
@@ -17,7 +17,7 @@
         "low": 0,
         "pct_chg": 2.63,
         "volume": 1793059.0,
-        "turnover_rate": 6.03
+        "turnover_rate": 5.54
       },
       "macd": {
         "dif": -0.0915,
@@ -46,13 +46,56 @@
       "pct_20d": -20.75,
       "pct_60d": -34.21
     },
+    "159811": {
+      "symbol": "159811",
+      "name": "5GETF博时",
+      "date": "2026-11-10",
+      "price": 2.006,
+      "today_pct": 1.98,
+      "updated_at": "2026-11-10 13:23:42",
+      "realtime": {
+        "price": 2.006,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 1.98,
+        "volume": 59132.0,
+        "turnover_rate": 8.0
+      },
+      "macd": {
+        "dif": -0.2013,
+        "dea": -0.1971,
+        "macd": -0.0083,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 31.27,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 2.598,
+        "middle": 2.212,
+        "lower": 1.826,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 2.0,
+        "ma20": 2.212,
+        "ma60": 2.701,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 2.006,
+      "pct_20d": -19.6,
+      "pct_60d": -32.46
+    },
     "159892": {
       "symbol": "159892",
       "name": "恒生医药ETF华夏",
       "date": "2026-11-10",
       "price": 0.775,
       "today_pct": 1.04,
-      "updated_at": "2026-11-10 08:05:08",
+      "updated_at": "2026-11-10 13:23:43",
       "realtime": {
         "price": 0.775,
         "open": 0,
@@ -60,7 +103,7 @@
         "low": 0,
         "pct_chg": 1.04,
         "volume": 4291612.0,
-        "turnover_rate": 8.55
+        "turnover_rate": 8.5
       },
       "macd": {
         "dif": -0.0065,
@@ -89,13 +132,56 @@
       "pct_20d": 2.24,
       "pct_60d": -2.27
     },
+    "159831": {
+      "symbol": "159831",
+      "name": "金ETF嘉实",
+      "date": "2026-11-10",
+      "price": 8.476,
+      "today_pct": 0.26,
+      "updated_at": "2026-11-10 13:23:45",
+      "realtime": {
+        "price": 8.476,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.26,
+        "volume": 94415.0,
+        "turnover_rate": 3.12
+      },
+      "macd": {
+        "dif": -0.1033,
+        "dea": -0.1467,
+        "macd": 0.0868,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 49.5,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 8.733,
+        "middle": 8.38,
+        "lower": 8.028,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 8.414,
+        "ma20": 8.38,
+        "ma60": 8.849,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 8.476,
+      "pct_20d": -1.21,
+      "pct_60d": -6.81
+    },
     "159934": {
       "symbol": "159934",
       "name": "黄金ETF易方达",
       "date": "2026-11-10",
       "price": 8.773,
       "today_pct": 0.24,
-      "updated_at": "2026-11-10 08:05:13",
+      "updated_at": "2026-11-10 13:23:46",
       "realtime": {
         "price": 8.773,
         "open": 0,
@@ -103,7 +189,7 @@
         "low": 0,
         "pct_chg": 0.24,
         "volume": 584078.0,
-        "turnover_rate": 1.4
+        "turnover_rate": 1.41
       },
       "macd": {
         "dif": -0.1061,
@@ -138,7 +224,7 @@
       "date": "2026-11-10",
       "price": 8.376,
       "today_pct": 0.24,
-      "updated_at": "2026-11-10 08:05:14",
+      "updated_at": "2026-11-10 13:23:47",
       "realtime": {
         "price": 8.376,
         "open": 0,
@@ -146,7 +232,7 @@
         "low": 0,
         "pct_chg": 0.24,
         "volume": 733164.0,
-        "turnover_rate": 1.49
+        "turnover_rate": 1.5
       },
       "macd": {
         "dif": -0.1015,
@@ -181,7 +267,7 @@
       "date": "2026-11-10",
       "price": 1.661,
       "today_pct": -2.58,
-      "updated_at": "2026-11-10 08:05:16",
+      "updated_at": "2026-11-10 13:23:47",
       "realtime": {
         "price": 1.661,
         "open": 0,
@@ -224,7 +310,7 @@
       "date": "2026-11-10",
       "price": 1.112,
       "today_pct": 1.74,
-      "updated_at": "2026-11-10 08:05:17",
+      "updated_at": "2026-11-10 13:23:49",
       "realtime": {
         "price": 1.112,
         "open": 0,
@@ -232,7 +318,7 @@
         "low": 0,
         "pct_chg": 1.74,
         "volume": 44737.0,
-        "turnover_rate": 3.44
+        "turnover_rate": 3.37
       },
       "macd": {
         "dif": -0.0616,
@@ -267,7 +353,7 @@
       "date": "2026-11-10",
       "price": 8.777,
       "today_pct": 0.23,
-      "updated_at": "2026-11-10 08:05:18",
+      "updated_at": "2026-11-10 13:23:52",
       "realtime": {
         "price": 8.777,
         "open": 0,
@@ -310,7 +396,7 @@
       "date": "2026-11-10",
       "price": 8.777,
       "today_pct": 0.24,
-      "updated_at": "2026-11-10 08:05:19",
+      "updated_at": "2026-11-10 13:23:53",
       "realtime": {
         "price": 8.777,
         "open": 0,
@@ -353,7 +439,7 @@
       "date": "2026-11-10",
       "price": 0.924,
       "today_pct": 1.76,
-      "updated_at": "2026-11-10 08:05:19",
+      "updated_at": "2026-11-10 13:23:55",
       "realtime": {
         "price": 0.924,
         "open": 0,
@@ -396,7 +482,7 @@
       "date": "2026-11-10",
       "price": 1.323,
       "today_pct": -2.07,
-      "updated_at": "2026-11-10 08:05:20",
+      "updated_at": "2026-11-10 13:23:56",
       "realtime": {
         "price": 1.323,
         "open": 0,
@@ -404,7 +490,7 @@
         "low": 0,
         "pct_chg": -2.07,
         "volume": 48114.0,
-        "turnover_rate": 8.43
+        "turnover_rate": 8.5
       },
       "macd": {
         "dif": -0.0098,
@@ -439,7 +525,7 @@
       "date": "2026-11-10",
       "price": 8.362,
       "today_pct": 0.37,
-      "updated_at": "2026-11-10 08:05:21",
+      "updated_at": "2026-11-10 13:23:56",
       "realtime": {
         "price": 8.362,
         "open": 0,
@@ -447,7 +533,7 @@
         "low": 0,
         "pct_chg": 0.37,
         "volume": 22270.0,
-        "turnover_rate": 1.26
+        "turnover_rate": 1.28
       },
       "macd": {
         "dif": -0.1017,
@@ -482,7 +568,7 @@
       "date": "2026-11-10",
       "price": 1.183,
       "today_pct": 0.94,
-      "updated_at": "2026-11-10 08:05:21",
+      "updated_at": "2026-11-10 13:23:57",
       "realtime": {
         "price": 1.183,
         "open": 0,
@@ -525,7 +611,7 @@
       "date": "2026-11-10",
       "price": 0.971,
       "today_pct": 2.43,
-      "updated_at": "2026-11-10 08:05:22",
+      "updated_at": "2026-11-10 13:23:57",
       "realtime": {
         "price": 0.971,
         "open": 0,
@@ -568,7 +654,7 @@
       "date": "2026-11-10",
       "price": 0.83,
       "today_pct": 2.6,
-      "updated_at": "2026-11-10 08:05:23",
+      "updated_at": "2026-11-10 13:23:58",
       "realtime": {
         "price": 0.83,
         "open": 0,
@@ -611,7 +697,7 @@
       "date": "2026-11-10",
       "price": 0.953,
       "today_pct": 1.6,
-      "updated_at": "2026-11-10 08:05:23",
+      "updated_at": "2026-11-10 13:24:01",
       "realtime": {
         "price": 0.953,
         "open": 0,
@@ -619,7 +705,7 @@
         "low": 0,
         "pct_chg": 1.6,
         "volume": 59037.0,
-        "turnover_rate": 2.99
+        "turnover_rate": 3.09
       },
       "macd": {
         "dif": -0.0239,
@@ -654,7 +740,7 @@
       "date": "2026-11-10",
       "price": 1.458,
       "today_pct": 0.21,
-      "updated_at": "2026-11-10 08:05:25",
+      "updated_at": "2026-11-10 13:24:01",
       "realtime": {
         "price": 1.458,
         "open": 0,
@@ -662,7 +748,7 @@
         "low": 0,
         "pct_chg": 0.21,
         "volume": 446795.0,
-        "turnover_rate": 7.72
+        "turnover_rate": 9.24
       },
       "macd": {
         "dif": 0.0158,
@@ -697,7 +783,7 @@
       "date": "2026-11-10",
       "price": 1.047,
       "today_pct": 2.85,
-      "updated_at": "2026-11-10 08:05:25",
+      "updated_at": "2026-11-10 13:24:02",
       "realtime": {
         "price": 1.047,
         "open": 0,
@@ -705,7 +791,7 @@
         "low": 0,
         "pct_chg": 2.85,
         "volume": 2352539.0,
-        "turnover_rate": 11.6
+        "turnover_rate": 12.15
       },
       "macd": {
         "dif": -0.0559,
@@ -740,7 +826,7 @@
       "date": "2026-11-10",
       "price": 0.78,
       "today_pct": -0.13,
-      "updated_at": "2026-11-10 08:05:26",
+      "updated_at": "2026-11-10 13:24:03",
       "realtime": {
         "price": 0.78,
         "open": 0,
@@ -748,7 +834,7 @@
         "low": 0,
         "pct_chg": -0.13,
         "volume": 447524.0,
-        "turnover_rate": 3.89
+        "turnover_rate": 3.34
       },
       "macd": {
         "dif": -0.027,
@@ -777,56 +863,13 @@
       "pct_20d": -7.14,
       "pct_60d": -20.49
     },
-    "159909": {
-      "symbol": "159909",
-      "name": "TMT50ETF招商",
-      "date": "2026-11-10",
-      "price": 0.962,
-      "today_pct": 1.91,
-      "updated_at": "2026-11-10 08:05:26",
-      "realtime": {
-        "price": 0.962,
-        "open": 0,
-        "high": 0,
-        "low": 0,
-        "pct_chg": 1.91,
-        "volume": 47172.0,
-        "turnover_rate": 0.9
-      },
-      "macd": {
-        "dif": -0.0679,
-        "dea": -0.0711,
-        "macd": 0.0064,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 36.3,
-        "status": "中性"
-      },
-      "bollinger": {
-        "upper": 1.14,
-        "middle": 1.013,
-        "lower": 0.886,
-        "position": "中轨附近"
-      },
-      "ma_trend": {
-        "ma5": 0.958,
-        "ma20": 1.013,
-        "ma60": 1.2,
-        "trend": "震荡",
-        "above_ma60": false
-      },
-      "last_close": 0.962,
-      "pct_20d": -13.64,
-      "pct_60d": -28.32
-    },
     "159896": {
       "symbol": "159896",
       "name": "物联网ETF南方",
       "date": "2026-11-10",
       "price": 1.087,
       "today_pct": 1.68,
-      "updated_at": "2026-11-10 08:05:27",
+      "updated_at": "2026-11-10 13:24:06",
       "realtime": {
         "price": 1.087,
         "open": 0,
@@ -863,13 +906,99 @@
       "pct_20d": 0.09,
       "pct_60d": -16.51
     },
+    "159980": {
+      "symbol": "159980",
+      "name": "有色ETF大成",
+      "date": "2026-11-10",
+      "price": 2.044,
+      "today_pct": -0.63,
+      "updated_at": "2026-11-10 13:24:07",
+      "realtime": {
+        "price": 2.044,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.63,
+        "volume": 2387490.0,
+        "turnover_rate": 8.25
+      },
+      "macd": {
+        "dif": -0.0227,
+        "dea": -0.0173,
+        "macd": -0.0109,
+        "signal": "空头"
+      },
+      "rsi": {
+        "rsi": 32.87,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 2.151,
+        "middle": 2.095,
+        "lower": 2.04,
+        "position": "下轨附近"
+      },
+      "ma_trend": {
+        "ma5": 2.058,
+        "ma20": 2.095,
+        "ma60": 2.137,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 2.044,
+      "pct_20d": -3.99,
+      "pct_60d": -5.06
+    },
+    "159881": {
+      "symbol": "159881",
+      "name": "有色金属ETF国泰",
+      "date": "2026-11-10",
+      "price": 0.743,
+      "today_pct": -0.27,
+      "updated_at": "2026-11-10 13:24:08",
+      "realtime": {
+        "price": 0.743,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.27,
+        "volume": 97163.0,
+        "turnover_rate": 4.85
+      },
+      "macd": {
+        "dif": -0.0258,
+        "dea": -0.0316,
+        "macd": 0.0117,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 42.94,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.8,
+        "middle": 0.75,
+        "lower": 0.699,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.747,
+        "ma20": 0.75,
+        "ma60": 0.849,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.743,
+      "pct_20d": -7.47,
+      "pct_60d": -20.28
+    },
     "159819": {
       "symbol": "159819",
       "name": "人工智能ETF易方达",
       "date": "2026-11-10",
       "price": 1.394,
       "today_pct": 1.83,
-      "updated_at": "2026-11-10 08:05:30",
+      "updated_at": "2026-11-10 13:24:09",
       "realtime": {
         "price": 1.394,
         "open": 0,
@@ -912,7 +1041,7 @@
       "date": "2026-11-10",
       "price": 1.541,
       "today_pct": 2.6,
-      "updated_at": "2026-11-10 08:05:31",
+      "updated_at": "2026-11-10 13:24:10",
       "realtime": {
         "price": 1.541,
         "open": 0,
@@ -955,7 +1084,7 @@
       "date": "2026-11-10",
       "price": 1.186,
       "today_pct": 0.68,
-      "updated_at": "2026-11-10 08:05:31",
+      "updated_at": "2026-11-10 13:24:12",
       "realtime": {
         "price": 1.186,
         "open": 0,
@@ -998,7 +1127,7 @@
       "date": "2026-11-10",
       "price": 0.792,
       "today_pct": -0.13,
-      "updated_at": "2026-11-10 08:05:32",
+      "updated_at": "2026-11-10 13:24:13",
       "realtime": {
         "price": 0.792,
         "open": 0,
@@ -1006,7 +1135,7 @@
         "low": 0,
         "pct_chg": -0.13,
         "volume": 678597.0,
-        "turnover_rate": 4.93
+        "turnover_rate": 4.89
       },
       "macd": {
         "dif": -0.0275,
@@ -1041,7 +1170,7 @@
       "date": "2026-11-10",
       "price": 1.38,
       "today_pct": 0.66,
-      "updated_at": "2026-11-10 08:05:32",
+      "updated_at": "2026-11-10 13:24:15",
       "realtime": {
         "price": 1.38,
         "open": 0,
@@ -1049,7 +1178,7 @@
         "low": 0,
         "pct_chg": 0.66,
         "volume": 242096.0,
-        "turnover_rate": 5.45
+        "turnover_rate": 5.5
       },
       "macd": {
         "dif": -0.0055,
@@ -1084,7 +1213,7 @@
       "date": "2026-11-10",
       "price": 0.839,
       "today_pct": 1.57,
-      "updated_at": "2026-11-10 08:05:33",
+      "updated_at": "2026-11-10 13:24:16",
       "realtime": {
         "price": 0.839,
         "open": 0,
@@ -1092,7 +1221,7 @@
         "low": 0,
         "pct_chg": 1.57,
         "volume": 153110.0,
-        "turnover_rate": 1.9
+        "turnover_rate": 1.92
       },
       "macd": {
         "dif": -0.049,
@@ -1121,13 +1250,56 @@
       "pct_20d": -10.17,
       "pct_60d": -26.01
     },
+    "159960": {
+      "symbol": "159960",
+      "name": "恒生中国企业ETF平安",
+      "date": "2026-11-10",
+      "price": 0.825,
+      "today_pct": -0.24,
+      "updated_at": "2026-11-10 13:24:17",
+      "realtime": {
+        "price": 0.825,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.24,
+        "volume": 63774.0,
+        "turnover_rate": 13.41
+      },
+      "macd": {
+        "dif": -0.0003,
+        "dea": -0.007,
+        "macd": 0.0133,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 62.6,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.84,
+        "middle": 0.8,
+        "lower": 0.759,
+        "position": "上轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.822,
+        "ma20": 0.8,
+        "ma60": 0.829,
+        "trend": "震荡",
+        "above_ma60": false
+      },
+      "last_close": 0.825,
+      "pct_20d": 0.24,
+      "pct_60d": -4.62
+    },
     "159997": {
       "symbol": "159997",
       "name": "电子ETF天弘",
       "date": "2026-11-10",
       "price": 1.564,
       "today_pct": 1.56,
-      "updated_at": "2026-11-10 08:05:35",
+      "updated_at": "2026-11-10 13:24:18",
       "realtime": {
         "price": 1.564,
         "open": 0,
@@ -1135,7 +1307,7 @@
         "low": 0,
         "pct_chg": 1.56,
         "volume": 309159.0,
-        "turnover_rate": 4.4
+        "turnover_rate": 4.59
       },
       "macd": {
         "dif": -0.0977,
@@ -1164,13 +1336,56 @@
       "pct_20d": -10.58,
       "pct_60d": -27.26
     },
+    "159871": {
+      "symbol": "159871",
+      "name": "有色ETF银华",
+      "date": "2026-11-10",
+      "price": 0.777,
+      "today_pct": -0.26,
+      "updated_at": "2026-11-10 13:24:19",
+      "realtime": {
+        "price": 0.777,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": -0.26,
+        "volume": 219470.0,
+        "turnover_rate": 2.09
+      },
+      "macd": {
+        "dif": -0.0267,
+        "dea": -0.0329,
+        "macd": 0.0124,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 43.39,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.834,
+        "middle": 0.784,
+        "lower": 0.733,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.782,
+        "ma20": 0.783,
+        "ma60": 0.888,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.777,
+      "pct_20d": -7.06,
+      "pct_60d": -20.14
+    },
     "159730": {
       "symbol": "159730",
       "name": "家电ETF博时",
       "date": "2026-11-10",
       "price": 1.026,
       "today_pct": 0.49,
-      "updated_at": "2026-11-10 08:05:40",
+      "updated_at": "2026-11-10 13:24:20",
       "realtime": {
         "price": 1.026,
         "open": 0,
@@ -1213,7 +1428,7 @@
       "date": "2026-11-10",
       "price": 1.248,
       "today_pct": -0.08,
-      "updated_at": "2026-11-10 08:05:46",
+      "updated_at": "2026-11-10 13:24:22",
       "realtime": {
         "price": 1.248,
         "open": 0,
@@ -1256,7 +1471,7 @@
       "date": "2026-11-10",
       "price": 1.185,
       "today_pct": 1.54,
-      "updated_at": "2026-11-10 08:05:47",
+      "updated_at": "2026-11-10 13:24:25",
       "realtime": {
         "price": 1.185,
         "open": 0,
@@ -1264,7 +1479,7 @@
         "low": 0,
         "pct_chg": 1.54,
         "volume": 29939.0,
-        "turnover_rate": 16.41
+        "turnover_rate": 15.56
       },
       "macd": {
         "dif": -0.0289,
@@ -1299,7 +1514,7 @@
       "date": "2026-11-10",
       "price": 0.82,
       "today_pct": 2.76,
-      "updated_at": "2026-11-10 08:05:48",
+      "updated_at": "2026-11-10 13:24:27",
       "realtime": {
         "price": 0.82,
         "open": 0,
@@ -1342,7 +1557,7 @@
       "date": "2026-11-10",
       "price": 1.631,
       "today_pct": -0.06,
-      "updated_at": "2026-11-10 08:05:48",
+      "updated_at": "2026-11-10 13:24:30",
       "realtime": {
         "price": 1.631,
         "open": 0,
@@ -1350,7 +1565,7 @@
         "low": 0,
         "pct_chg": -0.06,
         "volume": 4368.0,
-        "turnover_rate": 1.95
+        "turnover_rate": 2.04
       },
       "macd": {
         "dif": 0.0076,
@@ -1385,7 +1600,7 @@
       "date": "2026-11-10",
       "price": 1.857,
       "today_pct": 0.22,
-      "updated_at": "2026-11-10 08:05:50",
+      "updated_at": "2026-11-10 13:24:31",
       "realtime": {
         "price": 1.857,
         "open": 0,
@@ -1393,7 +1608,7 @@
         "low": 0,
         "pct_chg": 0.22,
         "volume": 4841.0,
-        "turnover_rate": 0.45
+        "turnover_rate": 0.44
       },
       "macd": {
         "dif": 0.0001,
@@ -1428,7 +1643,7 @@
       "date": "2026-11-10",
       "price": 0.96,
       "today_pct": 2.89,
-      "updated_at": "2026-11-10 08:05:52",
+      "updated_at": "2026-11-10 13:24:41",
       "realtime": {
         "price": 0.96,
         "open": 0,
@@ -1436,7 +1651,7 @@
         "low": 0,
         "pct_chg": 2.89,
         "volume": 127392.0,
-        "turnover_rate": 17.58
+        "turnover_rate": 18.08
       },
       "macd": {
         "dif": -0.0079,
@@ -1471,7 +1686,7 @@
       "date": "2026-11-10",
       "price": 1.899,
       "today_pct": -0.05,
-      "updated_at": "2026-11-10 08:05:53",
+      "updated_at": "2026-11-10 13:24:43",
       "realtime": {
         "price": 1.899,
         "open": 0,
@@ -1514,7 +1729,7 @@
       "date": "2026-11-10",
       "price": 0.801,
       "today_pct": 1.91,
-      "updated_at": "2026-11-10 08:06:02",
+      "updated_at": "2026-11-10 13:24:44",
       "realtime": {
         "price": 0.801,
         "open": 0,
@@ -1522,7 +1737,7 @@
         "low": 0,
         "pct_chg": 1.91,
         "volume": 30641.0,
-        "turnover_rate": 5.12
+        "turnover_rate": 5.04
       },
       "macd": {
         "dif": -0.0046,
@@ -1557,7 +1772,7 @@
       "date": "2026-11-10",
       "price": 1.523,
       "today_pct": 0.86,
-      "updated_at": "2026-11-10 08:06:03",
+      "updated_at": "2026-11-10 13:24:45",
       "realtime": {
         "price": 1.523,
         "open": 0,
@@ -1565,7 +1780,7 @@
         "low": 0,
         "pct_chg": 0.86,
         "volume": 55668.0,
-        "turnover_rate": 1.86
+        "turnover_rate": 2.04
       },
       "macd": {
         "dif": -0.0979,
@@ -1600,7 +1815,7 @@
       "date": "2026-11-10",
       "price": 0.675,
       "today_pct": 1.05,
-      "updated_at": "2026-11-10 08:06:04",
+      "updated_at": "2026-11-10 13:24:47",
       "realtime": {
         "price": 0.675,
         "open": 0,
@@ -1608,7 +1823,7 @@
         "low": 0,
         "pct_chg": 1.05,
         "volume": 344725.0,
-        "turnover_rate": 6.37
+        "turnover_rate": 5.87
       },
       "macd": {
         "dif": 0.0093,
@@ -1643,7 +1858,7 @@
       "date": "2026-11-10",
       "price": 0.744,
       "today_pct": 0.68,
-      "updated_at": "2026-11-10 08:06:05",
+      "updated_at": "2026-11-10 13:24:47",
       "realtime": {
         "price": 0.744,
         "open": 0,
@@ -1686,7 +1901,7 @@
       "date": "2026-11-10",
       "price": 1.196,
       "today_pct": 0.17,
-      "updated_at": "2026-11-10 08:06:07",
+      "updated_at": "2026-11-10 13:24:49",
       "realtime": {
         "price": 1.196,
         "open": 0,
@@ -1694,7 +1909,7 @@
         "low": 0,
         "pct_chg": 0.17,
         "volume": 3548.0,
-        "turnover_rate": 0.49
+        "turnover_rate": 0.47
       },
       "macd": {
         "dif": -0.0127,
@@ -1729,7 +1944,7 @@
       "date": "2026-11-10",
       "price": 1.235,
       "today_pct": 0.08,
-      "updated_at": "2026-11-10 08:06:08",
+      "updated_at": "2026-11-10 13:24:51",
       "realtime": {
         "price": 1.235,
         "open": 0,
@@ -1737,7 +1952,7 @@
         "low": 0,
         "pct_chg": 0.08,
         "volume": 26726.0,
-        "turnover_rate": 0.94
+        "turnover_rate": 0.93
       },
       "macd": {
         "dif": 0.0038,
@@ -1766,13 +1981,56 @@
       "pct_20d": 1.06,
       "pct_60d": 3.43
     },
+    "159721": {
+      "symbol": "159721",
+      "name": "深证100ETF永赢",
+      "date": "2026-11-10",
+      "price": 0.829,
+      "today_pct": 0.36,
+      "updated_at": "2026-11-10 13:24:53",
+      "realtime": {
+        "price": 0.829,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "pct_chg": 0.36,
+        "volume": 16468.0,
+        "turnover_rate": 2.37
+      },
+      "macd": {
+        "dif": -0.0353,
+        "dea": -0.0392,
+        "macd": 0.0079,
+        "signal": "多头"
+      },
+      "rsi": {
+        "rsi": 38.33,
+        "status": "中性"
+      },
+      "bollinger": {
+        "upper": 0.908,
+        "middle": 0.853,
+        "lower": 0.798,
+        "position": "中轨附近"
+      },
+      "ma_trend": {
+        "ma5": 0.834,
+        "ma20": 0.853,
+        "ma60": 0.968,
+        "trend": "弱势",
+        "above_ma60": false
+      },
+      "last_close": 0.829,
+      "pct_20d": -8.6,
+      "pct_60d": -23.24
+    },
     "159919": {
       "symbol": "159919",
       "name": "沪深300ETF嘉实",
       "date": "2026-11-10",
       "price": 4.316,
       "today_pct": 0.05,
-      "updated_at": "2026-11-10 08:06:11",
+      "updated_at": "2026-11-10 13:24:54",
       "realtime": {
         "price": 4.316,
         "open": 0,
@@ -1780,7 +2038,7 @@
         "low": 0,
         "pct_chg": 0.05,
         "volume": 2671842.0,
-        "turnover_rate": 1.91
+        "turnover_rate": 2.57
       },
       "macd": {
         "dif": -0.0816,
@@ -1815,7 +2073,7 @@
       "date": "2026-11-10",
       "price": 0.873,
       "today_pct": 0.34,
-      "updated_at": "2026-11-10 08:06:11",
+      "updated_at": "2026-11-10 13:24:55",
       "realtime": {
         "price": 0.873,
         "open": 0,

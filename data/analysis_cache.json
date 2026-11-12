@@ -1,77 +1,42 @@
 {
-  "generated_at": "2026-11-11 12:37:49",
+  "generated_at": "2026-11-12 08:02:34",
   "data_source": "akshare_eastmoney",
-  "count": 2,
+  "count": 1,
   "analyses": {
-    "158031": {
-      "symbol": "158031",
-      "name": "158031",
-      "date": "2026-11-11",
-      "price": 0.734,
+    "159810": {
+      "symbol": "159810",
+      "name": "159810",
+      "date": "2026-11-12",
+      "price": 1.014,
       "today_pct": null,
-      "updated_at": "2026-11-11 12:36:01",
+      "updated_at": "2026-11-12 08:02:09",
       "realtime": null,
       "macd": {
-        "dif": -0.058,
-        "dea": -0.0643,
-        "macd": 0.0125,
+        "dif": -0.0562,
+        "dea": -0.0663,
+        "macd": 0.0202,
         "signal": "多头"
       },
       "rsi": {
-        "rsi": 45.5,
+        "rsi": 40.76,
         "status": "中性"
       },
       "bollinger": {
-        "upper": 0.858,
-        "middle": 0.74,
-        "lower": 0.621,
+        "upper": 1.129,
+        "middle": 1.039,
+        "lower": 0.95,
         "position": "中轨附近"
       },
       "ma_trend": {
-        "ma5": 0,
-        "ma20": 0,
-        "ma60": 0,
-        "trend": "无数据",
+        "ma5": 1.01,
+        "ma20": 1.039,
+        "ma60": 1.239,
+        "trend": "震荡",
         "above_ma60": false
       },
-      "last_close": 0.734,
-      "pct_20d": -10.05,
-      "pct_60d": 0
-    },
-    "516620": {
-      "symbol": "516620",
-      "name": "516620",
-      "date": "2026-11-11",
-      "price": 1.051,
-      "today_pct": null,
-      "updated_at": "2026-11-11 12:36:11",
-      "realtime": null,
-      "macd": {
-        "dif": 0.0366,
-        "dea": 0.0231,
-        "macd": 0.027,
-        "signal": "多头"
-      },
-      "rsi": {
-        "rsi": 74.27,
-        "status": "超买"
-      },
-      "bollinger": {
-        "upper": 1.045,
-        "middle": 0.936,
-        "lower": 0.827,
-        "position": "上轨附近"
-      },
-      "ma_trend": {
-        "ma5": 1.017,
-        "ma20": 0.936,
-        "ma60": 0.885,
-        "trend": "强势",
-        "above_ma60": true
-      },
-      "last_close": 1.051,
-      "pct_20d": 13.13,
-      "pct_60d": 18.89
+      "last_close": 1.014,
+      "pct_20d": -8.98,
+      "pct_60d": -29.68
     }
   }
 }
